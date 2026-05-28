@@ -1,15 +1,33 @@
 {
-  "generated_at": "—",
-  "base_date": "—",
-  "markets": ["KOSPI", "KOSDAQ"],
-  "periods": [1, 5, 20],
+  "generated_at": "2026-05-28T10:37:54.742580+09:00",
+  "base_date": "2026-05-28",
+  "markets": [
+    "KOSPI",
+    "KOSDAQ"
+  ],
+  "periods": [
+    1,
+    5,
+    20
+  ],
   "investors": [
-    {"key": "기관합계", "label": "기관 (전체)"},
-    {"key": "연기금", "label": "연기금"},
-    {"key": "외국인", "label": "외국인"},
-    {"key": "사모", "label": "사모펀드"}
+    {
+      "key": "기관합계",
+      "label": "기관 (전체)"
+    },
+    {
+      "key": "연기금",
+      "label": "연기금"
+    },
+    {
+      "key": "외국인",
+      "label": "외국인"
+    },
+    {
+      "key": "사모",
+      "label": "사모펀드"
+    }
   ],
   "top_n": 20,
-  "ticker_count": 0,
-  "_note": "이 파일은 GitHub Actions 가 매일 자동으로 덮어씁니다."
+  "ticker_count": 175
 }

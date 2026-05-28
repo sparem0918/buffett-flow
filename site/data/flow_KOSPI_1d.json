@@ -1,12 +1,40 @@
 {
   "market": "KOSPI",
   "period_days": 1,
-  "base_date": "—",
+  "base_date": "2026-05-28",
+  "start_date": "2026-05-28",
   "investors": {
-    "기관합계": { "label": "기관 (전체)", "rankings": { "net_buy": [], "buy": [], "sell": [] } },
-    "연기금":   { "label": "연기금",      "rankings": { "net_buy": [], "buy": [], "sell": [] } },
-    "외국인":   { "label": "외국인",      "rankings": { "net_buy": [], "buy": [], "sell": [] } },
-    "사모":     { "label": "사모펀드",    "rankings": { "net_buy": [], "buy": [], "sell": [] } }
-  },
-  "_note": "이 파일은 GitHub Actions 가 매일 자동으로 덮어씁니다."
+    "기관합계": {
+      "label": "기관 (전체)",
+      "rankings": {
+        "net_buy": [],
+        "buy": [],
+        "sell": []
+      }
+    },
+    "연기금": {
+      "label": "연기금",
+      "rankings": {
+        "net_buy": [],
+        "buy": [],
+        "sell": []
+      }
+    },
+    "외국인": {
+      "label": "외국인",
+      "rankings": {
+        "net_buy": [],
+        "buy": [],
+        "sell": []
+      }
+    },
+    "사모": {
+      "label": "사모펀드",
+      "rankings": {
+        "net_buy": [],
+        "buy": [],
+        "sell": []
+      }
+    }
+  }
 }

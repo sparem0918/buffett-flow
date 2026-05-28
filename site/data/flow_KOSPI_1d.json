@@ -7,33 +7,1965 @@
     "기관합계": {
       "label": "기관 (전체)",
       "rankings": {
-        "net_buy": [],
-        "buy": [],
-        "sell": []
+        "net_buy": [
+          {
+            "rank": 1,
+            "ticker": "006400",
+            "name": "삼성SDI",
+            "buy_value_eok": 2920.9,
+            "sell_value_eok": 1727.7,
+            "net_value_eok": 1193.2
+          },
+          {
+            "rank": 2,
+            "ticker": "011070",
+            "name": "LG이노텍",
+            "buy_value_eok": 2815.5,
+            "sell_value_eok": 1896.9,
+            "net_value_eok": 918.6
+          },
+          {
+            "rank": 3,
+            "ticker": "012330",
+            "name": "현대모비스",
+            "buy_value_eok": 2506.0,
+            "sell_value_eok": 1801.3,
+            "net_value_eok": 704.7
+          },
+          {
+            "rank": 4,
+            "ticker": "000660",
+            "name": "SK하이닉스",
+            "buy_value_eok": 40591.3,
+            "sell_value_eok": 40077.7,
+            "net_value_eok": 513.5
+          },
+          {
+            "rank": 5,
+            "ticker": "009150",
+            "name": "삼성전기",
+            "buy_value_eok": 11921.8,
+            "sell_value_eok": 11520.4,
+            "net_value_eok": 401.4
+          },
+          {
+            "rank": 6,
+            "ticker": "047810",
+            "name": "한국항공우주",
+            "buy_value_eok": 653.1,
+            "sell_value_eok": 323.8,
+            "net_value_eok": 329.3
+          },
+          {
+            "rank": 7,
+            "ticker": "373220",
+            "name": "LG에너지솔루션",
+            "buy_value_eok": 1486.4,
+            "sell_value_eok": 1186.4,
+            "net_value_eok": 300.0
+          },
+          {
+            "rank": 8,
+            "ticker": "066970",
+            "name": "엘앤에프",
+            "buy_value_eok": 790.8,
+            "sell_value_eok": 544.5,
+            "net_value_eok": 246.3
+          },
+          {
+            "rank": 9,
+            "ticker": "278470",
+            "name": "에이피알",
+            "buy_value_eok": 343.0,
+            "sell_value_eok": 144.9,
+            "net_value_eok": 198.1
+          },
+          {
+            "rank": 10,
+            "ticker": "035420",
+            "name": "NAVER",
+            "buy_value_eok": 827.4,
+            "sell_value_eok": 643.2,
+            "net_value_eok": 184.1
+          },
+          {
+            "rank": 11,
+            "ticker": "007660",
+            "name": "이수페타시스",
+            "buy_value_eok": 329.3,
+            "sell_value_eok": 158.8,
+            "net_value_eok": 170.5
+          },
+          {
+            "rank": 12,
+            "ticker": "086280",
+            "name": "현대글로비스",
+            "buy_value_eok": 361.5,
+            "sell_value_eok": 212.9,
+            "net_value_eok": 148.6
+          },
+          {
+            "rank": 13,
+            "ticker": "036570",
+            "name": "NC",
+            "buy_value_eok": 226.3,
+            "sell_value_eok": 111.1,
+            "net_value_eok": 115.2
+          },
+          {
+            "rank": 14,
+            "ticker": "005380",
+            "name": "현대차",
+            "buy_value_eok": 3580.6,
+            "sell_value_eok": 3467.2,
+            "net_value_eok": 113.5
+          },
+          {
+            "rank": 15,
+            "ticker": "003550",
+            "name": "LG",
+            "buy_value_eok": 208.6,
+            "sell_value_eok": 98.5,
+            "net_value_eok": 110.1
+          },
+          {
+            "rank": 16,
+            "ticker": "128940",
+            "name": "한미약품",
+            "buy_value_eok": 206.9,
+            "sell_value_eok": 98.3,
+            "net_value_eok": 108.7
+          },
+          {
+            "rank": 17,
+            "ticker": "003670",
+            "name": "포스코퓨처엠",
+            "buy_value_eok": 308.0,
+            "sell_value_eok": 203.8,
+            "net_value_eok": 104.2
+          },
+          {
+            "rank": 18,
+            "ticker": "034730",
+            "name": "SK",
+            "buy_value_eok": 463.5,
+            "sell_value_eok": 371.8,
+            "net_value_eok": 91.7
+          },
+          {
+            "rank": 19,
+            "ticker": "066570",
+            "name": "LG전자",
+            "buy_value_eok": 1096.0,
+            "sell_value_eok": 1017.8,
+            "net_value_eok": 78.2
+          },
+          {
+            "rank": 20,
+            "ticker": "018260",
+            "name": "삼성에스디에스",
+            "buy_value_eok": 380.7,
+            "sell_value_eok": 314.8,
+            "net_value_eok": 65.9
+          }
+        ],
+        "buy": [
+          {
+            "rank": 1,
+            "ticker": "000660",
+            "name": "SK하이닉스",
+            "buy_value_eok": 40591.3,
+            "sell_value_eok": 40077.7,
+            "net_value_eok": 513.5
+          },
+          {
+            "rank": 2,
+            "ticker": "005930",
+            "name": "삼성전자",
+            "buy_value_eok": 30577.7,
+            "sell_value_eok": 35308.9,
+            "net_value_eok": -4731.3
+          },
+          {
+            "rank": 3,
+            "ticker": "009150",
+            "name": "삼성전기",
+            "buy_value_eok": 11921.8,
+            "sell_value_eok": 11520.4,
+            "net_value_eok": 401.4
+          },
+          {
+            "rank": 4,
+            "ticker": "005380",
+            "name": "현대차",
+            "buy_value_eok": 3580.6,
+            "sell_value_eok": 3467.2,
+            "net_value_eok": 113.5
+          },
+          {
+            "rank": 5,
+            "ticker": "402340",
+            "name": "SK스퀘어",
+            "buy_value_eok": 3422.7,
+            "sell_value_eok": 3744.9,
+            "net_value_eok": -322.2
+          },
+          {
+            "rank": 6,
+            "ticker": "006400",
+            "name": "삼성SDI",
+            "buy_value_eok": 2920.9,
+            "sell_value_eok": 1727.7,
+            "net_value_eok": 1193.2
+          },
+          {
+            "rank": 7,
+            "ticker": "011070",
+            "name": "LG이노텍",
+            "buy_value_eok": 2815.5,
+            "sell_value_eok": 1896.9,
+            "net_value_eok": 918.6
+          },
+          {
+            "rank": 8,
+            "ticker": "012330",
+            "name": "현대모비스",
+            "buy_value_eok": 2506.0,
+            "sell_value_eok": 1801.3,
+            "net_value_eok": 704.7
+          },
+          {
+            "rank": 9,
+            "ticker": "373220",
+            "name": "LG에너지솔루션",
+            "buy_value_eok": 1486.4,
+            "sell_value_eok": 1186.4,
+            "net_value_eok": 300.0
+          },
+          {
+            "rank": 10,
+            "ticker": "066570",
+            "name": "LG전자",
+            "buy_value_eok": 1096.0,
+            "sell_value_eok": 1017.8,
+            "net_value_eok": 78.2
+          },
+          {
+            "rank": 11,
+            "ticker": "034020",
+            "name": "두산에너빌리티",
+            "buy_value_eok": 1046.3,
+            "sell_value_eok": 1064.9,
+            "net_value_eok": -18.7
+          },
+          {
+            "rank": 12,
+            "ticker": "035420",
+            "name": "NAVER",
+            "buy_value_eok": 827.4,
+            "sell_value_eok": 643.2,
+            "net_value_eok": 184.1
+          },
+          {
+            "rank": 13,
+            "ticker": "066970",
+            "name": "엘앤에프",
+            "buy_value_eok": 790.8,
+            "sell_value_eok": 544.5,
+            "net_value_eok": 246.3
+          },
+          {
+            "rank": 14,
+            "ticker": "000270",
+            "name": "기아",
+            "buy_value_eok": 697.2,
+            "sell_value_eok": 807.7,
+            "net_value_eok": -110.5
+          },
+          {
+            "rank": 15,
+            "ticker": "329180",
+            "name": "HD현대중공업",
+            "buy_value_eok": 659.7,
+            "sell_value_eok": 854.3,
+            "net_value_eok": -194.6
+          },
+          {
+            "rank": 16,
+            "ticker": "047810",
+            "name": "한국항공우주",
+            "buy_value_eok": 653.1,
+            "sell_value_eok": 323.8,
+            "net_value_eok": 329.3
+          },
+          {
+            "rank": 17,
+            "ticker": "005490",
+            "name": "POSCO홀딩스",
+            "buy_value_eok": 651.6,
+            "sell_value_eok": 724.2,
+            "net_value_eok": -72.6
+          },
+          {
+            "rank": 18,
+            "ticker": "042700",
+            "name": "한미반도체",
+            "buy_value_eok": 650.6,
+            "sell_value_eok": 1644.0,
+            "net_value_eok": -993.4
+          },
+          {
+            "rank": 19,
+            "ticker": "105560",
+            "name": "KB금융",
+            "buy_value_eok": 605.0,
+            "sell_value_eok": 677.6,
+            "net_value_eok": -72.6
+          },
+          {
+            "rank": 20,
+            "ticker": "012450",
+            "name": "한화에어로스페이스",
+            "buy_value_eok": 493.7,
+            "sell_value_eok": 704.1,
+            "net_value_eok": -210.4
+          }
+        ],
+        "sell": [
+          {
+            "rank": 1,
+            "ticker": "000660",
+            "name": "SK하이닉스",
+            "buy_value_eok": 40591.3,
+            "sell_value_eok": 40077.7,
+            "net_value_eok": 513.5
+          },
+          {
+            "rank": 2,
+            "ticker": "005930",
+            "name": "삼성전자",
+            "buy_value_eok": 30577.7,
+            "sell_value_eok": 35308.9,
+            "net_value_eok": -4731.3
+          },
+          {
+            "rank": 3,
+            "ticker": "009150",
+            "name": "삼성전기",
+            "buy_value_eok": 11921.8,
+            "sell_value_eok": 11520.4,
+            "net_value_eok": 401.4
+          },
+          {
+            "rank": 4,
+            "ticker": "402340",
+            "name": "SK스퀘어",
+            "buy_value_eok": 3422.7,
+            "sell_value_eok": 3744.9,
+            "net_value_eok": -322.2
+          },
+          {
+            "rank": 5,
+            "ticker": "005380",
+            "name": "현대차",
+            "buy_value_eok": 3580.6,
+            "sell_value_eok": 3467.2,
+            "net_value_eok": 113.5
+          },
+          {
+            "rank": 6,
+            "ticker": "011070",
+            "name": "LG이노텍",
+            "buy_value_eok": 2815.5,
+            "sell_value_eok": 1896.9,
+            "net_value_eok": 918.6
+          },
+          {
+            "rank": 7,
+            "ticker": "012330",
+            "name": "현대모비스",
+            "buy_value_eok": 2506.0,
+            "sell_value_eok": 1801.3,
+            "net_value_eok": 704.7
+          },
+          {
+            "rank": 8,
+            "ticker": "006400",
+            "name": "삼성SDI",
+            "buy_value_eok": 2920.9,
+            "sell_value_eok": 1727.7,
+            "net_value_eok": 1193.2
+          },
+          {
+            "rank": 9,
+            "ticker": "042700",
+            "name": "한미반도체",
+            "buy_value_eok": 650.6,
+            "sell_value_eok": 1644.0,
+            "net_value_eok": -993.4
+          },
+          {
+            "rank": 10,
+            "ticker": "373220",
+            "name": "LG에너지솔루션",
+            "buy_value_eok": 1486.4,
+            "sell_value_eok": 1186.4,
+            "net_value_eok": 300.0
+          },
+          {
+            "rank": 11,
+            "ticker": "034020",
+            "name": "두산에너빌리티",
+            "buy_value_eok": 1046.3,
+            "sell_value_eok": 1064.9,
+            "net_value_eok": -18.7
+          },
+          {
+            "rank": 12,
+            "ticker": "066570",
+            "name": "LG전자",
+            "buy_value_eok": 1096.0,
+            "sell_value_eok": 1017.8,
+            "net_value_eok": 78.2
+          },
+          {
+            "rank": 13,
+            "ticker": "010120",
+            "name": "LS ELECTRIC",
+            "buy_value_eok": 307.8,
+            "sell_value_eok": 1009.6,
+            "net_value_eok": -701.7
+          },
+          {
+            "rank": 14,
+            "ticker": "329180",
+            "name": "HD현대중공업",
+            "buy_value_eok": 659.7,
+            "sell_value_eok": 854.3,
+            "net_value_eok": -194.6
+          },
+          {
+            "rank": 15,
+            "ticker": "000270",
+            "name": "기아",
+            "buy_value_eok": 697.2,
+            "sell_value_eok": 807.7,
+            "net_value_eok": -110.5
+          },
+          {
+            "rank": 16,
+            "ticker": "006260",
+            "name": "LS",
+            "buy_value_eok": 214.3,
+            "sell_value_eok": 747.1,
+            "net_value_eok": -532.8
+          },
+          {
+            "rank": 17,
+            "ticker": "028260",
+            "name": "삼성물산",
+            "buy_value_eok": 386.1,
+            "sell_value_eok": 727.8,
+            "net_value_eok": -341.8
+          },
+          {
+            "rank": 18,
+            "ticker": "005490",
+            "name": "POSCO홀딩스",
+            "buy_value_eok": 651.6,
+            "sell_value_eok": 724.2,
+            "net_value_eok": -72.6
+          },
+          {
+            "rank": 19,
+            "ticker": "042660",
+            "name": "한화오션",
+            "buy_value_eok": 400.9,
+            "sell_value_eok": 719.3,
+            "net_value_eok": -318.4
+          },
+          {
+            "rank": 20,
+            "ticker": "012450",
+            "name": "한화에어로스페이스",
+            "buy_value_eok": 493.7,
+            "sell_value_eok": 704.1,
+            "net_value_eok": -210.4
+          }
+        ]
       }
     },
     "연기금": {
       "label": "연기금",
       "rankings": {
-        "net_buy": [],
-        "buy": [],
-        "sell": []
+        "net_buy": [
+          {
+            "rank": 1,
+            "ticker": "006400",
+            "name": "삼성SDI",
+            "buy_value_eok": 1558.4,
+            "sell_value_eok": 1099.3,
+            "net_value_eok": 459.1
+          },
+          {
+            "rank": 2,
+            "ticker": "373220",
+            "name": "LG에너지솔루션",
+            "buy_value_eok": 785.3,
+            "sell_value_eok": 394.2,
+            "net_value_eok": 391.1
+          },
+          {
+            "rank": 3,
+            "ticker": "012330",
+            "name": "현대모비스",
+            "buy_value_eok": 1297.8,
+            "sell_value_eok": 958.3,
+            "net_value_eok": 339.6
+          },
+          {
+            "rank": 4,
+            "ticker": "005930",
+            "name": "삼성전자",
+            "buy_value_eok": 23408.7,
+            "sell_value_eok": 23216.6,
+            "net_value_eok": 192.1
+          },
+          {
+            "rank": 5,
+            "ticker": "066970",
+            "name": "엘앤에프",
+            "buy_value_eok": 462.5,
+            "sell_value_eok": 280.1,
+            "net_value_eok": 182.4
+          },
+          {
+            "rank": 6,
+            "ticker": "011070",
+            "name": "LG이노텍",
+            "buy_value_eok": 1547.9,
+            "sell_value_eok": 1394.7,
+            "net_value_eok": 153.2
+          },
+          {
+            "rank": 7,
+            "ticker": "035420",
+            "name": "NAVER",
+            "buy_value_eok": 418.7,
+            "sell_value_eok": 286.4,
+            "net_value_eok": 132.3
+          },
+          {
+            "rank": 8,
+            "ticker": "005380",
+            "name": "현대차",
+            "buy_value_eok": 2418.0,
+            "sell_value_eok": 2303.4,
+            "net_value_eok": 114.6
+          },
+          {
+            "rank": 9,
+            "ticker": "000270",
+            "name": "기아",
+            "buy_value_eok": 505.8,
+            "sell_value_eok": 401.2,
+            "net_value_eok": 104.6
+          },
+          {
+            "rank": 10,
+            "ticker": "018260",
+            "name": "삼성에스디에스",
+            "buy_value_eok": 194.7,
+            "sell_value_eok": 90.5,
+            "net_value_eok": 104.2
+          },
+          {
+            "rank": 11,
+            "ticker": "009540",
+            "name": "HD한국조선해양",
+            "buy_value_eok": 231.7,
+            "sell_value_eok": 154.7,
+            "net_value_eok": 77.0
+          },
+          {
+            "rank": 12,
+            "ticker": "278470",
+            "name": "에이피알",
+            "buy_value_eok": 112.9,
+            "sell_value_eok": 37.5,
+            "net_value_eok": 75.5
+          },
+          {
+            "rank": 13,
+            "ticker": "051910",
+            "name": "LG화학",
+            "buy_value_eok": 205.4,
+            "sell_value_eok": 137.0,
+            "net_value_eok": 68.4
+          },
+          {
+            "rank": 14,
+            "ticker": "336260",
+            "name": "두산퓨얼셀",
+            "buy_value_eok": 81.0,
+            "sell_value_eok": 13.6,
+            "net_value_eok": 67.4
+          },
+          {
+            "rank": 15,
+            "ticker": "003670",
+            "name": "포스코퓨처엠",
+            "buy_value_eok": 141.3,
+            "sell_value_eok": 79.8,
+            "net_value_eok": 61.4
+          },
+          {
+            "rank": 16,
+            "ticker": "010060",
+            "name": "OCI홀딩스",
+            "buy_value_eok": 94.3,
+            "sell_value_eok": 36.6,
+            "net_value_eok": 57.6
+          },
+          {
+            "rank": 17,
+            "ticker": "036570",
+            "name": "NC",
+            "buy_value_eok": 79.2,
+            "sell_value_eok": 23.3,
+            "net_value_eok": 55.9
+          },
+          {
+            "rank": 18,
+            "ticker": "003550",
+            "name": "LG",
+            "buy_value_eok": 101.4,
+            "sell_value_eok": 46.8,
+            "net_value_eok": 54.6
+          },
+          {
+            "rank": 19,
+            "ticker": "329180",
+            "name": "HD현대중공업",
+            "buy_value_eok": 397.6,
+            "sell_value_eok": 344.8,
+            "net_value_eok": 52.7
+          },
+          {
+            "rank": 20,
+            "ticker": "068270",
+            "name": "셀트리온",
+            "buy_value_eok": 186.1,
+            "sell_value_eok": 138.7,
+            "net_value_eok": 47.3
+          }
+        ],
+        "buy": [
+          {
+            "rank": 1,
+            "ticker": "005930",
+            "name": "삼성전자",
+            "buy_value_eok": 23408.7,
+            "sell_value_eok": 23216.6,
+            "net_value_eok": 192.1
+          },
+          {
+            "rank": 2,
+            "ticker": "000660",
+            "name": "SK하이닉스",
+            "buy_value_eok": 21592.3,
+            "sell_value_eok": 21575.4,
+            "net_value_eok": 16.9
+          },
+          {
+            "rank": 3,
+            "ticker": "009150",
+            "name": "삼성전기",
+            "buy_value_eok": 6876.7,
+            "sell_value_eok": 7667.9,
+            "net_value_eok": -791.2
+          },
+          {
+            "rank": 4,
+            "ticker": "005380",
+            "name": "현대차",
+            "buy_value_eok": 2418.0,
+            "sell_value_eok": 2303.4,
+            "net_value_eok": 114.6
+          },
+          {
+            "rank": 5,
+            "ticker": "402340",
+            "name": "SK스퀘어",
+            "buy_value_eok": 1913.1,
+            "sell_value_eok": 1936.6,
+            "net_value_eok": -23.5
+          },
+          {
+            "rank": 6,
+            "ticker": "006400",
+            "name": "삼성SDI",
+            "buy_value_eok": 1558.4,
+            "sell_value_eok": 1099.3,
+            "net_value_eok": 459.1
+          },
+          {
+            "rank": 7,
+            "ticker": "011070",
+            "name": "LG이노텍",
+            "buy_value_eok": 1547.9,
+            "sell_value_eok": 1394.7,
+            "net_value_eok": 153.2
+          },
+          {
+            "rank": 8,
+            "ticker": "012330",
+            "name": "현대모비스",
+            "buy_value_eok": 1297.8,
+            "sell_value_eok": 958.3,
+            "net_value_eok": 339.6
+          },
+          {
+            "rank": 9,
+            "ticker": "066570",
+            "name": "LG전자",
+            "buy_value_eok": 787.2,
+            "sell_value_eok": 789.3,
+            "net_value_eok": -2.0
+          },
+          {
+            "rank": 10,
+            "ticker": "373220",
+            "name": "LG에너지솔루션",
+            "buy_value_eok": 785.3,
+            "sell_value_eok": 394.2,
+            "net_value_eok": 391.1
+          },
+          {
+            "rank": 11,
+            "ticker": "034020",
+            "name": "두산에너빌리티",
+            "buy_value_eok": 684.9,
+            "sell_value_eok": 658.7,
+            "net_value_eok": 26.2
+          },
+          {
+            "rank": 12,
+            "ticker": "000270",
+            "name": "기아",
+            "buy_value_eok": 505.8,
+            "sell_value_eok": 401.2,
+            "net_value_eok": 104.6
+          },
+          {
+            "rank": 13,
+            "ticker": "066970",
+            "name": "엘앤에프",
+            "buy_value_eok": 462.5,
+            "sell_value_eok": 280.1,
+            "net_value_eok": 182.4
+          },
+          {
+            "rank": 14,
+            "ticker": "035420",
+            "name": "NAVER",
+            "buy_value_eok": 418.7,
+            "sell_value_eok": 286.4,
+            "net_value_eok": 132.3
+          },
+          {
+            "rank": 15,
+            "ticker": "329180",
+            "name": "HD현대중공업",
+            "buy_value_eok": 397.6,
+            "sell_value_eok": 344.8,
+            "net_value_eok": 52.7
+          },
+          {
+            "rank": 16,
+            "ticker": "005490",
+            "name": "POSCO홀딩스",
+            "buy_value_eok": 393.0,
+            "sell_value_eok": 397.7,
+            "net_value_eok": -4.7
+          },
+          {
+            "rank": 17,
+            "ticker": "042700",
+            "name": "한미반도체",
+            "buy_value_eok": 368.2,
+            "sell_value_eok": 396.0,
+            "net_value_eok": -27.9
+          },
+          {
+            "rank": 18,
+            "ticker": "012450",
+            "name": "한화에어로스페이스",
+            "buy_value_eok": 356.0,
+            "sell_value_eok": 334.0,
+            "net_value_eok": 21.9
+          },
+          {
+            "rank": 19,
+            "ticker": "267260",
+            "name": "HD현대일렉트릭",
+            "buy_value_eok": 332.1,
+            "sell_value_eok": 342.0,
+            "net_value_eok": -9.9
+          },
+          {
+            "rank": 20,
+            "ticker": "042660",
+            "name": "한화오션",
+            "buy_value_eok": 305.8,
+            "sell_value_eok": 292.9,
+            "net_value_eok": 12.9
+          }
+        ],
+        "sell": [
+          {
+            "rank": 1,
+            "ticker": "005930",
+            "name": "삼성전자",
+            "buy_value_eok": 23408.7,
+            "sell_value_eok": 23216.6,
+            "net_value_eok": 192.1
+          },
+          {
+            "rank": 2,
+            "ticker": "000660",
+            "name": "SK하이닉스",
+            "buy_value_eok": 21592.3,
+            "sell_value_eok": 21575.4,
+            "net_value_eok": 16.9
+          },
+          {
+            "rank": 3,
+            "ticker": "009150",
+            "name": "삼성전기",
+            "buy_value_eok": 6876.7,
+            "sell_value_eok": 7667.9,
+            "net_value_eok": -791.2
+          },
+          {
+            "rank": 4,
+            "ticker": "005380",
+            "name": "현대차",
+            "buy_value_eok": 2418.0,
+            "sell_value_eok": 2303.4,
+            "net_value_eok": 114.6
+          },
+          {
+            "rank": 5,
+            "ticker": "402340",
+            "name": "SK스퀘어",
+            "buy_value_eok": 1913.1,
+            "sell_value_eok": 1936.6,
+            "net_value_eok": -23.5
+          },
+          {
+            "rank": 6,
+            "ticker": "011070",
+            "name": "LG이노텍",
+            "buy_value_eok": 1547.9,
+            "sell_value_eok": 1394.7,
+            "net_value_eok": 153.2
+          },
+          {
+            "rank": 7,
+            "ticker": "006400",
+            "name": "삼성SDI",
+            "buy_value_eok": 1558.4,
+            "sell_value_eok": 1099.3,
+            "net_value_eok": 459.1
+          },
+          {
+            "rank": 8,
+            "ticker": "012330",
+            "name": "현대모비스",
+            "buy_value_eok": 1297.8,
+            "sell_value_eok": 958.3,
+            "net_value_eok": 339.6
+          },
+          {
+            "rank": 9,
+            "ticker": "066570",
+            "name": "LG전자",
+            "buy_value_eok": 787.2,
+            "sell_value_eok": 789.3,
+            "net_value_eok": -2.0
+          },
+          {
+            "rank": 10,
+            "ticker": "034020",
+            "name": "두산에너빌리티",
+            "buy_value_eok": 684.9,
+            "sell_value_eok": 658.7,
+            "net_value_eok": 26.2
+          },
+          {
+            "rank": 11,
+            "ticker": "000270",
+            "name": "기아",
+            "buy_value_eok": 505.8,
+            "sell_value_eok": 401.2,
+            "net_value_eok": 104.6
+          },
+          {
+            "rank": 12,
+            "ticker": "005490",
+            "name": "POSCO홀딩스",
+            "buy_value_eok": 393.0,
+            "sell_value_eok": 397.7,
+            "net_value_eok": -4.7
+          },
+          {
+            "rank": 13,
+            "ticker": "042700",
+            "name": "한미반도체",
+            "buy_value_eok": 368.2,
+            "sell_value_eok": 396.0,
+            "net_value_eok": -27.9
+          },
+          {
+            "rank": 14,
+            "ticker": "373220",
+            "name": "LG에너지솔루션",
+            "buy_value_eok": 785.3,
+            "sell_value_eok": 394.2,
+            "net_value_eok": 391.1
+          },
+          {
+            "rank": 15,
+            "ticker": "006800",
+            "name": "미래에셋증권",
+            "buy_value_eok": 95.4,
+            "sell_value_eok": 364.8,
+            "net_value_eok": -269.5
+          },
+          {
+            "rank": 16,
+            "ticker": "329180",
+            "name": "HD현대중공업",
+            "buy_value_eok": 397.6,
+            "sell_value_eok": 344.8,
+            "net_value_eok": 52.7
+          },
+          {
+            "rank": 17,
+            "ticker": "267260",
+            "name": "HD현대일렉트릭",
+            "buy_value_eok": 332.1,
+            "sell_value_eok": 342.0,
+            "net_value_eok": -9.9
+          },
+          {
+            "rank": 18,
+            "ticker": "012450",
+            "name": "한화에어로스페이스",
+            "buy_value_eok": 356.0,
+            "sell_value_eok": 334.0,
+            "net_value_eok": 21.9
+          },
+          {
+            "rank": 19,
+            "ticker": "010120",
+            "name": "LS ELECTRIC",
+            "buy_value_eok": 132.4,
+            "sell_value_eok": 295.8,
+            "net_value_eok": -163.4
+          },
+          {
+            "rank": 20,
+            "ticker": "042660",
+            "name": "한화오션",
+            "buy_value_eok": 305.8,
+            "sell_value_eok": 292.9,
+            "net_value_eok": 12.9
+          }
+        ]
       }
     },
     "외국인": {
       "label": "외국인",
       "rankings": {
-        "net_buy": [],
-        "buy": [],
-        "sell": []
+        "net_buy": [
+          {
+            "rank": 1,
+            "ticker": "005935",
+            "name": "삼성전자우",
+            "buy_value_eok": 7785.8,
+            "sell_value_eok": 5250.7,
+            "net_value_eok": 2535.0
+          },
+          {
+            "rank": 2,
+            "ticker": "009150",
+            "name": "삼성전기",
+            "buy_value_eok": 14288.0,
+            "sell_value_eok": 11885.1,
+            "net_value_eok": 2402.9
+          },
+          {
+            "rank": 3,
+            "ticker": "006400",
+            "name": "삼성SDI",
+            "buy_value_eok": 3095.3,
+            "sell_value_eok": 1938.8,
+            "net_value_eok": 1156.5
+          },
+          {
+            "rank": 4,
+            "ticker": "047040",
+            "name": "대우건설",
+            "buy_value_eok": 877.4,
+            "sell_value_eok": 365.4,
+            "net_value_eok": 511.9
+          },
+          {
+            "rank": 5,
+            "ticker": "329180",
+            "name": "HD현대중공업",
+            "buy_value_eok": 1920.7,
+            "sell_value_eok": 1438.7,
+            "net_value_eok": 482.0
+          },
+          {
+            "rank": 6,
+            "ticker": "006260",
+            "name": "LS",
+            "buy_value_eok": 842.1,
+            "sell_value_eok": 404.4,
+            "net_value_eok": 437.7
+          },
+          {
+            "rank": 7,
+            "ticker": "001440",
+            "name": "대한전선",
+            "buy_value_eok": 958.9,
+            "sell_value_eok": 540.7,
+            "net_value_eok": 418.2
+          },
+          {
+            "rank": 8,
+            "ticker": "028260",
+            "name": "삼성물산",
+            "buy_value_eok": 1069.5,
+            "sell_value_eok": 659.3,
+            "net_value_eok": 410.2
+          },
+          {
+            "rank": 9,
+            "ticker": "373220",
+            "name": "LG에너지솔루션",
+            "buy_value_eok": 2630.0,
+            "sell_value_eok": 2225.6,
+            "net_value_eok": 404.4
+          },
+          {
+            "rank": 10,
+            "ticker": "010120",
+            "name": "LS ELECTRIC",
+            "buy_value_eok": 1603.5,
+            "sell_value_eok": 1224.5,
+            "net_value_eok": 379.0
+          },
+          {
+            "rank": 11,
+            "ticker": "032830",
+            "name": "삼성생명",
+            "buy_value_eok": 1296.5,
+            "sell_value_eok": 924.1,
+            "net_value_eok": 372.4
+          },
+          {
+            "rank": 12,
+            "ticker": "064350",
+            "name": "현대로템",
+            "buy_value_eok": 1094.9,
+            "sell_value_eok": 740.5,
+            "net_value_eok": 354.4
+          },
+          {
+            "rank": 13,
+            "ticker": "000990",
+            "name": "DB하이텍",
+            "buy_value_eok": 573.9,
+            "sell_value_eok": 250.4,
+            "net_value_eok": 323.5
+          },
+          {
+            "rank": 14,
+            "ticker": "000270",
+            "name": "기아",
+            "buy_value_eok": 1034.0,
+            "sell_value_eok": 731.3,
+            "net_value_eok": 302.7
+          },
+          {
+            "rank": 15,
+            "ticker": "000720",
+            "name": "현대건설",
+            "buy_value_eok": 438.9,
+            "sell_value_eok": 155.7,
+            "net_value_eok": 283.2
+          },
+          {
+            "rank": 16,
+            "ticker": "267270",
+            "name": "HD건설기계",
+            "buy_value_eok": 458.3,
+            "sell_value_eok": 216.2,
+            "net_value_eok": 242.1
+          },
+          {
+            "rank": 17,
+            "ticker": "064400",
+            "name": "LG씨엔에스",
+            "buy_value_eok": 825.0,
+            "sell_value_eok": 588.9,
+            "net_value_eok": 236.1
+          },
+          {
+            "rank": 18,
+            "ticker": "039490",
+            "name": "키움증권",
+            "buy_value_eok": 517.5,
+            "sell_value_eok": 294.2,
+            "net_value_eok": 223.3
+          },
+          {
+            "rank": 19,
+            "ticker": "298040",
+            "name": "효성중공업",
+            "buy_value_eok": 958.1,
+            "sell_value_eok": 746.8,
+            "net_value_eok": 211.3
+          },
+          {
+            "rank": 20,
+            "ticker": "047050",
+            "name": "포스코인터내셔널",
+            "buy_value_eok": 308.4,
+            "sell_value_eok": 101.5,
+            "net_value_eok": 206.9
+          }
+        ],
+        "buy": [
+          {
+            "rank": 1,
+            "ticker": "000660",
+            "name": "SK하이닉스",
+            "buy_value_eok": 35257.3,
+            "sell_value_eok": 52594.4,
+            "net_value_eok": -17337.2
+          },
+          {
+            "rank": 2,
+            "ticker": "005930",
+            "name": "삼성전자",
+            "buy_value_eok": 17384.6,
+            "sell_value_eok": 32947.0,
+            "net_value_eok": -15562.4
+          },
+          {
+            "rank": 3,
+            "ticker": "009150",
+            "name": "삼성전기",
+            "buy_value_eok": 14288.0,
+            "sell_value_eok": 11885.1,
+            "net_value_eok": 2402.9
+          },
+          {
+            "rank": 4,
+            "ticker": "005935",
+            "name": "삼성전자우",
+            "buy_value_eok": 7785.8,
+            "sell_value_eok": 5250.7,
+            "net_value_eok": 2535.0
+          },
+          {
+            "rank": 5,
+            "ticker": "402340",
+            "name": "SK스퀘어",
+            "buy_value_eok": 5594.6,
+            "sell_value_eok": 5408.6,
+            "net_value_eok": 186.0
+          },
+          {
+            "rank": 6,
+            "ticker": "006400",
+            "name": "삼성SDI",
+            "buy_value_eok": 3095.3,
+            "sell_value_eok": 1938.8,
+            "net_value_eok": 1156.5
+          },
+          {
+            "rank": 7,
+            "ticker": "373220",
+            "name": "LG에너지솔루션",
+            "buy_value_eok": 2630.0,
+            "sell_value_eok": 2225.6,
+            "net_value_eok": 404.4
+          },
+          {
+            "rank": 8,
+            "ticker": "066570",
+            "name": "LG전자",
+            "buy_value_eok": 2587.0,
+            "sell_value_eok": 2462.2,
+            "net_value_eok": 124.9
+          },
+          {
+            "rank": 9,
+            "ticker": "005380",
+            "name": "현대차",
+            "buy_value_eok": 2062.2,
+            "sell_value_eok": 5696.0,
+            "net_value_eok": -3633.8
+          },
+          {
+            "rank": 10,
+            "ticker": "011070",
+            "name": "LG이노텍",
+            "buy_value_eok": 2059.5,
+            "sell_value_eok": 3693.0,
+            "net_value_eok": -1633.5
+          },
+          {
+            "rank": 11,
+            "ticker": "329180",
+            "name": "HD현대중공업",
+            "buy_value_eok": 1920.7,
+            "sell_value_eok": 1438.7,
+            "net_value_eok": 482.0
+          },
+          {
+            "rank": 12,
+            "ticker": "012330",
+            "name": "현대모비스",
+            "buy_value_eok": 1861.9,
+            "sell_value_eok": 5650.8,
+            "net_value_eok": -3788.9
+          },
+          {
+            "rank": 13,
+            "ticker": "267260",
+            "name": "HD현대일렉트릭",
+            "buy_value_eok": 1808.5,
+            "sell_value_eok": 1913.0,
+            "net_value_eok": -104.5
+          },
+          {
+            "rank": 14,
+            "ticker": "001820",
+            "name": "삼화콘덴서",
+            "buy_value_eok": 1670.4,
+            "sell_value_eok": 1661.7,
+            "net_value_eok": 8.7
+          },
+          {
+            "rank": 15,
+            "ticker": "010120",
+            "name": "LS ELECTRIC",
+            "buy_value_eok": 1603.5,
+            "sell_value_eok": 1224.5,
+            "net_value_eok": 379.0
+          },
+          {
+            "rank": 16,
+            "ticker": "105560",
+            "name": "KB금융",
+            "buy_value_eok": 1336.2,
+            "sell_value_eok": 1436.8,
+            "net_value_eok": -100.7
+          },
+          {
+            "rank": 17,
+            "ticker": "032830",
+            "name": "삼성생명",
+            "buy_value_eok": 1296.5,
+            "sell_value_eok": 924.1,
+            "net_value_eok": 372.4
+          },
+          {
+            "rank": 18,
+            "ticker": "012450",
+            "name": "한화에어로스페이스",
+            "buy_value_eok": 1289.7,
+            "sell_value_eok": 1307.7,
+            "net_value_eok": -18.0
+          },
+          {
+            "rank": 19,
+            "ticker": "042700",
+            "name": "한미반도체",
+            "buy_value_eok": 1138.2,
+            "sell_value_eok": 1696.9,
+            "net_value_eok": -558.7
+          },
+          {
+            "rank": 20,
+            "ticker": "001740",
+            "name": "SK네트웍스",
+            "buy_value_eok": 1120.0,
+            "sell_value_eok": 1218.5,
+            "net_value_eok": -98.6
+          }
+        ],
+        "sell": [
+          {
+            "rank": 1,
+            "ticker": "000660",
+            "name": "SK하이닉스",
+            "buy_value_eok": 35257.3,
+            "sell_value_eok": 52594.4,
+            "net_value_eok": -17337.2
+          },
+          {
+            "rank": 2,
+            "ticker": "005930",
+            "name": "삼성전자",
+            "buy_value_eok": 17384.6,
+            "sell_value_eok": 32947.0,
+            "net_value_eok": -15562.4
+          },
+          {
+            "rank": 3,
+            "ticker": "009150",
+            "name": "삼성전기",
+            "buy_value_eok": 14288.0,
+            "sell_value_eok": 11885.1,
+            "net_value_eok": 2402.9
+          },
+          {
+            "rank": 4,
+            "ticker": "005380",
+            "name": "현대차",
+            "buy_value_eok": 2062.2,
+            "sell_value_eok": 5696.0,
+            "net_value_eok": -3633.8
+          },
+          {
+            "rank": 5,
+            "ticker": "012330",
+            "name": "현대모비스",
+            "buy_value_eok": 1861.9,
+            "sell_value_eok": 5650.8,
+            "net_value_eok": -3788.9
+          },
+          {
+            "rank": 6,
+            "ticker": "402340",
+            "name": "SK스퀘어",
+            "buy_value_eok": 5594.6,
+            "sell_value_eok": 5408.6,
+            "net_value_eok": 186.0
+          },
+          {
+            "rank": 7,
+            "ticker": "005935",
+            "name": "삼성전자우",
+            "buy_value_eok": 7785.8,
+            "sell_value_eok": 5250.7,
+            "net_value_eok": 2535.0
+          },
+          {
+            "rank": 8,
+            "ticker": "011070",
+            "name": "LG이노텍",
+            "buy_value_eok": 2059.5,
+            "sell_value_eok": 3693.0,
+            "net_value_eok": -1633.5
+          },
+          {
+            "rank": 9,
+            "ticker": "066570",
+            "name": "LG전자",
+            "buy_value_eok": 2587.0,
+            "sell_value_eok": 2462.2,
+            "net_value_eok": 124.9
+          },
+          {
+            "rank": 10,
+            "ticker": "373220",
+            "name": "LG에너지솔루션",
+            "buy_value_eok": 2630.0,
+            "sell_value_eok": 2225.6,
+            "net_value_eok": 404.4
+          },
+          {
+            "rank": 11,
+            "ticker": "006400",
+            "name": "삼성SDI",
+            "buy_value_eok": 3095.3,
+            "sell_value_eok": 1938.8,
+            "net_value_eok": 1156.5
+          },
+          {
+            "rank": 12,
+            "ticker": "267260",
+            "name": "HD현대일렉트릭",
+            "buy_value_eok": 1808.5,
+            "sell_value_eok": 1913.0,
+            "net_value_eok": -104.5
+          },
+          {
+            "rank": 13,
+            "ticker": "042700",
+            "name": "한미반도체",
+            "buy_value_eok": 1138.2,
+            "sell_value_eok": 1696.9,
+            "net_value_eok": -558.7
+          },
+          {
+            "rank": 14,
+            "ticker": "001820",
+            "name": "삼화콘덴서",
+            "buy_value_eok": 1670.4,
+            "sell_value_eok": 1661.7,
+            "net_value_eok": 8.7
+          },
+          {
+            "rank": 15,
+            "ticker": "329180",
+            "name": "HD현대중공업",
+            "buy_value_eok": 1920.7,
+            "sell_value_eok": 1438.7,
+            "net_value_eok": 482.0
+          },
+          {
+            "rank": 16,
+            "ticker": "105560",
+            "name": "KB금융",
+            "buy_value_eok": 1336.2,
+            "sell_value_eok": 1436.8,
+            "net_value_eok": -100.7
+          },
+          {
+            "rank": 17,
+            "ticker": "035420",
+            "name": "NAVER",
+            "buy_value_eok": 1009.4,
+            "sell_value_eok": 1338.6,
+            "net_value_eok": -329.2
+          },
+          {
+            "rank": 18,
+            "ticker": "012450",
+            "name": "한화에어로스페이스",
+            "buy_value_eok": 1289.7,
+            "sell_value_eok": 1307.7,
+            "net_value_eok": -18.0
+          },
+          {
+            "rank": 19,
+            "ticker": "010120",
+            "name": "LS ELECTRIC",
+            "buy_value_eok": 1603.5,
+            "sell_value_eok": 1224.5,
+            "net_value_eok": 379.0
+          },
+          {
+            "rank": 20,
+            "ticker": "001740",
+            "name": "SK네트웍스",
+            "buy_value_eok": 1120.0,
+            "sell_value_eok": 1218.5,
+            "net_value_eok": -98.6
+          }
+        ]
       }
     },
     "사모": {
       "label": "사모펀드",
       "rankings": {
-        "net_buy": [],
-        "buy": [],
-        "sell": []
+        "net_buy": [
+          {
+            "rank": 1,
+            "ticker": "000660",
+            "name": "SK하이닉스",
+            "buy_value_eok": 1608.9,
+            "sell_value_eok": 851.2,
+            "net_value_eok": 757.7
+          },
+          {
+            "rank": 2,
+            "ticker": "005930",
+            "name": "삼성전자",
+            "buy_value_eok": 1120.6,
+            "sell_value_eok": 612.2,
+            "net_value_eok": 508.3
+          },
+          {
+            "rank": 3,
+            "ticker": "009150",
+            "name": "삼성전기",
+            "buy_value_eok": 412.5,
+            "sell_value_eok": 145.3,
+            "net_value_eok": 267.2
+          },
+          {
+            "rank": 4,
+            "ticker": "006400",
+            "name": "삼성SDI",
+            "buy_value_eok": 203.7,
+            "sell_value_eok": 12.5,
+            "net_value_eok": 191.3
+          },
+          {
+            "rank": 5,
+            "ticker": "353200",
+            "name": "대덕전자",
+            "buy_value_eok": 128.7,
+            "sell_value_eok": 26.3,
+            "net_value_eok": 102.5
+          },
+          {
+            "rank": 6,
+            "ticker": "011070",
+            "name": "LG이노텍",
+            "buy_value_eok": 151.5,
+            "sell_value_eok": 49.9,
+            "net_value_eok": 101.6
+          },
+          {
+            "rank": 7,
+            "ticker": "278470",
+            "name": "에이피알",
+            "buy_value_eok": 103.7,
+            "sell_value_eok": 7.9,
+            "net_value_eok": 95.8
+          },
+          {
+            "rank": 8,
+            "ticker": "373220",
+            "name": "LG에너지솔루션",
+            "buy_value_eok": 99.5,
+            "sell_value_eok": 33.9,
+            "net_value_eok": 65.5
+          },
+          {
+            "rank": 9,
+            "ticker": "018260",
+            "name": "삼성에스디에스",
+            "buy_value_eok": 60.0,
+            "sell_value_eok": 7.5,
+            "net_value_eok": 52.5
+          },
+          {
+            "rank": 10,
+            "ticker": "005380",
+            "name": "현대차",
+            "buy_value_eok": 91.9,
+            "sell_value_eok": 40.8,
+            "net_value_eok": 51.1
+          },
+          {
+            "rank": 11,
+            "ticker": "066970",
+            "name": "엘앤에프",
+            "buy_value_eok": 52.0,
+            "sell_value_eok": 5.2,
+            "net_value_eok": 46.8
+          },
+          {
+            "rank": 12,
+            "ticker": "035420",
+            "name": "NAVER",
+            "buy_value_eok": 56.2,
+            "sell_value_eok": 9.5,
+            "net_value_eok": 46.7
+          },
+          {
+            "rank": 13,
+            "ticker": "128940",
+            "name": "한미약품",
+            "buy_value_eok": 44.7,
+            "sell_value_eok": 4.3,
+            "net_value_eok": 40.4
+          },
+          {
+            "rank": 14,
+            "ticker": "086280",
+            "name": "현대글로비스",
+            "buy_value_eok": 32.9,
+            "sell_value_eok": 1.2,
+            "net_value_eok": 31.8
+          },
+          {
+            "rank": 15,
+            "ticker": "047810",
+            "name": "한국항공우주",
+            "buy_value_eok": 33.6,
+            "sell_value_eok": 1.9,
+            "net_value_eok": 31.7
+          },
+          {
+            "rank": 16,
+            "ticker": "004170",
+            "name": "신세계",
+            "buy_value_eok": 39.8,
+            "sell_value_eok": 8.3,
+            "net_value_eok": 31.6
+          },
+          {
+            "rank": 17,
+            "ticker": "272210",
+            "name": "한화시스템",
+            "buy_value_eok": 33.1,
+            "sell_value_eok": 1.7,
+            "net_value_eok": 31.3
+          },
+          {
+            "rank": 18,
+            "ticker": "032830",
+            "name": "삼성생명",
+            "buy_value_eok": 79.9,
+            "sell_value_eok": 52.0,
+            "net_value_eok": 27.9
+          },
+          {
+            "rank": 19,
+            "ticker": "012330",
+            "name": "현대모비스",
+            "buy_value_eok": 135.6,
+            "sell_value_eok": 109.0,
+            "net_value_eok": 26.6
+          },
+          {
+            "rank": 20,
+            "ticker": "036570",
+            "name": "NC",
+            "buy_value_eok": 25.9,
+            "sell_value_eok": 0.9,
+            "net_value_eok": 24.9
+          }
+        ],
+        "buy": [
+          {
+            "rank": 1,
+            "ticker": "000660",
+            "name": "SK하이닉스",
+            "buy_value_eok": 1608.9,
+            "sell_value_eok": 851.2,
+            "net_value_eok": 757.7
+          },
+          {
+            "rank": 2,
+            "ticker": "005930",
+            "name": "삼성전자",
+            "buy_value_eok": 1120.6,
+            "sell_value_eok": 612.2,
+            "net_value_eok": 508.3
+          },
+          {
+            "rank": 3,
+            "ticker": "009150",
+            "name": "삼성전기",
+            "buy_value_eok": 412.5,
+            "sell_value_eok": 145.3,
+            "net_value_eok": 267.2
+          },
+          {
+            "rank": 4,
+            "ticker": "006400",
+            "name": "삼성SDI",
+            "buy_value_eok": 203.7,
+            "sell_value_eok": 12.5,
+            "net_value_eok": 191.3
+          },
+          {
+            "rank": 5,
+            "ticker": "011070",
+            "name": "LG이노텍",
+            "buy_value_eok": 151.5,
+            "sell_value_eok": 49.9,
+            "net_value_eok": 101.6
+          },
+          {
+            "rank": 6,
+            "ticker": "012330",
+            "name": "현대모비스",
+            "buy_value_eok": 135.6,
+            "sell_value_eok": 109.0,
+            "net_value_eok": 26.6
+          },
+          {
+            "rank": 7,
+            "ticker": "353200",
+            "name": "대덕전자",
+            "buy_value_eok": 128.7,
+            "sell_value_eok": 26.3,
+            "net_value_eok": 102.5
+          },
+          {
+            "rank": 8,
+            "ticker": "278470",
+            "name": "에이피알",
+            "buy_value_eok": 103.7,
+            "sell_value_eok": 7.9,
+            "net_value_eok": 95.8
+          },
+          {
+            "rank": 9,
+            "ticker": "373220",
+            "name": "LG에너지솔루션",
+            "buy_value_eok": 99.5,
+            "sell_value_eok": 33.9,
+            "net_value_eok": 65.5
+          },
+          {
+            "rank": 10,
+            "ticker": "005380",
+            "name": "현대차",
+            "buy_value_eok": 91.9,
+            "sell_value_eok": 40.8,
+            "net_value_eok": 51.1
+          },
+          {
+            "rank": 11,
+            "ticker": "032830",
+            "name": "삼성생명",
+            "buy_value_eok": 79.9,
+            "sell_value_eok": 52.0,
+            "net_value_eok": 27.9
+          },
+          {
+            "rank": 12,
+            "ticker": "402340",
+            "name": "SK스퀘어",
+            "buy_value_eok": 70.5,
+            "sell_value_eok": 630.2,
+            "net_value_eok": -559.7
+          },
+          {
+            "rank": 13,
+            "ticker": "001820",
+            "name": "삼화콘덴서",
+            "buy_value_eok": 69.0,
+            "sell_value_eok": 61.9,
+            "net_value_eok": 7.2
+          },
+          {
+            "rank": 14,
+            "ticker": "018260",
+            "name": "삼성에스디에스",
+            "buy_value_eok": 60.0,
+            "sell_value_eok": 7.5,
+            "net_value_eok": 52.5
+          },
+          {
+            "rank": 15,
+            "ticker": "035420",
+            "name": "NAVER",
+            "buy_value_eok": 56.2,
+            "sell_value_eok": 9.5,
+            "net_value_eok": 46.7
+          },
+          {
+            "rank": 16,
+            "ticker": "066970",
+            "name": "엘앤에프",
+            "buy_value_eok": 52.0,
+            "sell_value_eok": 5.2,
+            "net_value_eok": 46.8
+          },
+          {
+            "rank": 17,
+            "ticker": "010060",
+            "name": "OCI홀딩스",
+            "buy_value_eok": 49.8,
+            "sell_value_eok": 235.1,
+            "net_value_eok": -185.3
+          },
+          {
+            "rank": 18,
+            "ticker": "128940",
+            "name": "한미약품",
+            "buy_value_eok": 44.7,
+            "sell_value_eok": 4.3,
+            "net_value_eok": 40.4
+          },
+          {
+            "rank": 19,
+            "ticker": "004170",
+            "name": "신세계",
+            "buy_value_eok": 39.8,
+            "sell_value_eok": 8.3,
+            "net_value_eok": 31.6
+          },
+          {
+            "rank": 20,
+            "ticker": "000810",
+            "name": "삼성화재",
+            "buy_value_eok": 39.6,
+            "sell_value_eok": 21.7,
+            "net_value_eok": 17.9
+          }
+        ],
+        "sell": [
+          {
+            "rank": 1,
+            "ticker": "000660",
+            "name": "SK하이닉스",
+            "buy_value_eok": 1608.9,
+            "sell_value_eok": 851.2,
+            "net_value_eok": 757.7
+          },
+          {
+            "rank": 2,
+            "ticker": "402340",
+            "name": "SK스퀘어",
+            "buy_value_eok": 70.5,
+            "sell_value_eok": 630.2,
+            "net_value_eok": -559.7
+          },
+          {
+            "rank": 3,
+            "ticker": "005930",
+            "name": "삼성전자",
+            "buy_value_eok": 1120.6,
+            "sell_value_eok": 612.2,
+            "net_value_eok": 508.3
+          },
+          {
+            "rank": 4,
+            "ticker": "010060",
+            "name": "OCI홀딩스",
+            "buy_value_eok": 49.8,
+            "sell_value_eok": 235.1,
+            "net_value_eok": -185.3
+          },
+          {
+            "rank": 5,
+            "ticker": "042700",
+            "name": "한미반도체",
+            "buy_value_eok": 2.9,
+            "sell_value_eok": 197.7,
+            "net_value_eok": -194.8
+          },
+          {
+            "rank": 6,
+            "ticker": "329180",
+            "name": "HD현대중공업",
+            "buy_value_eok": 28.0,
+            "sell_value_eok": 189.1,
+            "net_value_eok": -161.1
+          },
+          {
+            "rank": 7,
+            "ticker": "006260",
+            "name": "LS",
+            "buy_value_eok": 1.5,
+            "sell_value_eok": 162.7,
+            "net_value_eok": -161.2
+          },
+          {
+            "rank": 8,
+            "ticker": "009150",
+            "name": "삼성전기",
+            "buy_value_eok": 412.5,
+            "sell_value_eok": 145.3,
+            "net_value_eok": 267.2
+          },
+          {
+            "rank": 9,
+            "ticker": "009420",
+            "name": "한올바이오파마",
+            "buy_value_eok": 8.9,
+            "sell_value_eok": 143.8,
+            "net_value_eok": -134.9
+          },
+          {
+            "rank": 10,
+            "ticker": "012330",
+            "name": "현대모비스",
+            "buy_value_eok": 135.6,
+            "sell_value_eok": 109.0,
+            "net_value_eok": 26.6
+          },
+          {
+            "rank": 11,
+            "ticker": "028260",
+            "name": "삼성물산",
+            "buy_value_eok": 14.3,
+            "sell_value_eok": 92.9,
+            "net_value_eok": -78.5
+          },
+          {
+            "rank": 12,
+            "ticker": "010120",
+            "name": "LS ELECTRIC",
+            "buy_value_eok": 11.5,
+            "sell_value_eok": 80.4,
+            "net_value_eok": -68.9
+          },
+          {
+            "rank": 13,
+            "ticker": "336260",
+            "name": "두산퓨얼셀",
+            "buy_value_eok": 12.2,
+            "sell_value_eok": 70.9,
+            "net_value_eok": -58.7
+          },
+          {
+            "rank": 14,
+            "ticker": "001820",
+            "name": "삼화콘덴서",
+            "buy_value_eok": 69.0,
+            "sell_value_eok": 61.9,
+            "net_value_eok": 7.2
+          },
+          {
+            "rank": 15,
+            "ticker": "003230",
+            "name": "삼양식품",
+            "buy_value_eok": 20.7,
+            "sell_value_eok": 61.0,
+            "net_value_eok": -40.3
+          },
+          {
+            "rank": 16,
+            "ticker": "032830",
+            "name": "삼성생명",
+            "buy_value_eok": 79.9,
+            "sell_value_eok": 52.0,
+            "net_value_eok": 27.9
+          },
+          {
+            "rank": 17,
+            "ticker": "011070",
+            "name": "LG이노텍",
+            "buy_value_eok": 151.5,
+            "sell_value_eok": 49.9,
+            "net_value_eok": 101.6
+          },
+          {
+            "rank": 18,
+            "ticker": "090460",
+            "name": "비에이치",
+            "buy_value_eok": 9.8,
+            "sell_value_eok": 48.4,
+            "net_value_eok": -38.6
+          },
+          {
+            "rank": 19,
+            "ticker": "138040",
+            "name": "메리츠금융지주",
+            "buy_value_eok": 19.8,
+            "sell_value_eok": 45.7,
+            "net_value_eok": -25.9
+          },
+          {
+            "rank": 20,
+            "ticker": "298040",
+            "name": "효성중공업",
+            "buy_value_eok": 12.3,
+            "sell_value_eok": 43.8,
+            "net_value_eok": -31.5
+          }
+        ]
       }
     }
   }

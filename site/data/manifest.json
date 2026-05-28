@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T11:20:39.727658+09:00",
+  "generated_at": "2026-05-28T22:41:54.919674+09:00",
   "base_date": "2026-05-28",
   "markets": [
     "KOSPI",
@@ -29,5 +29,5 @@
     }
   ],
   "top_n": 20,
-  "ticker_count": 175
+  "ticker_count": 202
 }

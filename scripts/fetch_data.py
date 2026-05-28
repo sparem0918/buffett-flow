@@ -201,7 +201,7 @@ def fetch_fundamentals(tickers: set[str], ref_bday: dt.date) -> dict:
     cap_all = {}
     for market in MARKETS:
         try:
-            df_f = _retry(lambda m=market: stock.get_market_fundamental(ymd, ymd, market=m))
+            df_f = _retry(lambda m=market: stock.get_market_fundamental(ymd, market=m))
             if df_f is not None and not df_f.empty:
                 # index = 티커
                 for t, row in df_f.iterrows():
@@ -209,13 +209,15 @@ def fetch_fundamentals(tickers: set[str], ref_bday: dt.date) -> dict:
         except Exception as e:
             print(f"  ⚠️ {market} 펀더멘털 실패: {e}", file=sys.stderr)
         try:
-            df_c = _retry(lambda m=market: stock.get_market_cap(ymd, ymd, market=m))
+            df_c = _retry(lambda m=market: stock.get_market_cap(ymd, market=m))
             if df_c is not None and not df_c.empty:
                 for t, row in df_c.iterrows():
                     cap_all[str(t).zfill(6)] = float(row["시가총액"])
         except Exception as e:
             print(f"  ⚠️ {market} 시가총액 실패: {e}", file=sys.stderr)
         time.sleep(0.3)
+
+    print(f"  ✓ 펀더멘털 수집 완료: {len(fund_all)} 종목, 시가총액 {len(cap_all)} 종목")
 
     name_cache = {}
     for tk in sorted(tickers):

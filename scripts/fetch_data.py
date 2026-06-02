@@ -354,8 +354,21 @@ def main() -> int:
         print("       GitHub Actions: Settings → Secrets and variables → Actions 에서 등록.", file=sys.stderr)
         return 1
 
-    today = dt.date.today()
-    ref_bday = get_latest_bday(today)
+    # GitHub Actions 워크플로에서 TZ=Asia/Seoul 로 설정되어 있음
+    now = dt.datetime.now()
+    today = now.date()
+
+    # KRX 정책: 당일 매매내역은 장 마감 후 18시 이후 반영
+    # → KST 18시 이전 실행 시 전일 영업일 기준으로 조정 (수동 실행도 항상 데이터 보장)
+    if now.hour < 18:
+        target_date = today - dt.timedelta(days=1)
+        print(f"⏰ 현재 시각 {now.strftime('%Y-%m-%d %H:%M')} KST — "
+              f"장 마감 전이므로 전일 영업일 기준으로 조정")
+    else:
+        target_date = today
+        print(f"⏰ 현재 시각 {now.strftime('%Y-%m-%d %H:%M')} KST — 당일 기준")
+
+    ref_bday = get_latest_bday(target_date)
     print(f"🗓️ 기준 영업일: {ref_bday}")
 
     all_tickers: set[str] = set()

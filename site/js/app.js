@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     console.error(e);
     showBanner(`데이터를 불러오는 중 오류가 발생했습니다: ${e.message}`, 'error');
     document.getElementById('ranking-tbody').innerHTML =
-      `<tr><td colspan="6" class="empty-state">⚠️ 아직 데이터가 생성되지 않았을 수 있습니다.<br>GitHub Actions 가 처음 실행될 때까지 잠시 기다려주세요.</td></tr>`;
+      `<tr><td colspan="7" class="empty-state">⚠️ 아직 데이터가 생성되지 않았을 수 있습니다.<br>GitHub Actions 가 처음 실행될 때까지 잠시 기다려주세요.</td></tr>`;
   }
 });
 
@@ -118,7 +118,7 @@ async function switchTab(category, btn) {
 // ============================================================
 async function renderTable() {
   const tbody = document.getElementById('ranking-tbody');
-  tbody.innerHTML = `<tr><td colspan="6" class="loading">⏳ 로딩 중...</td></tr>`;
+  tbody.innerHTML = `<tr><td colspan="7" class="loading">⏳ 로딩 중...</td></tr>`;
   hideBanner();
 
   let flowData;
@@ -126,14 +126,14 @@ async function renderTable() {
     flowData = await loadFlow(state.market, state.period);
   } catch (e) {
     tbody.innerHTML =
-      `<tr><td colspan="6" class="empty-state">⚠️ ${escapeHtml(e.message)}</td></tr>`;
+      `<tr><td colspan="7" class="empty-state">⚠️ ${escapeHtml(e.message)}</td></tr>`;
     return;
   }
 
   const inv = flowData.investors?.[state.investor];
   if (!inv) {
     tbody.innerHTML =
-      `<tr><td colspan="6" class="empty-state">선택한 투자자 정보를 찾을 수 없습니다.</td></tr>`;
+      `<tr><td colspan="7" class="empty-state">선택한 투자자 정보를 찾을 수 없습니다.</td></tr>`;
     return;
   }
 
@@ -143,7 +143,7 @@ async function renderTable() {
     if (state.period === 1) {
       msg += '<br><br>👉 1일(당일) 데이터는 장 마감 후(약 19시) 갱신됩니다. 5일/20일 탭을 시도해보세요.';
     }
-    tbody.innerHTML = `<tr><td colspan="6" class="empty-state">${msg}</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="7" class="empty-state">${msg}</td></tr>`;
     return;
   }
 
@@ -167,18 +167,38 @@ function renderRow(row) {
   const netCls  = row.net_value_eok  > 0 ? 'value-pos'
                 : row.net_value_eok  < 0 ? 'value-neg' : '';
 
+  // 섹터/테마 표시: themes(네이버) 우선, 없으면 sector(KRX 업종) 폴백
+  let categoryText = '';
+  if (fund?.themes && fund.themes.length > 0) {
+    categoryText = fund.themes.slice(0, 5).join(' · ');
+  } else if (fund?.sector) {
+    categoryText = fund.sector;
+  }
+  const categoryHtml = categoryText ? ` · ${escapeHtml(categoryText)}` : '';
+
+  // 등락률
+  const chg = fund?.daily_change_pct;
+  let chgHtml = '<span class="change-neutral">—</span>';
+  if (chg !== null && chg !== undefined && !isNaN(chg)) {
+    const cls = chg > 0 ? 'change-pos' : chg < 0 ? 'change-neg' : 'change-neutral';
+    const sign = chg > 0 ? '+' : '';
+    const arrow = chg > 0 ? '▲ ' : chg < 0 ? '▼ ' : '';
+    chgHtml = `<span class="${cls}">${arrow}${sign}${chg.toFixed(2)}%</span>`;
+  }
+
   return `
     <tr data-ticker="${escapeHtml(row.ticker)}">
       <td class="col-rank">${row.rank}</td>
       <td class="col-name">
         <div class="ticker-cell">
           <span class="name">${escapeHtml(row.name)}</span>
-          <span class="ticker">${escapeHtml(row.ticker)}</span>
+          <span class="ticker">${escapeHtml(row.ticker)}${categoryHtml}</span>
         </div>
       </td>
       <td class="col-num ${buyCls}">${fmtNum(row.buy_value_eok)}</td>
       <td class="col-num ${sellCls}">${fmtNum(row.sell_value_eok)}</td>
       <td class="col-num ${netCls}">${fmtNum(row.net_value_eok, true)}</td>
+      <td class="col-change">${chgHtml}</td>
       <td class="col-score">${scoreHtml}</td>
     </tr>
   `;
@@ -242,6 +262,26 @@ function openDetail(ticker) {
     ? fund.market_cap_eok.toLocaleString('ko-KR', { maximumFractionDigits: 0 }) + ' 억원'
     : '—';
 
+  // 등락률 메트릭
+  const chg = fund.daily_change_pct;
+  let chgValueHtml = '—';
+  if (chg !== null && chg !== undefined && !isNaN(chg)) {
+    const cls = chg > 0 ? 'change-pos' : chg < 0 ? 'change-neg' : '';
+    const sign = chg > 0 ? '+' : '';
+    chgValueHtml = `<span class="${cls}">${sign}${chg.toFixed(2)}%</span>`;
+  }
+
+  // 섹터/테마 뱃지: themes 우선, 없으면 sector 폴백
+  let badgeHtml = '';
+  if (fund.themes && fund.themes.length > 0) {
+    badgeHtml = fund.themes.slice(0, 5).map(t =>
+      `<span class="sector-badge">${escapeHtml(t)}</span>`
+    ).join(' ');
+  } else if (fund.sector) {
+    badgeHtml = `<span class="sector-badge">${escapeHtml(fund.sector)}</span>`;
+  }
+  const sectorBadge = badgeHtml ? ` ${badgeHtml}` : '';
+
   const itemsHtml = (score.items || []).map(it => `
     <tr class="${it.auto ? 'auto-row' : 'manual-row'}">
       <td class="col-type">${it.auto ? '✅ 자동' : '📝 수동'}</td>
@@ -252,14 +292,14 @@ function openDetail(ticker) {
   `).join('');
 
   document.getElementById('detail-content').innerHTML = `
-    <div class="detail-ticker">티커: ${escapeHtml(ticker)}</div>
+    <div class="detail-ticker">티커: ${escapeHtml(ticker)}${sectorBadge}</div>
 
     <div class="metrics-grid">
+      <div class="metric-box"><div class="label">등락률</div><div class="value">${chgValueHtml}</div></div>
       <div class="metric-box"><div class="label">PER</div><div class="value">${fmtV(fund.per)}</div></div>
       <div class="metric-box"><div class="label">PBR</div><div class="value">${fmtV(fund.pbr)}</div></div>
       <div class="metric-box"><div class="label">배당수익률</div><div class="value">${fmtV(fund.div_yield, '%')}</div></div>
       <div class="metric-box"><div class="label">EPS</div><div class="value">${fmtV(fund.eps)}</div></div>
-      <div class="metric-box"><div class="label">BPS</div><div class="value">${fmtV(fund.bps)}</div></div>
       <div class="metric-box"><div class="label">시가총액</div><div class="value">${capStr}</div></div>
     </div>
 

@@ -190,20 +190,72 @@ def fetch_flow(market: str, period: int, end_bday: dt.date) -> tuple[dict, set[s
     return flow, seen_tickers
 
 
+def _load_sector_map() -> dict:
+    """
+    FinanceDataReader 로 종목별 섹터 정보를 받아온다.
+    KRX 회원 인증과 무관한 외부 소스라 별도 자격증명이 필요 없다.
+    실패하면 빈 dict 반환 (앱은 섹터 없이 정상 동작).
+    """
+    try:
+        import FinanceDataReader as fdr
+    except Exception as e:
+        print(f"  ⚠️ FinanceDataReader import 실패: {e}", file=sys.stderr)
+        return {}
+
+    try:
+        df = fdr.StockListing('KRX')
+    except Exception as e:
+        print(f"  ⚠️ FinanceDataReader StockListing 실패: {e}", file=sys.stderr)
+        return {}
+
+    if df is None or df.empty:
+        return {}
+
+    # 컬럼 이름은 버전마다 다를 수 있으므로 가장 일반적인 후보를 시도
+    code_col = next((c for c in ['Code', 'Symbol', 'code', '종목코드'] if c in df.columns), None)
+    sector_col = next((c for c in ['Sector', 'sector', '섹터', '업종'] if c in df.columns), None)
+    industry_col = next((c for c in ['Industry', 'industry', '세부업종'] if c in df.columns), None)
+
+    if not code_col:
+        print(f"  ⚠️ FDR 결과에 종목코드 컬럼 없음. cols={list(df.columns)[:10]}", file=sys.stderr)
+        return {}
+
+    sector_map = {}
+    for _, row in df.iterrows():
+        code = str(row.get(code_col, '')).zfill(6)
+        if not code:
+            continue
+        sector = ''
+        if sector_col:
+            v = row.get(sector_col)
+            if v and str(v).strip() and str(v).lower() != 'nan':
+                sector = str(v).strip()
+        if not sector and industry_col:
+            v = row.get(industry_col)
+            if v and str(v).strip() and str(v).lower() != 'nan':
+                sector = str(v).strip()
+        if sector:
+            sector_map[code] = sector
+
+    print(f"  ✓ 섹터 매핑 로드: {len(sector_map)} 종목")
+    return sector_map
+
+
 def fetch_fundamentals(tickers: set[str], ref_bday: dt.date) -> dict:
-    """등장한 종목의 펀더멘털 + 버핏식 점수."""
+    """등장한 종목의 펀더멘털 + 등락률 + 섹터 + 테마 + 버핏식 점수."""
     ymd = _ymd(ref_bday)
     out = {}
 
-    # 시장 전체 fundamental 한 방에 받기 → 개별 호출 절감
-    print(f"\n📊 펀더멘털 일괄 조회 ({ref_bday})...")
+    # 시장 전체 fundamental / 시가총액 / 등락률 한 방에 받기
+    print(f"\n📊 펀더멘털·등락률 일괄 조회 ({ref_bday})...")
     fund_all = {}
     cap_all = {}
+    change_all = {}
+
     for market in MARKETS:
         try:
             df_f = _retry(lambda m=market: stock.get_market_fundamental(ymd, market=m))
             if df_f is not None and not df_f.empty:
-                # index = 티커
                 for t, row in df_f.iterrows():
                     fund_all[str(t).zfill(6)] = row
         except Exception as e:
@@ -215,9 +267,31 @@ def fetch_fundamentals(tickers: set[str], ref_bday: dt.date) -> dict:
                     cap_all[str(t).zfill(6)] = float(row["시가총액"])
         except Exception as e:
             print(f"  ⚠️ {market} 시가총액 실패: {e}", file=sys.stderr)
+        # 등락률 (시장 전체 OHLCV 의 '등락률' 컬럼)
+        try:
+            df_o = _retry(lambda m=market: stock.get_market_ohlcv(ymd, market=m))
+            if df_o is not None and not df_o.empty and "등락률" in df_o.columns:
+                for t, row in df_o.iterrows():
+                    try:
+                        change_all[str(t).zfill(6)] = float(row["등락률"])
+                    except (TypeError, ValueError):
+                        pass
+        except Exception as e:
+            print(f"  ⚠️ {market} 등락률 실패: {e}", file=sys.stderr)
         time.sleep(0.3)
 
-    print(f"  ✓ 펀더멘털 수집 완료: {len(fund_all)} 종목, 시가총액 {len(cap_all)} 종목")
+    print(f"  ✓ 펀더멘털 {len(fund_all)} / 시가총액 {len(cap_all)} / 등락률 {len(change_all)} 종목")
+
+    # 섹터 매핑 (FinanceDataReader, 폴백용)
+    sector_map = _load_sector_map()
+
+    # 테마 매핑 (네이버 금융 크롤링, 우선 표시용)
+    try:
+        from themes_naver import build_ticker_theme_map
+        theme_map = build_ticker_theme_map()
+    except Exception as e:
+        print(f"  ⚠️ 네이버 테마 크롤링 실패: {e}", file=sys.stderr)
+        theme_map = {}
 
     name_cache = {}
     for tk in sorted(tickers):
@@ -247,6 +321,9 @@ def fetch_fundamentals(tickers: set[str], ref_bday: dt.date) -> dict:
         except Exception:
             name = tk
 
+        # 테마 (최대 5개), 없으면 빈 리스트
+        themes = theme_map.get(tk, [])[:5]
+
         score = calc_score(per, pbr, div, cap_eok, roe_est)
         out[tk] = {
             "name": name,
@@ -258,6 +335,9 @@ def fetch_fundamentals(tickers: set[str], ref_bday: dt.date) -> dict:
             "dps": dps,
             "market_cap_eok": cap_eok,
             "roe_est": roe_est,
+            "daily_change_pct": change_all.get(tk),
+            "sector": sector_map.get(tk, ""),
+            "themes": themes,
             "score": score,
         }
 

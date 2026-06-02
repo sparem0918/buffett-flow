@@ -1,2 +1,5 @@
 pykrx>=1.0.45
 pandas>=2.0.0
+finance-datareader>=0.9.50
+beautifulsoup4>=4.12.0
+requests>=2.31.0

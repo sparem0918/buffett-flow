@@ -111,38 +111,45 @@ def get_prev_bday(from_d: dt.date, n: int) -> dt.date:
 # ---------------------------------------------------------------------------
 # 데이터 변환
 # ---------------------------------------------------------------------------
-def _df_to_rankings(df: pd.DataFrame, sort_by: str, ascending: bool) -> list[dict]:
+def _df_to_net_rankings(df, mode):
     """
-    pykrx DataFrame 을 정렬 후 상위 N개 dict 리스트로 변환.
-    각 행: {rank, ticker, name, buy_value_eok, sell_value_eok, net_value_eok}
+    pykrx DataFrame 에서 순매수 또는 순매도 상위 N개 추출.
+
+    mode = 'net_buy' : 순매수금액 큰 양수 상위 (매수 우위)
+    mode = 'net_sell': 순매수금액 큰 음수 상위 (매도 우위) — 절대값으로 양수화 저장
+
+    각 row: {rank, ticker, name, net_value_eok} (절대값, 양수)
     """
     if df is None or df.empty:
         return []
     work = df.reset_index().copy()
-    # 컬럼 이름 통일
     if "티커" not in work.columns:
         work = work.rename(columns={work.columns[0]: "티커"})
-    if sort_by not in work.columns:
+    if "순매수거래대금" not in work.columns:
         return []
-    work = work.sort_values(sort_by, ascending=ascending).head(TOP_N).reset_index(drop=True)
+
+    if mode == 'net_buy':
+        work = work[work['순매수거래대금'] > 0].sort_values('순매수거래대금', ascending=False)
+    else:  # net_sell
+        work = work[work['순매수거래대금'] < 0].sort_values('순매수거래대금', ascending=True)
+
+    work = work.head(TOP_N).reset_index(drop=True)
 
     rows = []
     for i, r in work.iterrows():
+        net = float(r.get("순매수거래대금", 0)) / 1e8
         rows.append({
             "rank": i + 1,
             "ticker": str(r.get("티커", "")).zfill(6),
             "name": str(r.get("종목명", "")),
-            "buy_value_eok":  round(float(r.get("매수거래대금", 0)) / 1e8, 1),
-            "sell_value_eok": round(float(r.get("매도거래대금", 0)) / 1e8, 1),
-            "net_value_eok":  round(float(r.get("순매수거래대금", 0)) / 1e8, 1),
+            "net_value_eok": round(abs(net), 1),
         })
     return rows
 
 
-def fetch_flow(market: str, period: int, end_bday: dt.date) -> tuple[dict, set[str]]:
+def fetch_flow(market, period, end_bday):
     """
-    한 (market, period) 조합에 대해 4명 투자자 × 3종 정렬을 모두 수집.
-    반환: (flow_data_dict, 등장한 ticker 집합)
+    한 (market, period) 조합에 대해 4명 투자자 × {순매수, 순매도} 수집.
     """
     start_bday = end_bday if period <= 1 else get_prev_bday(end_bday, period - 1)
     flow = {
@@ -152,7 +159,7 @@ def fetch_flow(market: str, period: int, end_bday: dt.date) -> tuple[dict, set[s
         "start_date": start_bday.isoformat(),
         "investors": {},
     }
-    seen_tickers: set[str] = set()
+    seen_tickers = set()
 
     for inv in INVESTORS:
         try:
@@ -167,27 +174,27 @@ def fetch_flow(market: str, period: int, end_bday: dt.date) -> tuple[dict, set[s
             print(f"  ⚠️ {market}/{period}d/{inv} 데이터 없음")
             flow["investors"][inv] = {
                 "label": INVESTOR_LABEL[inv],
-                "rankings": {"net_buy": [], "buy": [], "sell": []},
+                "rankings": {"net_buy": [], "net_sell": []},
             }
             continue
 
-        net_top  = _df_to_rankings(df, "순매수거래대금", ascending=False)
-        buy_top  = _df_to_rankings(df, "매수거래대금",   ascending=False)
-        sell_top = _df_to_rankings(df, "매도거래대금",   ascending=False)
+        net_buy_top  = _df_to_net_rankings(df, 'net_buy')
+        net_sell_top = _df_to_net_rankings(df, 'net_sell')
 
-        for rows in (net_top, buy_top, sell_top):
+        for rows in (net_buy_top, net_sell_top):
             for r in rows:
                 if r["ticker"]:
                     seen_tickers.add(r["ticker"])
 
         flow["investors"][inv] = {
             "label": INVESTOR_LABEL[inv],
-            "rankings": {"net_buy": net_top, "buy": buy_top, "sell": sell_top},
+            "rankings": {"net_buy": net_buy_top, "net_sell": net_sell_top},
         }
-        print(f"  ✓ {market}/{period}d/{inv}: net={len(net_top)} buy={len(buy_top)} sell={len(sell_top)}")
-        time.sleep(0.3)  # KRX 부하 완화
+        print(f"  ✓ {market}/{period}d/{inv}: 순매수={len(net_buy_top)} 순매도={len(net_sell_top)}")
+        time.sleep(0.3)
 
     return flow, seen_tickers
+
 
 
 def _load_sector_map() -> dict:
@@ -251,6 +258,7 @@ def fetch_fundamentals(tickers: set[str], ref_bday: dt.date) -> dict:
     fund_all = {}
     cap_all = {}
     change_all = {}
+    close_all = {}
 
     for market in MARKETS:
         try:
@@ -267,17 +275,24 @@ def fetch_fundamentals(tickers: set[str], ref_bday: dt.date) -> dict:
                     cap_all[str(t).zfill(6)] = float(row["시가총액"])
         except Exception as e:
             print(f"  ⚠️ {market} 시가총액 실패: {e}", file=sys.stderr)
-        # 등락률 (시장 전체 OHLCV 의 '등락률' 컬럼)
+        # 등락률 + 종가 (시장 전체 OHLCV)
         try:
             df_o = _retry(lambda m=market: stock.get_market_ohlcv(ymd, market=m))
-            if df_o is not None and not df_o.empty and "등락률" in df_o.columns:
+            if df_o is not None and not df_o.empty:
                 for t, row in df_o.iterrows():
-                    try:
-                        change_all[str(t).zfill(6)] = float(row["등락률"])
-                    except (TypeError, ValueError):
-                        pass
+                    t6 = str(t).zfill(6)
+                    if "등락률" in df_o.columns:
+                        try:
+                            change_all[t6] = float(row["등락률"])
+                        except (TypeError, ValueError):
+                            pass
+                    if "종가" in df_o.columns:
+                        try:
+                            close_all[t6] = int(row["종가"])
+                        except (TypeError, ValueError):
+                            pass
         except Exception as e:
-            print(f"  ⚠️ {market} 등락률 실패: {e}", file=sys.stderr)
+            print(f"  ⚠️ {market} 등락률/종가 실패: {e}", file=sys.stderr)
         time.sleep(0.3)
 
     print(f"  ✓ 펀더멘털 {len(fund_all)} / 시가총액 {len(cap_all)} / 등락률 {len(change_all)} 종목")
@@ -324,6 +339,20 @@ def fetch_fundamentals(tickers: set[str], ref_bday: dt.date) -> dict:
         # 테마 (최대 5개), 없으면 빈 리스트
         themes = theme_map.get(tk, [])[:5]
 
+        # 종가와 등락(원) — 등락률·종가 기반으로 계산
+        close_price = close_all.get(tk)
+        chg_pct = change_all.get(tk)
+        change_amount = None
+        if close_price is not None and chg_pct is not None:
+            # 전일종가 = 종가 / (1 + 등락률/100)
+            # 대비(원) = 종가 - 전일종가
+            try:
+                prev_close = close_price / (1 + chg_pct / 100.0) if (1 + chg_pct / 100.0) != 0 else None
+                if prev_close:
+                    change_amount = int(round(close_price - prev_close))
+            except Exception:
+                pass
+
         score = calc_score(per, pbr, div, cap_eok, roe_est)
         out[tk] = {
             "name": name,
@@ -335,7 +364,9 @@ def fetch_fundamentals(tickers: set[str], ref_bday: dt.date) -> dict:
             "dps": dps,
             "market_cap_eok": cap_eok,
             "roe_est": roe_est,
-            "daily_change_pct": change_all.get(tk),
+            "close_price": close_price,
+            "daily_change_pct": chg_pct,
+            "daily_change_amount": change_amount,
             "sector": sector_map.get(tk, ""),
             "themes": themes,
             "score": score,

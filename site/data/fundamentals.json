@@ -1,6 +1,6 @@
 {
   "000150": {
-    "name": "000150",
+    "name": "두산",
     "per": 383.22,
     "pbr": 18.55,
     "eps": 4230.0,
@@ -115,8 +115,8 @@
     "daily_change_amount": 4498,
     "sector": "",
     "themes": [
-      "비만치료제",
-      "바이오시밀러(복제 바이오의약품)"
+      "바이오시밀러(복제 바이오의약품)",
+      "비만치료제"
     ],
     "score": {
       "auto_total": 13,
@@ -219,10 +219,10 @@
     "daily_change_amount": -3705,
     "sector": "",
     "themes": [
-      "피지컬 AI/휴머노이드 로봇",
+      "자동차 대표주",
       "자율주행차",
       "전기차(충전소/충전기)",
-      "자동차 대표주"
+      "피지컬 AI/휴머노이드 로봇"
     ],
     "score": {
       "auto_total": 37,
@@ -325,11 +325,11 @@
     "daily_change_amount": 53042,
     "sector": "",
     "themes": [
-      "소캠(SOCAMM)",
-      "HBM(고대역폭메모리)",
-      "온디바이스 AI",
-      "CXL(컴퓨트익스프레스링크)",
-      "시스템반도체"
+      "반도체 대표주(생산)",
+      "IT 대표주",
+      "시스템반도체",
+      "자율주행차",
+      "아이폰"
     ],
     "score": {
       "auto_total": 28,
@@ -432,10 +432,10 @@
     "daily_change_amount": -7596,
     "sector": "",
     "themes": [
-      "테마파크",
       "남북경협",
-      "원자력발전소 해체",
-      "UAM(도심항공모빌리티)",
+      "건설 대표주",
+      "테마파크",
+      "풍력에너지",
       "원자력발전"
     ],
     "score": {
@@ -642,10 +642,10 @@
     "daily_change_amount": 1506,
     "sector": "",
     "themes": [
-      "시스템반도체",
-      "전력반도체",
       "반도체 대표주(생산)",
-      "스마트카(SMART CAR)"
+      "시스템반도체",
+      "스마트카(SMART CAR)",
+      "전력반도체"
     ],
     "score": {
       "auto_total": 24,
@@ -1052,8 +1052,8 @@
     "sector": "",
     "themes": [
       "전력설비",
-      "원자력발전",
-      "전선"
+      "전선",
+      "원자력발전"
     ],
     "score": {
       "auto_total": 15,
@@ -1259,10 +1259,10 @@
     "daily_change_amount": 23696,
     "sector": "",
     "themes": [
-      "MLCC(적층세라믹콘덴서)",
       "핵융합에너지",
       "스마트그리드(지능형전력망)",
-      "전력저장장치(ESS)"
+      "전력저장장치(ESS)",
+      "MLCC(적층세라믹콘덴서)"
     ],
     "score": {
       "auto_total": 12,
@@ -1365,8 +1365,8 @@
     "daily_change_amount": 1601,
     "sector": "",
     "themes": [
-      "HBM(고대역폭메모리)",
-      "시스템반도체"
+      "시스템반도체",
+      "HBM(고대역폭메모리)"
     ],
     "score": {
       "auto_total": 10,
@@ -1570,8 +1570,8 @@
     "daily_change_amount": -1196,
     "sector": "",
     "themes": [
-      "스마트팩토리(스마트공장)",
-      "블록체인"
+      "블록체인",
+      "스마트팩토리(스마트공장)"
     ],
     "score": {
       "auto_total": 26,
@@ -1777,9 +1777,9 @@
     "daily_change_amount": -1101,
     "sector": "",
     "themes": [
-      "철도",
       "환율하락 수혜",
-      "철강 주요종목"
+      "철강 주요종목",
+      "철도"
     ],
     "score": {
       "auto_total": 17,
@@ -1882,11 +1882,11 @@
     "daily_change_amount": 28976,
     "sector": "",
     "themes": [
+      "소매유통",
       "백화점",
       "면세점",
-      "소매유통",
-      "부동산 보유 자산주",
-      "서울고속버스터미널 재개발 수혜"
+      "서울고속버스터미널 재개발 수혜",
+      "부동산 보유 자산주"
     ],
     "score": {
       "auto_total": 17,
@@ -1989,8 +1989,8 @@
     "daily_change_amount": -399,
     "sector": "",
     "themes": [
-      "리튬",
-      "전력저장장치(ESS)"
+      "전력저장장치(ESS)",
+      "리튬"
     ],
     "score": {
       "auto_total": 30,
@@ -2196,11 +2196,11 @@
     "daily_change_amount": -4997,
     "sector": "",
     "themes": [
-      "피지컬 AI/휴머노이드 로봇",
+      "자동차 대표주",
       "자율주행차",
-      "전기차(충전소/충전기)",
-      "폐배터리",
-      "메타버스(Metaverse)"
+      "UAM(도심항공모빌리티)",
+      "메타버스(Metaverse)",
+      "폐배터리"
     ],
     "score": {
       "auto_total": 27,
@@ -2303,11 +2303,11 @@
     "daily_change_amount": -5010,
     "sector": "",
     "themes": [
-      "리튬",
+      "환율하락 수혜",
+      "철강 주요종목",
+      "풍력에너지",
       "희귀금속(희토류 등)",
-      "모듈러주택",
-      "폐배터리",
-      "환율하락 수혜"
+      "LNG(액화천연가스)"
     ],
     "score": {
       "auto_total": 24,
@@ -2513,11 +2513,11 @@
     "daily_change_amount": -3509,
     "sector": "",
     "themes": [
-      "소캠(SOCAMM)",
-      "HBM(고대역폭메모리)",
-      "온디바이스 AI",
-      "CXL(컴퓨트익스프레스링크)",
-      "공기청정기"
+      "LED",
+      "스마트홈(홈네트워크)",
+      "공기청정기",
+      "반도체 대표주(생산)",
+      "IT 대표주"
     ],
     "score": {
       "auto_total": 23,
@@ -2721,9 +2721,9 @@
     "daily_change_amount": 701,
     "sector": "",
     "themes": [
+      "증권",
       "인터넷은행",
-      "STO(토큰증권 발행)",
-      "증권"
+      "STO(토큰증권 발행)"
     ],
     "score": {
       "auto_total": 36,
@@ -2929,11 +2929,11 @@
     "daily_change_amount": -16497,
     "sector": "",
     "themes": [
-      "광통신(광케이블/광섬유 등)",
-      "무선충전기술",
       "전력설비",
+      "전선",
+      "풍력에너지",
       "해저터널(지하화/지하도로 등)",
-      "풍력에너지"
+      "무선충전기술"
     ],
     "score": {
       "auto_total": 22,
@@ -3036,8 +3036,8 @@
     "daily_change_amount": -600,
     "sector": "",
     "themes": [
+      "건설 대표주",
       "수자원(양적/질적 개선)",
-      "모듈러주택",
       "원자력발전",
       "GTX(수도권 광역급행철도)",
       "전후 재건(우크라/중동 전쟁 등)"
@@ -3143,11 +3143,11 @@
     "daily_change_amount": 1986,
     "sector": "",
     "themes": [
-      "2차전지(나트륨이온)",
-      "아이폰",
-      "2차전지(전고체)",
+      "IT 대표주",
       "전력저장장치(ESS)",
-      "리비안(RIVIAN)"
+      "아이폰",
+      "2차전지(생산)",
+      "2차전지(전고체)"
     ],
     "score": {
       "auto_total": 13,
@@ -3250,8 +3250,8 @@
     "daily_change_amount": -102,
     "sector": "",
     "themes": [
-      "스페이스X(SpaceX)",
-      "증권"
+      "증권",
+      "스페이스X(SpaceX)"
     ],
     "score": {
       "auto_total": 27,
@@ -3354,11 +3354,11 @@
     "daily_change_amount": 10204,
     "sector": "",
     "themes": [
-      "반도체 기판(FC-BGA/PCB/MLB 등)",
-      "PCB(FPCB 등)",
       "우주항공산업(누리호/인공위성 등)",
+      "PCB(FPCB 등)",
       "5G(5세대 이동통신)",
-      "AI 챗봇(챗GPT 등)"
+      "AI 챗봇(챗GPT 등)",
+      "반도체 기판(FC-BGA/PCB/MLB 등)"
     ],
     "score": {
       "auto_total": 25,
@@ -3461,11 +3461,11 @@
     "daily_change_amount": 23499,
     "sector": "",
     "themes": [
-      "소캠(SOCAMM)",
-      "반도체 기판(FC-BGA/PCB/MLB 등)",
       "PCB(FPCB 등)",
+      "갤럭시 부품주",
       "CXL(컴퓨트익스프레스링크)",
-      "갤럭시 부품주"
+      "소캠(SOCAMM)",
+      "반도체 기판(FC-BGA/PCB/MLB 등)"
     ],
     "score": {
       "auto_total": 20,
@@ -3568,11 +3568,11 @@
     "daily_change_amount": 0,
     "sector": "",
     "themes": [
-      "반도체 기판(FC-BGA/PCB/MLB 등)",
+      "카메라모듈/부품",
       "PCB(FPCB 등)",
-      "온디바이스 AI",
-      "MLCC(적층세라믹콘덴서)",
-      "유리 기판"
+      "자율주행차",
+      "아이폰",
+      "갤럭시 부품주"
     ],
     "score": {
       "auto_total": 18,
@@ -3675,8 +3675,8 @@
     "daily_change_amount": -9984,
     "sector": "",
     "themes": [
-      "LNG(액화천연가스)",
-      "조선"
+      "조선",
+      "LNG(액화천연가스)"
     ],
     "score": {
       "auto_total": 35,
@@ -3780,9 +3780,9 @@
     "sector": "",
     "themes": [
       "석유화학",
-      "우주태양광(페로브스카이트 등)",
+      "태양광에너지",
       "日 수출 규제(국산화 등)",
-      "태양광에너지"
+      "우주태양광(페로브스카이트 등)"
     ],
     "score": {
       "auto_total": 13,
@@ -3988,11 +3988,11 @@
     "daily_change_amount": -6490,
     "sector": "",
     "themes": [
+      "전력설비",
       "태양광에너지",
-      "초전도체",
+      "원자력발전",
       "스마트그리드(지능형전력망)",
-      "전력저장장치(ESS)",
-      "스마트팩토리(스마트공장)"
+      "전력저장장치(ESS)"
     ],
     "score": {
       "auto_total": 22,
@@ -4095,8 +4095,8 @@
     "daily_change_amount": -699,
     "sector": "",
     "themes": [
-      "LNG(액화천연가스)",
-      "조선"
+      "조선",
+      "LNG(액화천연가스)"
     ],
     "score": {
       "auto_total": 22,
@@ -4199,8 +4199,8 @@
     "daily_change_amount": 769,
     "sector": "",
     "themes": [
-      "광통신(광케이블/광섬유 등)",
-      "5G(5세대 이동통신)"
+      "5G(5세대 이동통신)",
+      "광통신(광케이블/광섬유 등)"
     ],
     "score": {
       "auto_total": 6,
@@ -4303,11 +4303,11 @@
     "daily_change_amount": 2305,
     "sector": "",
     "themes": [
-      "냉각시스템(액침냉각 등)",
+      "환율하락 수혜",
       "LPG(액화석유가스)",
-      "주유소",
+      "정유",
       "윤활유",
-      "환율하락 수혜"
+      "냉각시스템(액침냉각 등)"
     ],
     "score": {
       "auto_total": 19,
@@ -4410,11 +4410,11 @@
     "daily_change_amount": -17985,
     "sector": "",
     "themes": [
-      "반도체 기판(FC-BGA/PCB/MLB 등)",
-      "아이폰",
-      "피지컬 AI/휴머노이드 로봇",
+      "카메라모듈/부품",
+      "무선충전기술",
+      "스마트카(SMART CAR)",
       "자율주행차",
-      "무선충전기술"
+      "아이폰"
     ],
     "score": {
       "auto_total": 19,
@@ -4517,10 +4517,10 @@
     "daily_change_amount": 15898,
     "sector": "",
     "themes": [
-      "플렉서블 디스플레이",
       "석유화학",
-      "유리 기판",
-      "폴더블폰"
+      "플렉서블 디스플레이",
+      "폴더블폰",
+      "유리 기판"
     ],
     "score": {
       "auto_total": 9,
@@ -4724,11 +4724,11 @@
     "daily_change_amount": 5985,
     "sector": "",
     "themes": [
-      "피지컬 AI/휴머노이드 로봇",
-      "자율주행차",
-      "스마트카(SMART CAR)",
+      "자동차 대표주",
       "음성인식",
-      "자동차 대표주"
+      "스마트카(SMART CAR)",
+      "자율주행차",
+      "피지컬 AI/휴머노이드 로봇"
     ],
     "score": {
       "auto_total": 27,
@@ -4831,11 +4831,11 @@
     "daily_change_amount": -17012,
     "sector": "",
     "themes": [
-      "냉각시스템(액침냉각 등)",
       "우주항공산업(누리호/인공위성 등)",
-      "항공기부품",
       "드론(Drone)",
-      "UAM(도심항공모빌리티)"
+      "항공기부품",
+      "UAM(도심항공모빌리티)",
+      "냉각시스템(액침냉각 등)"
     ],
     "score": {
       "auto_total": 27,
@@ -4938,9 +4938,9 @@
     "daily_change_amount": 0,
     "sector": "",
     "themes": [
-      "재택근무/스마트워크",
+      "클라우드 컴퓨팅",
       "스마트팩토리(스마트공장)",
-      "클라우드 컴퓨팅"
+      "재택근무/스마트워크"
     ],
     "score": {
       "auto_total": 22,
@@ -5144,11 +5144,11 @@
     "daily_change_amount": -499,
     "sector": "",
     "themes": [
-      "우주태양광(페로브스카이트 등)",
-      "태양광에너지",
-      "셰일가스(Shale Gas)",
+      "환율하락 수혜",
       "남북경협",
-      "환율하락 수혜"
+      "전력설비",
+      "풍력에너지",
+      "태양광에너지"
     ],
     "score": {
       "auto_total": 41,
@@ -5354,11 +5354,11 @@
     "daily_change_amount": -5697,
     "sector": "",
     "themes": [
-      "5G(5세대 이동통신)",
+      "스마트홈(홈네트워크)",
       "통신",
+      "클라우드 컴퓨팅",
       "자율주행차",
-      "양자암호/양자컴퓨팅",
-      "스마트홈(홈네트워크)"
+      "5G(5세대 이동통신)"
     ],
     "score": {
       "auto_total": 20,
@@ -5461,11 +5461,11 @@
     "daily_change_amount": 4500,
     "sector": "",
     "themes": [
-      "AI 챗봇(챗GPT 등)",
       "SI(시스템통합)",
-      "스마트팩토리(스마트공장)",
+      "IT 대표주",
+      "클라우드 컴퓨팅",
       "블록체인",
-      "IT 대표주"
+      "스마트팩토리(스마트공장)"
     ],
     "score": {
       "auto_total": 25,
@@ -5672,10 +5672,10 @@
     "daily_change_amount": 0,
     "sector": "",
     "themes": [
-      "공기청정기",
-      "여름",
-      "수자원(양적/질적 개선)",
       "황사/미세먼지",
+      "여름",
+      "공기청정기",
+      "수자원(양적/질적 개선)",
       "제습기"
     ],
     "score": {
@@ -5779,8 +5779,8 @@
     "daily_change_amount": -2101,
     "sector": "",
     "themes": [
-      "원자력발전",
       "조선기자재",
+      "원자력발전",
       "피팅(관이음쇠)/밸브"
     ],
     "score": {
@@ -5884,10 +5884,10 @@
     "daily_change_amount": 6491,
     "sector": "",
     "themes": [
-      "백화점",
       "홈쇼핑",
+      "영화",
       "소매유통",
-      "영화"
+      "백화점"
     ],
     "score": {
       "auto_total": 20,
@@ -6197,9 +6197,9 @@
     "daily_change_amount": -130,
     "sector": "",
     "themes": [
-      "스페이스X(SpaceX)",
       "창투사",
-      "야놀자(Yanolja)"
+      "야놀자(Yanolja)",
+      "스페이스X(SpaceX)"
     ],
     "score": {
       "auto_total": 13,
@@ -6406,11 +6406,11 @@
     "daily_change_amount": 2486,
     "sector": "",
     "themes": [
-      "태양광에너지",
       "패션/의류",
-      "모듈러주택",
       "자원개발",
-      "전후 재건(우크라/중동 전쟁 등)"
+      "건설 대표주",
+      "태양광에너지",
+      "종합상사"
     ],
     "score": {
       "auto_total": 20,
@@ -6616,11 +6616,11 @@
     "daily_change_amount": 4098,
     "sector": "",
     "themes": [
-      "5G(5세대 이동통신)",
+      "스마트홈(홈네트워크)",
       "통신",
-      "핀테크(FinTech)",
-      "자율주행차",
-      "모바일콘텐츠(스마트폰/태블릿PC)"
+      "모바일콘텐츠(스마트폰/태블릿PC)",
+      "클라우드 컴퓨팅",
+      "핀테크(FinTech)"
     ],
     "score": {
       "auto_total": 33,
@@ -7028,9 +7028,9 @@
     "daily_change_amount": 50,
     "sector": "",
     "themes": [
+      "LED",
       "통신장비",
-      "5G(5세대 이동통신)",
-      "LED"
+      "5G(5세대 이동통신)"
     ],
     "score": {
       "auto_total": 6,
@@ -7134,10 +7134,10 @@
     "sector": "",
     "themes": [
       "수자원(양적/질적 개선)",
-      "철도",
-      "원자력발전소 해체",
+      "풍력에너지",
       "원자력발전",
-      "풍력에너지"
+      "철도",
+      "원자력발전소 해체"
     ],
     "score": {
       "auto_total": 9,
@@ -7343,8 +7343,8 @@
     "daily_change_amount": 5901,
     "sector": "",
     "themes": [
-      "소캠(SOCAMM)",
-      "HBM(고대역폭메모리)"
+      "HBM(고대역폭메모리)",
+      "소캠(SOCAMM)"
     ],
     "score": {
       "auto_total": 12,
@@ -7447,8 +7447,8 @@
     "daily_change_amount": 649,
     "sector": "",
     "themes": [
-      "온디바이스 AI",
       "시스템반도체",
+      "온디바이스 AI",
       "뉴로모픽 반도체"
     ],
     "score": {
@@ -7655,11 +7655,11 @@
     "daily_change_amount": -2496,
     "sector": "",
     "themes": [
-      "핵융합에너지",
+      "전력설비",
       "수자원(양적/질적 개선)",
-      "셰일가스(Shale Gas)",
-      "항공기부품",
-      "원자력발전소 해체"
+      "핵융합에너지",
+      "풍력에너지",
+      "원자력발전"
     ],
     "score": {
       "auto_total": 13,
@@ -7762,10 +7762,10 @@
     "daily_change_amount": -59,
     "sector": "",
     "themes": [
+      "IT 대표주",
       "플렉서블 디스플레이",
-      "폴더블폰",
       "아이폰",
-      "IT 대표주"
+      "폴더블폰"
     ],
     "score": {
       "auto_total": 17,
@@ -7868,11 +7868,11 @@
     "daily_change_amount": -3995,
     "sector": "",
     "themes": [
-      "냉각시스템(액침냉각 등)",
-      "핀테크(FinTech)",
       "SI(시스템통합)",
-      "스마트팩토리(스마트공장)",
-      "조림사업"
+      "클라우드 컴퓨팅",
+      "핀테크(FinTech)",
+      "LNG(액화천연가스)",
+      "블록체인"
     ],
     "score": {
       "auto_total": 26,
@@ -7975,11 +7975,11 @@
     "daily_change_amount": -2996,
     "sector": "",
     "themes": [
-      "핀테크(FinTech)",
-      "자율주행차",
+      "게임",
+      "모바일게임(스마트폰)",
       "모바일콘텐츠(스마트폰/태블릿PC)",
-      "마이데이터",
-      "AI 챗봇(챗GPT 등)"
+      "클라우드 컴퓨팅",
+      "음성인식"
     ],
     "score": {
       "auto_total": 27,
@@ -8084,9 +8084,9 @@
     "themes": [
       "음원/음반",
       "엔터테인먼트",
-      "두나무(Dunamu)",
-      "핀테크(FinTech)",
-      "모바일콘텐츠(스마트폰/태블릿PC)"
+      "모바일콘텐츠(스마트폰/태블릿PC)",
+      "음성인식",
+      "SNS(소셜네트워크서비스)"
     ],
     "score": {
       "auto_total": 19,
@@ -8189,8 +8189,8 @@
     "daily_change_amount": 3007,
     "sector": "",
     "themes": [
-      "모바일게임(스마트폰)",
       "게임",
+      "모바일게임(스마트폰)",
       "증강현실(AR)"
     ],
     "score": {
@@ -8397,9 +8397,9 @@
     "daily_change_amount": 46505,
     "sector": "",
     "themes": [
+      "태양광에너지",
       "LED장비",
-      "플렉서블 디스플레이",
-      "태양광에너지"
+      "플렉서블 디스플레이"
     ],
     "score": {
       "auto_total": 18,
@@ -8606,10 +8606,10 @@
     "daily_change_amount": 1651,
     "sector": "",
     "themes": [
-      "고령화 사회(노인복지)",
-      "면역항암제",
       "치아 치료(임플란트 등)",
-      "치매"
+      "고령화 사회(노인복지)",
+      "치매",
+      "면역항암제"
     ],
     "score": {
       "auto_total": 22,
@@ -9020,9 +9020,9 @@
     "daily_change_amount": 21006,
     "sector": "",
     "themes": [
-      "HBM(고대역폭메모리)",
+      "전자파",
       "시스템반도체",
-      "전자파"
+      "HBM(고대역폭메모리)"
     ],
     "score": {
       "auto_total": 27,
@@ -9125,9 +9125,9 @@
     "daily_change_amount": 4949,
     "sector": "",
     "themes": [
+      "LED",
       "공기청정기",
-      "광통신(광케이블/광섬유 등)",
-      "LED"
+      "광통신(광케이블/광섬유 등)"
     ],
     "score": {
       "auto_total": 24,
@@ -9230,8 +9230,8 @@
     "daily_change_amount": 50,
     "sector": "",
     "themes": [
-      "마이크로 LED",
-      "LED"
+      "LED",
+      "마이크로 LED"
     ],
     "score": {
       "auto_total": 8,
@@ -9334,11 +9334,11 @@
     "daily_change_amount": -301,
     "sector": "",
     "themes": [
+      "건설 대표주",
       "수자원(양적/질적 개선)",
       "원자력발전",
       "GTX(수도권 광역급행철도)",
-      "전후 재건(우크라/중동 전쟁 등)",
-      "건설 대표주"
+      "전후 재건(우크라/중동 전쟁 등)"
     ],
     "score": {
       "auto_total": 10,
@@ -9441,10 +9441,10 @@
     "daily_change_amount": -198,
     "sector": "",
     "themes": [
-      "셰일가스(Shale Gas)",
-      "리비안(RIVIAN)",
       "자원개발",
-      "전후 재건(우크라/중동 전쟁 등)",
+      "셰일가스(Shale Gas)",
+      "종합상사",
+      "리비안(RIVIAN)",
       "니켈"
     ],
     "score": {
@@ -9549,8 +9549,8 @@
     "sector": "",
     "themes": [
       "우주항공산업(누리호/인공위성 등)",
-      "항공기부품",
       "드론(Drone)",
+      "항공기부품",
       "UAM(도심항공모빌리티)"
     ],
     "score": {
@@ -9654,10 +9654,10 @@
     "daily_change_amount": 0,
     "sector": "",
     "themes": [
-      "LED장비",
-      "갤럭시 부품주",
       "통신장비",
-      "5G(5세대 이동통신)"
+      "LED장비",
+      "5G(5세대 이동통신)",
+      "갤럭시 부품주"
     ],
     "score": {
       "auto_total": 4,
@@ -9761,10 +9761,10 @@
     "sector": "",
     "themes": [
       "석유화학",
+      "바이오시밀러(복제 바이오의약품)",
+      "탄소나노튜브(CNT)",
       "고령화 사회(노인복지)",
-      "폴더블폰",
-      "아이폰",
-      "리튬"
+      "아이폰"
     ],
     "score": {
       "auto_total": 17,
@@ -9868,8 +9868,8 @@
     "sector": "",
     "themes": [
       "핀테크(FinTech)",
-      "삼성페이",
       "인터넷은행",
+      "삼성페이",
       "지역화폐"
     ],
     "score": {
@@ -9973,9 +9973,9 @@
     "daily_change_amount": -2303,
     "sector": "",
     "themes": [
-      "원자력발전소 해체",
+      "풍력에너지",
       "원자력발전",
-      "풍력에너지"
+      "원자력발전소 해체"
     ],
     "score": {
       "auto_total": 22,
@@ -10181,8 +10181,8 @@
     "daily_change_amount": -1296,
     "sector": "",
     "themes": [
-      "STO(토큰증권 발행)",
-      "은행"
+      "은행",
+      "STO(토큰증권 발행)"
     ],
     "score": {
       "auto_total": 31,
@@ -10285,8 +10285,8 @@
     "daily_change_amount": 6798,
     "sector": "",
     "themes": [
-      "온디바이스 AI",
-      "시스템반도체"
+      "시스템반도체",
+      "온디바이스 AI"
     ],
     "score": {
       "auto_total": 25,
@@ -10495,9 +10495,9 @@
     "daily_change_amount": 2050,
     "sector": "",
     "themes": [
+      "온실가스(탄소배출권)/탄소 포집·활용·저장(CCUS)",
       "2차전지(전고체)",
-      "고체산화물 연료전지(SOFC)",
-      "온실가스(탄소배출권)/탄소 포집·활용·저장(CCUS)"
+      "고체산화물 연료전지(SOFC)"
     ],
     "score": {
       "auto_total": 22,
@@ -10807,8 +10807,8 @@
     "sector": "",
     "themes": [
       "우주항공산업(누리호/인공위성 등)",
-      "철도",
-      "GTX(수도권 광역급행철도)"
+      "GTX(수도권 광역급행철도)",
+      "철도"
     ],
     "score": {
       "auto_total": 29,
@@ -10911,10 +10911,10 @@
     "daily_change_amount": -797,
     "sector": "",
     "themes": [
-      "스테이블코인",
       "SI(시스템통합)",
+      "클라우드 컴퓨팅",
       "스마트팩토리(스마트공장)",
-      "클라우드 컴퓨팅"
+      "스테이블코인"
     ],
     "score": {
       "auto_total": 29,
@@ -11221,11 +11221,11 @@
     "daily_change_amount": 1994,
     "sector": "",
     "themes": [
+      "LED",
+      "스마트홈(홈네트워크)",
       "공기청정기",
-      "냉각시스템(액침냉각 등)",
-      "5G(5세대 이동통신)",
-      "마이크로 LED",
-      "LED"
+      "IT 대표주",
+      "무선충전기술"
     ],
     "score": {
       "auto_total": 18,
@@ -11637,9 +11637,9 @@
     "daily_change_amount": 16201,
     "sector": "",
     "themes": [
+      "소매유통",
       "백화점",
-      "면세점",
-      "소매유통"
+      "면세점"
     ],
     "score": {
       "auto_total": 22,
@@ -11843,10 +11843,10 @@
     "daily_change_amount": 2104,
     "sector": "",
     "themes": [
-      "MLCC(적층세라믹콘덴서)",
-      "우주태양광(페로브스카이트 등)",
       "태양광에너지",
-      "2차전지(전고체)"
+      "MLCC(적층세라믹콘덴서)",
+      "2차전지(전고체)",
+      "우주태양광(페로브스카이트 등)"
     ],
     "score": {
       "auto_total": 15,
@@ -12053,8 +12053,8 @@
     "sector": "",
     "themes": [
       "우주항공산업(누리호/인공위성 등)",
-      "항공기부품",
       "드론(Drone)",
+      "항공기부품",
       "UAM(도심항공모빌리티)"
     ],
     "score": {
@@ -12572,11 +12572,11 @@
     "daily_change_amount": 1400,
     "sector": "",
     "themes": [
-      "고체산화물 연료전지(SOFC)",
-      "셰일가스(Shale Gas)",
-      "원자력발전소 해체",
       "원자력발전",
-      "LNG(액화천연가스)"
+      "셰일가스(Shale Gas)",
+      "LNG(액화천연가스)",
+      "원자력발전소 해체",
+      "고체산화물 연료전지(SOFC)"
     ],
     "score": {
       "auto_total": 22,
@@ -13090,10 +13090,10 @@
     "daily_change_amount": 2902,
     "sector": "",
     "themes": [
-      "2차전지(나트륨이온)",
-      "리튬",
       "온실가스(탄소배출권)/탄소 포집·활용·저장(CCUS)",
-      "폐배터리"
+      "폐배터리",
+      "리튬",
+      "2차전지(나트륨이온)"
     ],
     "score": {
       "auto_total": 12,
@@ -13196,9 +13196,9 @@
     "daily_change_amount": -3101,
     "sector": "",
     "themes": [
+      "은행",
       "토스(toss)",
-      "STO(토큰증권 발행)",
-      "은행"
+      "STO(토큰증권 발행)"
     ],
     "score": {
       "auto_total": 33,
@@ -13301,8 +13301,8 @@
     "daily_change_amount": 1599,
     "sector": "",
     "themes": [
-      "미용기기",
-      "보톡스(보툴리눔톡신)"
+      "보톡스(보툴리눔톡신)",
+      "미용기기"
     ],
     "score": {
       "auto_total": 16,
@@ -13405,9 +13405,9 @@
     "daily_change_amount": -4501,
     "sector": "",
     "themes": [
+      "치매",
       "코로나19(치료제/백신 개발 등)",
-      "비만치료제",
-      "치매"
+      "비만치료제"
     ],
     "score": {
       "auto_total": 8,
@@ -13510,8 +13510,8 @@
     "daily_change_amount": 3502,
     "sector": "",
     "themes": [
-      "HBM(고대역폭메모리)",
-      "시스템반도체"
+      "시스템반도체",
+      "HBM(고대역폭메모리)"
     ],
     "score": {
       "auto_total": 11,
@@ -13819,10 +13819,10 @@
     "sector": "",
     "themes": [
       "PCB(FPCB 등)",
-      "갤럭시 부품주",
-      "폴더블폰",
+      "무선충전기술",
       "아이폰",
-      "무선충전기술"
+      "갤럭시 부품주",
+      "폴더블폰"
     ],
     "score": {
       "auto_total": 14,
@@ -14133,9 +14133,9 @@
     "sector": "",
     "themes": [
       "여름",
+      "온실가스(탄소배출권)/탄소 포집·활용·저장(CCUS)",
       "日 수출 규제(국산화 등)",
-      "리튬",
-      "온실가스(탄소배출권)/탄소 포집·활용·저장(CCUS)"
+      "리튬"
     ],
     "score": {
       "auto_total": 10,
@@ -14238,8 +14238,8 @@
     "daily_change_amount": 9897,
     "sector": "",
     "themes": [
-      "소캠(SOCAMM)",
-      "HBM(고대역폭메모리)"
+      "HBM(고대역폭메모리)",
+      "소캠(SOCAMM)"
     ],
     "score": {
       "auto_total": 20,
@@ -14445,11 +14445,11 @@
     "daily_change_amount": -498,
     "sector": "",
     "themes": [
-      "냉각시스템(액침냉각 등)",
+      "자원개발",
+      "LPG(액화석유가스)",
       "석유화학",
-      "2차전지(LFP/리튬인산철)",
-      "2차전지(전고체)",
-      "LPG(액화석유가스)"
+      "정유",
+      "전력저장장치(ESS)"
     ],
     "score": {
       "auto_total": 15,
@@ -14552,9 +14552,9 @@
     "daily_change_amount": 400,
     "sector": "",
     "themes": [
+      "조선",
       "GTX(수도권 광역급행철도)",
-      "LNG(액화천연가스)",
-      "조선"
+      "LNG(액화천연가스)"
     ],
     "score": {
       "auto_total": 15,
@@ -14657,9 +14657,9 @@
     "daily_change_amount": 3250,
     "sector": "",
     "themes": [
-      "HBM(고대역폭메모리)",
       "시스템반도체",
-      "스마트팩토리(스마트공장)"
+      "스마트팩토리(스마트공장)",
+      "HBM(고대역폭메모리)"
     ],
     "score": {
       "auto_total": 12,
@@ -14866,9 +14866,9 @@
     "daily_change_amount": 2651,
     "sector": "",
     "themes": [
-      "스페이스X(SpaceX)",
       "창투사",
-      "마켓컬리(kurly)"
+      "마켓컬리(kurly)",
+      "스페이스X(SpaceX)"
     ],
     "score": {
       "auto_total": 13,
@@ -15075,9 +15075,9 @@
     "daily_change_amount": -1201,
     "sector": "",
     "themes": [
-      "스마트그리드(지능형전력망)",
       "전력설비",
-      "전선"
+      "전선",
+      "스마트그리드(지능형전력망)"
     ],
     "score": {
       "auto_total": 25,
@@ -15180,10 +15180,10 @@
     "daily_change_amount": -2495,
     "sector": "",
     "themes": [
+      "은행",
       "인터넷은행",
       "카카오뱅크(kakao BANK)",
-      "STO(토큰증권 발행)",
-      "은행"
+      "STO(토큰증권 발행)"
     ],
     "score": {
       "auto_total": 31,
@@ -15492,11 +15492,11 @@
     "daily_change_amount": 2898,
     "sector": "",
     "themes": [
-      "플렉서블 디스플레이",
+      "패션/의류",
+      "타이어",
       "석유화학",
-      "폴더블폰",
-      "두나무(Dunamu)",
-      "패션/의류"
+      "화학섬유",
+      "플렉서블 디스플레이"
     ],
     "score": {
       "auto_total": 18,
@@ -15599,11 +15599,11 @@
     "daily_change_amount": 0,
     "sector": "",
     "themes": [
-      "스테이블코인",
       "SI(시스템통합)",
-      "퓨리오사AI",
       "블록체인",
-      "STO(토큰증권 발행)"
+      "STO(토큰증권 발행)",
+      "퓨리오사AI",
+      "스테이블코인"
     ],
     "score": {
       "auto_total": 23,
@@ -15706,8 +15706,8 @@
     "daily_change_amount": -3401,
     "sector": "",
     "themes": [
-      "고체산화물 연료전지(SOFC)",
-      "전력저장장치(ESS)"
+      "전력저장장치(ESS)",
+      "고체산화물 연료전지(SOFC)"
     ],
     "score": {
       "auto_total": 4,
@@ -15810,9 +15810,9 @@
     "daily_change_amount": 1950,
     "sector": "",
     "themes": [
-      "의료AI",
       "희귀금속(희토류 등)",
-      "유전자 치료제/분석"
+      "유전자 치료제/분석",
+      "의료AI"
     ],
     "score": {
       "auto_total": 6,
@@ -15915,11 +15915,11 @@
     "daily_change_amount": -494,
     "sector": "",
     "themes": [
-      "mRNA(메신저 리보핵산)",
-      "비만치료제",
-      "바이오시밀러(복제 바이오의약품)",
       "백신/진단시약/방역(신종플루, AI 등)",
-      "겨울"
+      "바이오시밀러(복제 바이오의약품)",
+      "겨울",
+      "mRNA(메신저 리보핵산)",
+      "비만치료제"
     ],
     "score": {
       "auto_total": 22,
@@ -16329,8 +16329,8 @@
     "daily_change_amount": 3901,
     "sector": "",
     "themes": [
-      "코로나19(치료제/백신 개발 등)",
-      "면역항암제"
+      "면역항암제",
+      "코로나19(치료제/백신 개발 등)"
     ],
     "score": {
       "auto_total": 8,
@@ -16636,8 +16636,8 @@
     "sector": "",
     "themes": [
       "통신장비",
-      "5G(5세대 이동통신)",
-      "전력저장장치(ESS)"
+      "전력저장장치(ESS)",
+      "5G(5세대 이동통신)"
     ],
     "score": {
       "auto_total": 9,
@@ -17047,8 +17047,8 @@
     "daily_change_amount": 5701,
     "sector": "",
     "themes": [
-      "우주항공산업(누리호/인공위성 등)",
-      "통신장비"
+      "통신장비",
+      "우주항공산업(누리호/인공위성 등)"
     ],
     "score": {
       "auto_total": 13,
@@ -17355,8 +17355,8 @@
     "daily_change_amount": -11941,
     "sector": "",
     "themes": [
-      "오가노이드",
-      "모더나(MODERNA)"
+      "모더나(MODERNA)",
+      "오가노이드"
     ],
     "score": {
       "auto_total": 23,
@@ -17460,8 +17460,8 @@
     "sector": "",
     "themes": [
       "플렉서블 디스플레이",
-      "갤럭시 부품주",
-      "아이폰"
+      "아이폰",
+      "갤럭시 부품주"
     ],
     "score": {
       "auto_total": 20,
@@ -17667,8 +17667,8 @@
     "daily_change_amount": 7009,
     "sector": "",
     "themes": [
-      "미용기기",
-      "보톡스(보툴리눔톡신)"
+      "보톡스(보툴리눔톡신)",
+      "미용기기"
     ],
     "score": {
       "auto_total": 28,
@@ -17771,9 +17771,9 @@
     "daily_change_amount": 2097,
     "sector": "",
     "themes": [
-      "광통신(광케이블/광섬유 등)",
       "통신장비",
-      "5G(5세대 이동통신)"
+      "5G(5세대 이동통신)",
+      "광통신(광케이블/광섬유 등)"
     ],
     "score": {
       "auto_total": 15,
@@ -17876,10 +17876,10 @@
     "daily_change_amount": 23804,
     "sector": "",
     "themes": [
-      "소캠(SOCAMM)",
-      "반도체 기판(FC-BGA/PCB/MLB 등)",
       "PCB(FPCB 등)",
-      "온디바이스 AI"
+      "온디바이스 AI",
+      "소캠(SOCAMM)",
+      "반도체 기판(FC-BGA/PCB/MLB 등)"
     ],
     "score": {
       "auto_total": 10,
@@ -18601,8 +18601,8 @@
     "daily_change_amount": 950,
     "sector": "",
     "themes": [
-      "모바일게임(스마트폰)",
       "게임",
+      "모바일게임(스마트폰)",
       "메타버스(Metaverse)"
     ],
     "score": {
@@ -18706,8 +18706,8 @@
     "daily_change_amount": 47031,
     "sector": "",
     "themes": [
-      "전력저장장치(ESS)",
-      "전력설비"
+      "전력설비",
+      "전력저장장치(ESS)"
     ],
     "score": {
       "auto_total": 27,
@@ -19017,8 +19017,8 @@
     "daily_change_amount": -3005,
     "sector": "",
     "themes": [
-      "우주항공산업(누리호/인공위성 등)",
       "SI(시스템통합)",
+      "우주항공산업(누리호/인공위성 등)",
       "드론(Drone)",
       "UAM(도심항공모빌리티)"
     ],
@@ -19123,11 +19123,11 @@
     "daily_change_amount": 1500,
     "sector": "",
     "themes": [
-      "PCB(FPCB 등)",
-      "스페이스X(SpaceX)",
       "우주항공산업(누리호/인공위성 등)",
+      "PCB(FPCB 등)",
+      "아이폰",
       "갤럭시 부품주",
-      "日 수출 규제(국산화 등)"
+      "폴더블폰"
     ],
     "score": {
       "auto_total": 26,
@@ -19333,8 +19333,8 @@
     "daily_change_amount": 0,
     "sector": "",
     "themes": [
-      "미용기기",
-      "패션/의류"
+      "패션/의류",
+      "미용기기"
     ],
     "score": {
       "auto_total": 29,
@@ -19641,8 +19641,8 @@
     "daily_change_amount": 8498,
     "sector": "",
     "themes": [
-      "스페이스X(SpaceX)",
-      "우주항공산업(누리호/인공위성 등)"
+      "우주항공산업(누리호/인공위성 등)",
+      "스페이스X(SpaceX)"
     ],
     "score": {
       "auto_total": 16,
@@ -19745,10 +19745,10 @@
     "daily_change_amount": -191103,
     "sector": "",
     "themes": [
-      "전력저장장치(ESS)",
       "전력설비",
+      "풍력에너지",
       "원자력발전",
-      "풍력에너지"
+      "전력저장장치(ESS)"
     ],
     "score": {
       "auto_total": 27,
@@ -19851,8 +19851,8 @@
     "daily_change_amount": 2904,
     "sector": "",
     "themes": [
-      "면역항암제",
-      "치매"
+      "치매",
+      "면역항암제"
     ],
     "score": {
       "auto_total": 8,
@@ -19955,9 +19955,9 @@
     "daily_change_amount": 26979,
     "sector": "",
     "themes": [
-      "피지컬 AI/휴머노이드 로봇",
+      "SI(시스템통합)",
       "자율주행차",
-      "SI(시스템통합)"
+      "피지컬 AI/휴머노이드 로봇"
     ],
     "score": {
       "auto_total": 18,
@@ -20471,8 +20471,8 @@
     "daily_change_amount": 4298,
     "sector": "",
     "themes": [
-      "광통신(광케이블/광섬유 등)",
-      "통신장비"
+      "통신장비",
+      "광통신(광케이블/광섬유 등)"
     ],
     "score": {
       "auto_total": 14,
@@ -20575,8 +20575,8 @@
     "daily_change_amount": 5000,
     "sector": "",
     "themes": [
-      "LNG(액화천연가스)",
-      "조선"
+      "조선",
+      "LNG(액화천연가스)"
     ],
     "score": {
       "auto_total": 25,
@@ -20679,8 +20679,8 @@
     "daily_change_amount": 5699,
     "sector": "",
     "themes": [
-      "온디바이스 AI",
       "시스템반도체",
+      "온디바이스 AI",
       "뉴로모픽 반도체"
     ],
     "score": {
@@ -20991,9 +20991,9 @@
     "sector": "",
     "themes": [
       "원격진료/비대면진료(U-Healthcare)",
-      "스페이스X(SpaceX)",
       "우주항공산업(누리호/인공위성 등)",
-      "의료AI"
+      "의료AI",
+      "스페이스X(SpaceX)"
     ],
     "score": {
       "auto_total": 9,
@@ -21406,11 +21406,11 @@
     "daily_change_amount": 8399,
     "sector": "",
     "themes": [
-      "소캠(SOCAMM)",
-      "반도체 기판(FC-BGA/PCB/MLB 등)",
       "PCB(FPCB 등)",
+      "5G(5세대 이동통신)",
       "온디바이스 AI",
-      "5G(5세대 이동통신)"
+      "소캠(SOCAMM)",
+      "반도체 기판(FC-BGA/PCB/MLB 등)"
     ],
     "score": {
       "auto_total": 16,
@@ -21513,10 +21513,10 @@
     "daily_change_amount": 9602,
     "sector": "",
     "themes": [
-      "소캠(SOCAMM)",
-      "반도체 기판(FC-BGA/PCB/MLB 등)",
       "PCB(FPCB 등)",
-      "CXL(컴퓨트익스프레스링크)"
+      "CXL(컴퓨트익스프레스링크)",
+      "소캠(SOCAMM)",
+      "반도체 기판(FC-BGA/PCB/MLB 등)"
     ],
     "score": {
       "auto_total": 21,
@@ -21825,8 +21825,8 @@
     "daily_change_amount": -102,
     "sector": "",
     "themes": [
-      "리튬",
-      "폐배터리"
+      "폐배터리",
+      "리튬"
     ],
     "score": {
       "auto_total": 5,
@@ -21929,11 +21929,11 @@
     "daily_change_amount": -1002,
     "sector": "",
     "themes": [
-      "스페이스X(SpaceX)",
-      "2차전지(나트륨이온)",
-      "2차전지(LFP/리튬인산철)",
+      "전력저장장치(ESS)",
+      "2차전지(생산)",
       "2차전지(전고체)",
-      "리튬"
+      "폐배터리",
+      "2차전지(LFP/리튬인산철)"
     ],
     "score": {
       "auto_total": 11,
@@ -22036,10 +22036,10 @@
     "daily_change_amount": -197,
     "sector": "",
     "themes": [
+      "건설 대표주",
       "원자력발전",
       "GTX(수도권 광역급행철도)",
-      "전후 재건(우크라/중동 전쟁 등)",
-      "건설 대표주"
+      "전후 재건(우크라/중동 전쟁 등)"
     ],
     "score": {
       "auto_total": 25,
@@ -22142,8 +22142,8 @@
     "daily_change_amount": -699,
     "sector": "",
     "themes": [
-      "온실가스(탄소배출권)/탄소 포집·활용·저장(CCUS)",
-      "황사/미세먼지"
+      "황사/미세먼지",
+      "온실가스(탄소배출권)/탄소 포집·활용·저장(CCUS)"
     ],
     "score": {
       "auto_total": 12,
@@ -22555,8 +22555,8 @@
     "daily_change_amount": 16703,
     "sector": "",
     "themes": [
-      "반도체 기판(FC-BGA/PCB/MLB 등)",
-      "유리 기판"
+      "유리 기판",
+      "반도체 기판(FC-BGA/PCB/MLB 등)"
     ],
     "score": {
       "auto_total": 14,
@@ -22659,8 +22659,8 @@
     "daily_change_amount": 3152,
     "sector": "",
     "themes": [
-      "피지컬 AI/휴머노이드 로봇",
-      "자율주행차"
+      "자율주행차",
+      "피지컬 AI/휴머노이드 로봇"
     ],
     "score": {
       "auto_total": 14,
@@ -22866,8 +22866,8 @@
     "daily_change_amount": -299,
     "sector": "",
     "themes": [
-      "CXL(컴퓨트익스프레스링크)",
-      "시스템반도체"
+      "시스템반도체",
+      "CXL(컴퓨트익스프레스링크)"
     ],
     "score": {
       "auto_total": 8,
@@ -23073,8 +23073,8 @@
     "daily_change_amount": 1101,
     "sector": "",
     "themes": [
-      "고체산화물 연료전지(SOFC)",
-      "피팅(관이음쇠)/밸브"
+      "피팅(관이음쇠)/밸브",
+      "고체산화물 연료전지(SOFC)"
     ],
     "score": {
       "auto_total": 15,
@@ -23278,9 +23278,9 @@
     "daily_change_amount": -500,
     "sector": "",
     "themes": [
-      "2025 하반기 신규상장",
+      "치매",
       "비만치료제",
-      "치매"
+      "2025 하반기 신규상장"
     ],
     "score": {
       "auto_total": 4,
@@ -23486,10 +23486,10 @@
     "daily_change_amount": -3801,
     "sector": "",
     "themes": [
+      "풍력에너지",
       "태양광에너지",
-      "고체산화물 연료전지(SOFC)",
       "전력저장장치(ESS)",
-      "풍력에너지"
+      "고체산화물 연료전지(SOFC)"
     ],
     "score": {
       "auto_total": 17,
@@ -23794,9 +23794,9 @@
     "daily_change_amount": 1900,
     "sector": "",
     "themes": [
-      "2025 하반기 신규상장",
+      "유전자 치료제/분석",
       "치매",
-      "유전자 치료제/분석"
+      "2025 하반기 신규상장"
     ],
     "score": {
       "auto_total": 6,

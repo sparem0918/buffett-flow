@@ -9,7 +9,9 @@
     "dps": 4000.0,
     "market_cap_eok": 256510.0,
     "roe_est": 4.84,
+    "close_price": 1584000,
     "daily_change_pct": 1.149999976158142,
+    "daily_change_amount": 18009,
     "sector": "",
     "themes": [],
     "score": {
@@ -108,7 +110,9 @@
     "dps": 50.0,
     "market_cap_eok": 60638.0,
     "roe_est": 1.9,
+    "close_price": 258500,
     "daily_change_pct": 6.599999904632568,
+    "daily_change_amount": 16005,
     "sector": "",
     "themes": [
       "비만치료제",
@@ -210,13 +214,15 @@
     "dps": 6800.0,
     "market_cap_eok": 623490.0,
     "roe_est": 12.26,
+    "close_price": 159700,
     "daily_change_pct": -2.799999952316284,
+    "daily_change_amount": -4600,
     "sector": "",
     "themes": [
-      "전기차(충전소/충전기)",
       "자율주행차",
-      "자동차 대표주",
-      "피지컬 AI/휴머노이드 로봇"
+      "피지컬 AI/휴머노이드 로봇",
+      "전기차(충전소/충전기)",
+      "자동차 대표주"
     ],
     "score": {
       "auto_total": 36,
@@ -314,14 +320,16 @@
     "dps": 3000.0,
     "market_cap_eok": 14596144.0,
     "roe_est": 36.11,
+    "close_price": 2048000,
     "daily_change_pct": -7.539999961853027,
+    "daily_change_amount": -167012,
     "sector": "",
     "themes": [
-      "자율주행차",
-      "시스템반도체",
-      "전력반도체",
-      "아이폰",
-      "HBM(고대역폭메모리)"
+      "소캠(SOCAMM)",
+      "HBM(고대역폭메모리)",
+      "온디바이스 AI",
+      "CXL(컴퓨트익스프레스링크)",
+      "시스템반도체"
     ],
     "score": {
       "auto_total": 28,
@@ -419,14 +427,16 @@
     "dps": 800.0,
     "market_cap_eok": 145097.0,
     "roe_est": 4.51,
+    "close_price": 130300,
     "daily_change_pct": 6.539999961853027,
+    "daily_change_amount": 7999,
     "sector": "",
     "themes": [
-      "풍력에너지",
-      "GTX(수도권 광역급행철도)",
       "테마파크",
-      "건설 대표주",
-      "남북경협"
+      "남북경협",
+      "원자력발전소 해체",
+      "UAM(도심항공모빌리티)",
+      "원자력발전"
     ],
     "score": {
       "auto_total": 19,
@@ -524,7 +534,9 @@
     "dps": 19500.0,
     "market_cap_eok": 275028.0,
     "roe_est": 9.48,
+    "close_price": 616000,
     "daily_change_pct": -5.949999809265137,
+    "daily_change_amount": -38971,
     "sector": "",
     "themes": [
       "손해보험"
@@ -625,13 +637,15 @@
     "dps": 810.0,
     "market_cap_eok": 66867.0,
     "roe_est": 12.47,
+    "close_price": 153700,
     "daily_change_pct": -9.75,
+    "daily_change_amount": -16605,
     "sector": "",
     "themes": [
-      "스마트카(SMART CAR)",
       "시스템반도체",
       "전력반도체",
-      "반도체 대표주(생산)"
+      "반도체 대표주(생산)",
+      "스마트카(SMART CAR)"
     ],
     "score": {
       "auto_total": 24,
@@ -729,7 +743,9 @@
     "dps": 0.0,
     "market_cap_eok": 16103.0,
     "roe_est": 3.6,
+    "close_price": 24900,
     "daily_change_pct": -3.490000009536743,
+    "daily_change_amount": -900,
     "sector": "",
     "themes": [],
     "score": {
@@ -828,7 +844,9 @@
     "dps": 3300.0,
     "market_cap_eok": 49659.0,
     "roe_est": 2.76,
+    "close_price": 170200,
     "daily_change_pct": -5.340000152587891,
+    "daily_change_amount": -9601,
     "sector": "",
     "themes": [],
     "score": {
@@ -917,6 +935,208 @@
       ]
     }
   },
+  "0011A0": {
+    "name": "액스비스",
+    "per": 18.19,
+    "pbr": 3.31,
+    "eps": 734.0,
+    "bps": 4036.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 1246.0,
+    "roe_est": 18.2,
+    "close_price": 13350,
+    "daily_change_pct": -4.300000190734863,
+    "daily_change_amount": -600,
+    "sector": "",
+    "themes": [],
+    "score": {
+      "auto_total": 19,
+      "auto_max": 45,
+      "normalized": 42.2,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 13,
+          "auto": true,
+          "detail": "우수 (15~20%) | 추정 ROE = 18.20%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 2,
+          "auto": true,
+          "detail": "다소 고평가 (PER 18~25) | PER = 18.19"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 2,
+          "auto": true,
+          "detail": "다소 고평가 (PBR 2.5~4.0) | PBR = 3.31"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 2,
+          "auto": true,
+          "detail": "소형주 (1천억~3천억) | 시총 = 1,246 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
+  "0011T0": {
+    "name": "채비",
+    "per": null,
+    "pbr": 4.36,
+    "eps": null,
+    "bps": 1822.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 3732.0,
+    "roe_est": null,
+    "close_price": 7950,
+    "daily_change_pct": -5.360000133514404,
+    "daily_change_amount": -450,
+    "sector": "",
+    "themes": [],
+    "score": {
+      "auto_total": 5,
+      "auto_max": 45,
+      "normalized": 11.1,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 1,
+          "auto": true,
+          "detail": "고평가 (PBR 4.0~7.0) | PBR = 4.36"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 4,
+          "auto": true,
+          "detail": "중형주 (3천억~1조) | 시총 = 3,732 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "001440": {
     "name": "대한전선",
     "per": 82.67,
@@ -927,11 +1147,13 @@
     "dps": 0.0,
     "market_cap_eok": 73399.0,
     "roe_est": 5.25,
+    "close_price": 37450,
     "daily_change_pct": -3.2300000190734863,
+    "daily_change_amount": -1250,
     "sector": "",
     "themes": [
-      "원자력발전",
       "전력설비",
+      "원자력발전",
       "전선"
     ],
     "score": {
@@ -1030,7 +1252,9 @@
     "dps": 0.0,
     "market_cap_eok": 32011.0,
     "roe_est": 19.72,
+    "close_price": 37550,
     "daily_change_pct": 1.7599999904632568,
+    "daily_change_amount": 649,
     "sector": "",
     "themes": [
       "손해보험"
@@ -1121,6 +1345,112 @@
       ]
     }
   },
+  "001740": {
+    "name": "SK네트웍스",
+    "per": 50.39,
+    "pbr": 1.24,
+    "eps": 257.0,
+    "bps": 10430.0,
+    "div_yield": 1.93,
+    "dps": 250.0,
+    "market_cap_eok": 25977.0,
+    "roe_est": 2.46,
+    "close_price": 12950,
+    "daily_change_pct": -9.380000114440918,
+    "daily_change_amount": -1340,
+    "sector": "",
+    "themes": [
+      "마켓컬리(kurly)",
+      "전기차(충전소/충전기)",
+      "호텔/리조트",
+      "종합상사"
+    ],
+    "score": {
+      "auto_total": 17,
+      "auto_max": 45,
+      "normalized": 37.8,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 3,
+          "auto": true,
+          "detail": "낮음 (0~5%) | 추정 ROE = 2.46%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "과열 가능 (PER 40 이상) | PER = 50.39"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PBR 1.0~1.5) | PBR = 1.24"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 4,
+          "auto": true,
+          "detail": "보통 (1.0~2.0%) | 배당수익률 = 1.93%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 6,
+          "auto": true,
+          "detail": "중대형주 (1~3조) | 시총 = 25,977 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "0017J0": {
     "name": "세미티에스",
     "per": null,
@@ -1131,7 +1461,9 @@
     "dps": 0.0,
     "market_cap_eok": 1639.0,
     "roe_est": null,
+    "close_price": 5440,
     "daily_change_pct": -29.899999618530273,
+    "daily_change_amount": -2320,
     "sector": "",
     "themes": [],
     "score": {
@@ -1230,7 +1562,9 @@
     "dps": 4800.0,
     "market_cap_eok": 85575.0,
     "roe_est": 31.31,
+    "close_price": 1136000,
     "daily_change_pct": 2.3399999141693115,
+    "daily_change_amount": 25975,
     "sector": "",
     "themes": [],
     "score": {
@@ -1329,14 +1663,16 @@
     "dps": 750.0,
     "market_cap_eok": 93712.0,
     "roe_est": 7.21,
+    "close_price": 25450,
     "daily_change_pct": 2.4100000858306885,
+    "daily_change_amount": 599,
     "sector": "",
     "themes": [
-      "항공기부품",
-      "UAM(도심항공모빌리티)",
       "우주항공산업(누리호/인공위성 등)",
+      "항공기부품",
+      "드론(Drone)",
       "환율하락 수혜",
-      "드론(Drone)"
+      "UAM(도심항공모빌리티)"
     ],
     "score": {
       "auto_total": 29,
@@ -1434,7 +1770,9 @@
     "dps": 3100.0,
     "market_cap_eok": 167639.0,
     "roe_est": 2.55,
+    "close_price": 108700,
     "daily_change_pct": -3.4600000381469727,
+    "daily_change_amount": -3896,
     "sector": "",
     "themes": [
       "스마트팩토리(스마트공장)",
@@ -1536,7 +1874,9 @@
     "dps": 250.0,
     "market_cap_eok": 166863.0,
     "roe_est": 0.11,
+    "close_price": 187600,
     "daily_change_pct": -2.799999952316284,
+    "daily_change_amount": -5404,
     "sector": "",
     "themes": [
       "리튬"
@@ -1637,12 +1977,14 @@
     "dps": 500.0,
     "market_cap_eok": 44371.0,
     "roe_est": null,
+    "close_price": 33250,
     "daily_change_pct": -0.6000000238418579,
+    "daily_change_amount": -201,
     "sector": "",
     "themes": [
-      "철강 주요종목",
+      "철도",
       "환율하락 수혜",
-      "철도"
+      "철강 주요종목"
     ],
     "score": {
       "auto_total": 17,
@@ -1740,14 +2082,16 @@
     "dps": 5200.0,
     "market_cap_eok": 64699.0,
     "roe_est": 0.31,
+    "close_price": 685000,
     "daily_change_pct": 9.779999732971191,
+    "daily_change_amount": 61025,
     "sector": "",
     "themes": [
       "백화점",
+      "부동산 보유 자산주",
       "면세점",
       "소매유통",
-      "서울고속버스터미널 재개발 수혜",
-      "부동산 보유 자산주"
+      "서울고속버스터미널 재개발 수혜"
     ],
     "score": {
       "auto_total": 17,
@@ -1845,7 +2189,9 @@
     "dps": 650.0,
     "market_cap_eok": 26606.0,
     "roe_est": 9.12,
+    "close_price": 52200,
     "daily_change_pct": -2.609999895095825,
+    "daily_change_amount": -1399,
     "sector": "",
     "themes": [
       "日 수출 규제(국산화 등)"
@@ -1946,14 +2292,16 @@
     "dps": 10000.0,
     "market_cap_eok": 1232642.0,
     "roe_est": 8.21,
+    "close_price": 602000,
     "daily_change_pct": -5.789999961853027,
+    "daily_change_amount": -36998,
     "sector": "",
     "themes": [
-      "메타버스(Metaverse)",
-      "UAM(도심항공모빌리티)",
+      "자율주행차",
+      "피지컬 AI/휴머노이드 로봇",
       "폐배터리",
-      "전기차(충전소/충전기)",
-      "자율주행차"
+      "메타버스(Metaverse)",
+      "전기차(충전소/충전기)"
     ],
     "score": {
       "auto_total": 27,
@@ -2041,6 +2389,107 @@
       ]
     }
   },
+  "005387": {
+    "name": "현대차2우B",
+    "per": null,
+    "pbr": null,
+    "eps": null,
+    "bps": null,
+    "div_yield": 4.24,
+    "dps": 10100.0,
+    "market_cap_eok": 83214.0,
+    "roe_est": null,
+    "close_price": 238000,
+    "daily_change_pct": -3.8399999141693115,
+    "daily_change_amount": -9504,
+    "sector": "",
+    "themes": [],
+    "score": {
+      "auto_total": 16,
+      "auto_max": 45,
+      "normalized": 35.6,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 8,
+          "auto": true,
+          "detail": "매력적 (3.5~5%) | 배당수익률 = 4.24%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 8,
+          "auto": true,
+          "detail": "대형주 (3~10조) | 시총 = 83,214 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "005490": {
     "name": "POSCO홀딩스",
     "per": 41.74,
@@ -2051,14 +2500,16 @@
     "dps": 10000.0,
     "market_cap_eok": 287647.0,
     "roe_est": 1.17,
+    "close_price": 363000,
     "daily_change_pct": -0.4099999964237213,
+    "daily_change_amount": -1494,
     "sector": "",
     "themes": [
-      "풍력에너지",
-      "철강 주요종목",
-      "LNG(액화천연가스)",
       "리튬",
-      "환율하락 수혜"
+      "희귀금속(희토류 등)",
+      "모듈러주택",
+      "폐배터리",
+      "니켈"
     ],
     "score": {
       "auto_total": 24,
@@ -2156,7 +2607,9 @@
     "dps": 7600.0,
     "market_cap_eok": 93338.0,
     "roe_est": 16.42,
+    "close_price": 142500,
     "daily_change_pct": -0.8999999761581421,
+    "daily_change_amount": -1294,
     "sector": "",
     "themes": [
       "손해보험"
@@ -2257,14 +2710,16 @@
     "dps": 1668.0,
     "market_cap_eok": 17684993.0,
     "roe_est": 10.33,
+    "close_price": 302500,
     "daily_change_pct": -6.059999942779541,
+    "daily_change_amount": -19514,
     "sector": "",
     "themes": [
-      "고령화 사회(노인복지)",
-      "삼성페이",
-      "스마트홈(홈네트워크)",
-      "플렉서블 디스플레이",
-      "가상현실(VR)"
+      "소캠(SOCAMM)",
+      "HBM(고대역폭메모리)",
+      "온디바이스 AI",
+      "CXL(컴퓨트익스프레스링크)",
+      "공기청정기"
     ],
     "score": {
       "auto_total": 23,
@@ -2362,7 +2817,9 @@
     "dps": 1669.0,
     "market_cap_eok": 1536541.0,
     "roe_est": null,
+    "close_price": 191500,
     "daily_change_pct": -5.900000095367432,
+    "daily_change_amount": -12007,
     "sector": "",
     "themes": [],
     "score": {
@@ -2451,6 +2908,111 @@
       ]
     }
   },
+  "005940": {
+    "name": "NH투자증권",
+    "per": 10.58,
+    "pbr": 1.21,
+    "eps": 2882.0,
+    "bps": 25187.0,
+    "div_yield": 4.26,
+    "dps": 1300.0,
+    "market_cap_eok": 108685.0,
+    "roe_est": 11.44,
+    "close_price": 30500,
+    "daily_change_pct": -2.4000000953674316,
+    "daily_change_amount": -750,
+    "sector": "",
+    "themes": [
+      "인터넷은행",
+      "STO(토큰증권 발행)",
+      "증권"
+    ],
+    "score": {
+      "auto_total": 36,
+      "auto_max": 45,
+      "normalized": 80.0,
+      "grade": "우선 정밀검토 후보",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 10,
+          "auto": true,
+          "detail": "양호 (10~15%) | 추정 ROE = 11.44%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PER 8~12) | PER = 10.58"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PBR 1.0~1.5) | PBR = 1.21"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 8,
+          "auto": true,
+          "detail": "매력적 (3.5~5%) | 배당수익률 = 4.26%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 10,
+          "auto": true,
+          "detail": "초대형주 (10조 이상) | 시총 = 108,685 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "006110": {
     "name": "삼아알미늄",
     "per": null,
@@ -2461,7 +3023,9 @@
     "dps": 25.0,
     "market_cap_eok": 9240.0,
     "roe_est": null,
+    "close_price": 61100,
     "daily_change_pct": -0.8100000023841858,
+    "daily_change_amount": -499,
     "sector": "",
     "themes": [
       "비철금속"
@@ -2562,14 +3126,16 @@
     "dps": 2500.0,
     "market_cap_eok": 121680.0,
     "roe_est": 5.49,
+    "close_price": 390000,
     "daily_change_pct": 0.6499999761581421,
+    "daily_change_amount": 2519,
     "sector": "",
     "themes": [
-      "풍력에너지",
-      "해저터널(지하화/지하도로 등)",
+      "광통신(광케이블/광섬유 등)",
+      "무선충전기술",
       "전력설비",
-      "전선",
-      "무선충전기술"
+      "해저터널(지하화/지하도로 등)",
+      "풍력에너지"
     ],
     "score": {
       "auto_total": 22,
@@ -2667,14 +3233,16 @@
     "dps": 0.0,
     "market_cap_eok": 400107.0,
     "roe_est": null,
+    "close_price": 496500,
     "daily_change_pct": -3.5899999141693115,
+    "daily_change_amount": -18488,
     "sector": "",
     "themes": [
-      "전력저장장치(ESS)",
-      "리비안(RIVIAN)",
+      "2차전지(나트륨이온)",
+      "아이폰",
       "2차전지(전고체)",
-      "2차전지(생산)",
-      "아이폰"
+      "전력저장장치(ESS)",
+      "리비안(RIVIAN)"
     ],
     "score": {
       "auto_total": 13,
@@ -2772,7 +3340,9 @@
     "dps": 300.0,
     "market_cap_eok": 286498.0,
     "roe_est": 11.72,
+    "close_price": 51200,
     "daily_change_pct": -0.5799999833106995,
+    "daily_change_amount": -299,
     "sector": "",
     "themes": [
       "스페이스X(SpaceX)",
@@ -2874,14 +3444,16 @@
     "dps": 230.0,
     "market_cap_eok": 82952.0,
     "roe_est": 22.14,
+    "close_price": 113000,
     "daily_change_pct": -2.4200000762939453,
+    "daily_change_amount": -2802,
     "sector": "",
     "themes": [
-      "우주항공산업(누리호/인공위성 등)",
-      "AI 챗봇(챗GPT 등)",
       "반도체 기판(FC-BGA/PCB/MLB 등)",
       "PCB(FPCB 등)",
-      "5G(5세대 이동통신)"
+      "우주항공산업(누리호/인공위성 등)",
+      "5G(5세대 이동통신)",
+      "AI 챗봇(챗GPT 등)"
     ],
     "score": {
       "auto_total": 25,
@@ -2979,14 +3551,16 @@
     "dps": 100.0,
     "market_cap_eok": 27748.0,
     "roe_est": 10.74,
+    "close_price": 115700,
     "daily_change_pct": -3.819999933242798,
+    "daily_change_amount": -4595,
     "sector": "",
     "themes": [
-      "갤럭시 부품주",
+      "소캠(SOCAMM)",
       "반도체 기판(FC-BGA/PCB/MLB 등)",
       "PCB(FPCB 등)",
-      "소캠(SOCAMM)",
-      "CXL(컴퓨트익스프레스링크)"
+      "CXL(컴퓨트익스프레스링크)",
+      "갤럭시 부품주"
     ],
     "score": {
       "auto_total": 18,
@@ -3084,7 +3658,9 @@
     "dps": 0.0,
     "market_cap_eok": 22018.0,
     "roe_est": null,
+    "close_price": 56100,
     "daily_change_pct": 1.6299999952316284,
+    "daily_change_amount": 900,
     "sector": "",
     "themes": [
       "면세점",
@@ -3187,14 +3763,16 @@
     "dps": 2350.0,
     "market_cap_eok": 1348221.0,
     "roe_est": 7.4,
+    "close_price": 1805000,
     "daily_change_pct": -8.380000114440918,
+    "daily_change_amount": -165094,
     "sector": "",
     "themes": [
-      "2차전지(전고체)",
-      "자율주행차",
-      "갤럭시 부품주",
       "반도체 기판(FC-BGA/PCB/MLB 등)",
-      "카메라모듈/부품"
+      "PCB(FPCB 등)",
+      "온디바이스 AI",
+      "MLCC(적층세라믹콘덴서)",
+      "유리 기판"
     ],
     "score": {
       "auto_total": 18,
@@ -3292,7 +3870,9 @@
     "dps": 12300.0,
     "market_cap_eok": 272830.0,
     "roe_est": 16.31,
+    "close_price": 385500,
     "daily_change_pct": 6.340000152587891,
+    "daily_change_amount": 22984,
     "sector": "",
     "themes": [
       "조선",
@@ -3394,13 +3974,15 @@
     "dps": 0.0,
     "market_cap_eok": 62913.0,
     "roe_est": null,
+    "close_price": 36600,
     "daily_change_pct": 2.950000047683716,
+    "daily_change_amount": 1049,
     "sector": "",
     "themes": [
-      "태양광에너지",
       "석유화학",
-      "日 수출 규제(국산화 등)",
-      "우주태양광(페로브스카이트 등)"
+      "우주태양광(페로브스카이트 등)",
+      "태양광에너지",
+      "日 수출 규제(국산화 등)"
     ],
     "score": {
       "auto_total": 13,
@@ -3498,7 +4080,9 @@
     "dps": 1000.0,
     "market_cap_eok": 49196.0,
     "roe_est": null,
+    "close_price": 263500,
     "daily_change_pct": 2.930000066757202,
+    "daily_change_amount": 7501,
     "sector": "",
     "themes": [
       "태양광에너지"
@@ -3599,14 +4183,16 @@
     "dps": 600.0,
     "market_cap_eok": 354000.0,
     "roe_est": 13.85,
+    "close_price": 236000,
     "daily_change_pct": 7.519999980926514,
+    "daily_change_amount": 16506,
     "sector": "",
     "themes": [
       "태양광에너지",
-      "원자력발전",
+      "초전도체",
+      "스마트그리드(지능형전력망)",
       "전력저장장치(ESS)",
-      "전력설비",
-      "스마트그리드(지능형전력망)"
+      "스마트팩토리(스마트공장)"
     ],
     "score": {
       "auto_total": 22,
@@ -3704,7 +4290,9 @@
     "dps": 0.0,
     "market_cap_eok": 228800.0,
     "roe_est": 13.15,
+    "close_price": 26000,
     "daily_change_pct": 0.5799999833106995,
+    "daily_change_amount": 150,
     "sector": "",
     "themes": [
       "조선",
@@ -3806,11 +4394,13 @@
     "dps": 0.0,
     "market_cap_eok": 25344.0,
     "roe_est": null,
+    "close_price": 16300,
     "daily_change_pct": -11.119999885559082,
+    "daily_change_amount": -2039,
     "sector": "",
     "themes": [
-      "5G(5세대 이동통신)",
-      "광통신(광케이블/광섬유 등)"
+      "광통신(광케이블/광섬유 등)",
+      "5G(5세대 이동통신)"
     ],
     "score": {
       "auto_total": 6,
@@ -3908,13 +4498,15 @@
     "dps": 330.0,
     "market_cap_eok": 124742.0,
     "roe_est": 1.99,
+    "close_price": 110800,
     "daily_change_pct": -0.09000000357627869,
+    "daily_change_amount": -100,
     "sector": "",
     "themes": [
-      "주유소",
-      "환율하락 수혜",
-      "윤활유",
+      "냉각시스템(액침냉각 등)",
       "LPG(액화석유가스)",
+      "주유소",
+      "윤활유",
       "정유"
     ],
     "score": {
@@ -4013,14 +4605,16 @@
     "dps": 1880.0,
     "market_cap_eok": 257971.0,
     "roe_est": 5.93,
+    "close_price": 1090000,
     "daily_change_pct": -4.130000114440918,
+    "daily_change_amount": -46956,
     "sector": "",
     "themes": [
-      "메타버스(Metaverse)",
-      "무선충전기술",
-      "자율주행차",
       "반도체 기판(FC-BGA/PCB/MLB 등)",
-      "카메라모듈/부품"
+      "아이폰",
+      "자율주행차",
+      "피지컬 AI/휴머노이드 로봇",
+      "스마트카(SMART CAR)"
     ],
     "score": {
       "auto_total": 19,
@@ -4118,13 +4712,15 @@
     "dps": 0.0,
     "market_cap_eok": 61551.0,
     "roe_est": null,
+    "close_price": 124100,
     "daily_change_pct": -8.40999984741211,
+    "daily_change_amount": -11395,
     "sector": "",
     "themes": [
-      "석유화학",
       "플렉서블 디스플레이",
-      "폴더블폰",
-      "유리 기판"
+      "석유화학",
+      "유리 기판",
+      "폴더블폰"
     ],
     "score": {
       "auto_total": 9,
@@ -4212,6 +4808,107 @@
       ]
     }
   },
+  "0117P0": {
+    "name": "피스피스스튜디오",
+    "per": 9.57,
+    "pbr": 1.16,
+    "eps": 1139.0,
+    "bps": 9418.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 1544.0,
+    "roe_est": 12.12,
+    "close_price": 10900,
+    "daily_change_pct": -9.920000076293945,
+    "daily_change_amount": -1200,
+    "sector": "",
+    "themes": [],
+    "score": {
+      "auto_total": 20,
+      "auto_max": 45,
+      "normalized": 44.4,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 10,
+          "auto": true,
+          "detail": "양호 (10~15%) | 추정 ROE = 12.12%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PER 8~12) | PER = 9.57"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PBR 1.0~1.5) | PBR = 1.16"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 2,
+          "auto": true,
+          "detail": "소형주 (1천억~3천억) | 시총 = 1,544 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "012330": {
     "name": "현대모비스",
     "per": 13.95,
@@ -4222,14 +4919,16 @@
     "dps": 6500.0,
     "market_cap_eok": 517176.0,
     "roe_est": 7.38,
+    "close_price": 570000,
     "daily_change_pct": -4.199999809265137,
+    "daily_change_amount": -24990,
     "sector": "",
     "themes": [
-      "음성인식",
       "자율주행차",
-      "자동차 대표주",
+      "피지컬 AI/휴머노이드 로봇",
       "스마트카(SMART CAR)",
-      "피지컬 AI/휴머노이드 로봇"
+      "음성인식",
+      "자동차 대표주"
     ],
     "score": {
       "auto_total": 27,
@@ -4327,14 +5026,16 @@
     "dps": 7000.0,
     "market_cap_eok": 531619.0,
     "roe_est": 15.16,
+    "close_price": 1031000,
     "daily_change_pct": 1.4800000190734863,
+    "daily_change_amount": 15036,
     "sector": "",
     "themes": [
-      "항공기부품",
-      "UAM(도심항공모빌리티)",
+      "냉각시스템(액침냉각 등)",
       "우주항공산업(누리호/인공위성 등)",
+      "항공기부품",
       "드론(Drone)",
-      "냉각시스템(액침냉각 등)"
+      "UAM(도심항공모빌리티)"
     ],
     "score": {
       "auto_total": 27,
@@ -4422,6 +5123,107 @@
       ]
     }
   },
+  "0134X0": {
+    "name": "대신밸런스제20호스팩",
+    "per": null,
+    "pbr": null,
+    "eps": null,
+    "bps": null,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 133.0,
+    "roe_est": null,
+    "close_price": 1976,
+    "daily_change_pct": -0.550000011920929,
+    "daily_change_amount": -11,
+    "sector": "",
+    "themes": [],
+    "score": {
+      "auto_total": 1,
+      "auto_max": 45,
+      "normalized": 2.2,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 1,
+          "auto": true,
+          "detail": "초소형주 | 시총 = 133 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "015760": {
     "name": "한국전력",
     "per": 2.73,
@@ -4432,14 +5234,16 @@
     "dps": 1542.0,
     "market_cap_eok": 233675.0,
     "roe_est": 17.95,
+    "close_price": 36400,
     "daily_change_pct": 0.8299999833106995,
+    "daily_change_amount": 300,
     "sector": "",
     "themes": [
-      "풍력에너지",
-      "LNG(액화천연가스)",
-      "셰일가스(Shale Gas)",
+      "우주태양광(페로브스카이트 등)",
       "태양광에너지",
-      "남북경협"
+      "남북경협",
+      "셰일가스(Shale Gas)",
+      "환율하락 수혜"
     ],
     "score": {
       "auto_total": 41,
@@ -4537,14 +5341,16 @@
     "dps": 1660.0,
     "market_cap_eok": 227033.0,
     "roe_est": 3.02,
+    "close_price": 105700,
     "daily_change_pct": -2.2200000286102295,
+    "daily_change_amount": -2400,
     "sector": "",
     "themes": [
-      "통신",
-      "UAM(도심항공모빌리티)",
-      "클라우드 컴퓨팅",
-      "스마트홈(홈네트워크)",
-      "자율주행차"
+      "5G(5세대 이동통신)",
+      "자율주행차",
+      "양자암호/양자컴퓨팅",
+      "블록체인",
+      "스마트홈(홈네트워크)"
     ],
     "score": {
       "auto_total": 20,
@@ -4632,6 +5438,109 @@
       ]
     }
   },
+  "017800": {
+    "name": "현대엘리베이터",
+    "per": 10.48,
+    "pbr": 2.03,
+    "eps": 7258.0,
+    "bps": 37450.0,
+    "div_yield": 18.41,
+    "dps": 14010.0,
+    "market_cap_eok": 29749.0,
+    "roe_est": 19.37,
+    "close_price": 76100,
+    "daily_change_pct": -0.7799999713897705,
+    "daily_change_amount": -598,
+    "sector": "",
+    "themes": [
+      "남북경협"
+    ],
+    "score": {
+      "auto_total": 36,
+      "auto_max": 45,
+      "normalized": 80.0,
+      "grade": "우선 정밀검토 후보",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 13,
+          "auto": true,
+          "detail": "우수 (15~20%) | 추정 ROE = 19.37%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PER 8~12) | PER = 10.48"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 3,
+          "auto": true,
+          "detail": "보통 (PBR 1.5~2.5) | PBR = 2.03"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 10,
+          "auto": true,
+          "detail": "매우 매력적 (5% 이상) | 배당수익률 = 18.41%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 6,
+          "auto": true,
+          "detail": "중대형주 (1~3조) | 시총 = 29,749 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "018260": {
     "name": "삼성에스디에스",
     "per": 22.91,
@@ -4642,14 +5551,16 @@
     "dps": 3190.0,
     "market_cap_eok": 174100.0,
     "roe_est": 7.68,
+    "close_price": 225000,
     "daily_change_pct": -10.890000343322754,
+    "daily_change_amount": -27497,
     "sector": "",
     "themes": [
-      "클라우드 컴퓨팅",
       "SI(시스템통합)",
-      "스마트팩토리(스마트공장)",
       "AI 챗봇(챗GPT 등)",
-      "블록체인"
+      "스마트팩토리(스마트공장)",
+      "블록체인",
+      "IT 대표주"
     ],
     "score": {
       "auto_total": 25,
@@ -4737,6 +5648,110 @@
       ]
     }
   },
+  "020150": {
+    "name": "롯데에너지머티리얼즈",
+    "per": null,
+    "pbr": 1.44,
+    "eps": null,
+    "bps": 31623.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 23826.0,
+    "roe_est": null,
+    "close_price": 45500,
+    "daily_change_pct": -7.050000190734863,
+    "daily_change_amount": -3451,
+    "sector": "",
+    "themes": [
+      "PCB(FPCB 등)",
+      "2차전지(전고체)"
+    ],
+    "score": {
+      "auto_total": 10,
+      "auto_max": 45,
+      "normalized": 22.2,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PBR 1.0~1.5) | PBR = 1.44"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 6,
+          "auto": true,
+          "detail": "중대형주 (1~3조) | 시총 = 23,826 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "021240": {
     "name": "코웨이",
     "per": 10.66,
@@ -4747,14 +5762,16 @@
     "dps": 1957.0,
     "market_cap_eok": 65106.0,
     "roe_est": 16.89,
+    "close_price": 92000,
     "daily_change_pct": -0.4300000071525574,
+    "daily_change_amount": -397,
     "sector": "",
     "themes": [
-      "수자원(양적/질적 개선)",
+      "공기청정기",
       "여름",
+      "수자원(양적/질적 개선)",
       "황사/미세먼지",
-      "제습기",
-      "공기청정기"
+      "제습기"
     ],
     "score": {
       "auto_total": 34,
@@ -4852,7 +5869,9 @@
     "dps": 4000.0,
     "market_cap_eok": 55305.0,
     "roe_est": 0.34,
+    "close_price": 195500,
     "daily_change_pct": 7.480000019073486,
+    "daily_change_amount": 13606,
     "sector": "",
     "themes": [
       "백화점",
@@ -4946,6 +5965,213 @@
       ]
     }
   },
+  "024110": {
+    "name": "기업은행",
+    "per": 6.57,
+    "pbr": 0.46,
+    "eps": 3183.0,
+    "bps": 45716.0,
+    "div_yield": 5.01,
+    "dps": 1048.0,
+    "market_cap_eok": 166662.0,
+    "roe_est": 7.0,
+    "close_price": 20900,
+    "daily_change_pct": 1.7000000476837158,
+    "daily_change_amount": 349,
+    "sector": "",
+    "themes": [
+      "은행"
+    ],
+    "score": {
+      "auto_total": 36,
+      "auto_max": 45,
+      "normalized": 80.0,
+      "grade": "우선 정밀검토 후보",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 6,
+          "auto": true,
+          "detail": "보통 (5~10%) | 추정 ROE = 7.00%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 5,
+          "auto": true,
+          "detail": "매우 저평가 (PER 8 이하) | PER = 6.57"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 5,
+          "auto": true,
+          "detail": "장부가 이하 (PBR 1.0 이하) | PBR = 0.46"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 10,
+          "auto": true,
+          "detail": "매우 매력적 (5% 이상) | 배당수익률 = 5.01%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 10,
+          "auto": true,
+          "detail": "초대형주 (10조 이상) | 시총 = 166,662 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
+  "024840": {
+    "name": "KBI메탈",
+    "per": null,
+    "pbr": 1.34,
+    "eps": null,
+    "bps": 3484.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 1908.0,
+    "roe_est": null,
+    "close_price": 4655,
+    "daily_change_pct": -5.0,
+    "daily_change_amount": -245,
+    "sector": "",
+    "themes": [
+      "전력설비",
+      "전선"
+    ],
+    "score": {
+      "auto_total": 6,
+      "auto_max": 45,
+      "normalized": 13.3,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PBR 1.0~1.5) | PBR = 1.34"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 2,
+          "auto": true,
+          "detail": "소형주 (1천억~3천억) | 시총 = 1,908 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "027360": {
     "name": "아주IB투자",
     "per": 128.29,
@@ -4956,11 +6182,12 @@
     "dps": 70.0,
     "market_cap_eok": 10879.0,
     "roe_est": 3.14,
+    "close_price": 8980,
     "daily_change_pct": -4.570000171661377,
+    "daily_change_amount": -430,
     "sector": "",
     "themes": [
       "스페이스X(SpaceX)",
-      "창투사",
       "야놀자(Yanolja)"
     ],
     "score": {
@@ -5059,7 +6286,9 @@
     "dps": 790.0,
     "market_cap_eok": 92708.0,
     "roe_est": 13.05,
+    "close_price": 47300,
     "daily_change_pct": 1.8300000429153442,
+    "daily_change_amount": 850,
     "sector": "",
     "themes": [
       "수자원(양적/질적 개선)",
@@ -5161,13 +6390,15 @@
     "dps": 2800.0,
     "market_cap_eok": 660833.0,
     "roe_est": 4.9,
+    "close_price": 407500,
     "daily_change_pct": -5.010000228881836,
+    "daily_change_amount": -21493,
     "sector": "",
     "themes": [
-      "자원개발",
-      "패션/의류",
       "태양광에너지",
-      "건설 대표주",
+      "패션/의류",
+      "모듈러주택",
+      "자원개발",
       "전후 재건(우크라/중동 전쟁 등)"
     ],
     "score": {
@@ -5256,6 +6487,109 @@
       ]
     }
   },
+  "028300": {
+    "name": "HLB",
+    "per": null,
+    "pbr": 15.35,
+    "eps": null,
+    "bps": 3159.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 64601.0,
+    "roe_est": null,
+    "close_price": 48500,
+    "daily_change_pct": -0.4099999964237213,
+    "daily_change_amount": -200,
+    "sector": "",
+    "themes": [
+      "면역항암제"
+    ],
+    "score": {
+      "auto_total": 8,
+      "auto_max": 45,
+      "normalized": 17.8,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "과열 가능 (PBR 7.0 이상) | PBR = 15.35"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 8,
+          "auto": true,
+          "detail": "대형주 (3~10조) | 시총 = 64,601 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "031330": {
     "name": "에스에이엠티",
     "per": 19.28,
@@ -5266,7 +6600,9 @@
     "dps": 230.0,
     "market_cap_eok": 14979.0,
     "roe_est": 15.61,
+    "close_price": 14980,
     "daily_change_pct": -4.590000152587891,
+    "daily_change_amount": -721,
     "sector": "",
     "themes": [],
     "score": {
@@ -5365,7 +6701,9 @@
     "dps": 1080.0,
     "market_cap_eok": 29907.0,
     "roe_est": 18.12,
+    "close_price": 138700,
     "daily_change_pct": 10.960000038146973,
+    "daily_change_amount": 13700,
     "sector": "",
     "themes": [
       "HBM(고대역폭메모리)"
@@ -5456,6 +6794,111 @@
       ]
     }
   },
+  "032500": {
+    "name": "케이엠더블유",
+    "per": null,
+    "pbr": 8.24,
+    "eps": null,
+    "bps": 3211.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 11160.0,
+    "roe_est": null,
+    "close_price": 26450,
+    "daily_change_pct": -12.5600004196167,
+    "daily_change_amount": -3799,
+    "sector": "",
+    "themes": [
+      "통신장비",
+      "5G(5세대 이동통신)",
+      "LED"
+    ],
+    "score": {
+      "auto_total": 6,
+      "auto_max": 45,
+      "normalized": 13.3,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "과열 가능 (PBR 7.0 이상) | PBR = 8.24"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 6,
+          "auto": true,
+          "detail": "중대형주 (1~3조) | 시총 = 11,160 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "032820": {
     "name": "우리기술",
     "per": 2640.0,
@@ -5466,14 +6909,16 @@
     "dps": 0.0,
     "market_cap_eok": 22652.0,
     "roe_est": 0.66,
+    "close_price": 13200,
     "daily_change_pct": -3.7899999618530273,
+    "daily_change_amount": -520,
     "sector": "",
     "themes": [
-      "풍력에너지",
       "수자원(양적/질적 개선)",
-      "원자력발전",
+      "철도",
       "원자력발전소 해체",
-      "철도"
+      "원자력발전",
+      "풍력에너지"
     ],
     "score": {
       "auto_total": 9,
@@ -5571,7 +7016,9 @@
     "dps": 5300.0,
     "market_cap_eok": 736000.0,
     "roe_est": 3.66,
+    "close_price": 368000,
     "daily_change_pct": -6.360000133514404,
+    "daily_change_amount": -24994,
     "sector": "",
     "themes": [
       "생명보험"
@@ -5672,11 +7119,13 @@
     "dps": 120.0,
     "market_cap_eok": 5347.0,
     "roe_est": 0.36,
+    "close_price": 22100,
     "daily_change_pct": -9.430000305175781,
+    "daily_change_amount": -2301,
     "sector": "",
     "themes": [
-      "HBM(고대역폭메모리)",
-      "소캠(SOCAMM)"
+      "소캠(SOCAMM)",
+      "HBM(고대역폭메모리)"
     ],
     "score": {
       "auto_total": 13,
@@ -5774,12 +7223,14 @@
     "dps": 0.0,
     "market_cap_eok": 7125.0,
     "roe_est": 13.4,
+    "close_price": 30900,
     "daily_change_pct": -7.070000171661377,
+    "daily_change_amount": -2351,
     "sector": "",
     "themes": [
+      "온디바이스 AI",
       "시스템반도체",
-      "뉴로모픽 반도체",
-      "온디바이스 AI"
+      "뉴로모픽 반도체"
     ],
     "score": {
       "auto_total": 15,
@@ -5877,7 +7328,9 @@
     "dps": 6000.0,
     "market_cap_eok": 192153.0,
     "roe_est": 11.43,
+    "close_price": 185100,
     "daily_change_pct": 0.4300000071525574,
+    "daily_change_amount": 793,
     "sector": "",
     "themes": [
       "건강기능식품"
@@ -5978,14 +7431,16 @@
     "dps": 0.0,
     "market_cap_eok": 583551.0,
     "roe_est": 1.09,
+    "close_price": 91100,
     "daily_change_pct": -1.2999999523162842,
+    "daily_change_amount": -1200,
     "sector": "",
     "themes": [
-      "풍력에너지",
+      "핵융합에너지",
       "수자원(양적/질적 개선)",
       "셰일가스(Shale Gas)",
       "항공기부품",
-      "원자력발전"
+      "원자력발전소 해체"
     ],
     "score": {
       "auto_total": 13,
@@ -6083,7 +7538,9 @@
     "dps": 0.0,
     "market_cap_eok": 64550.0,
     "roe_est": 3.44,
+    "close_price": 12910,
     "daily_change_pct": -7.590000152587891,
+    "daily_change_amount": -1060,
     "sector": "",
     "themes": [
       "플렉서블 디스플레이",
@@ -6187,7 +7644,9 @@
     "dps": 150.0,
     "market_cap_eok": 14006.0,
     "roe_est": 5.54,
+    "close_price": 15120,
     "daily_change_pct": 0.6700000166893005,
+    "daily_change_amount": 101,
     "sector": "",
     "themes": [
       "카지노",
@@ -6289,14 +7748,16 @@
     "dps": 8000.0,
     "market_cap_eok": 419791.0,
     "roe_est": 6.36,
+    "close_price": 579000,
     "daily_change_pct": -2.5299999713897705,
+    "daily_change_amount": -15029,
     "sector": "",
     "themes": [
-      "LNG(액화천연가스)",
-      "조림사업",
-      "클라우드 컴퓨팅",
+      "냉각시스템(액침냉각 등)",
       "SI(시스템통합)",
-      "스마트팩토리(스마트공장)"
+      "핀테크(FinTech)",
+      "스마트팩토리(스마트공장)",
+      "조림사업"
     ],
     "score": {
       "auto_total": 26,
@@ -6394,14 +7855,16 @@
     "dps": 2630.0,
     "market_cap_eok": 356103.0,
     "roe_est": 7.05,
+    "close_price": 227000,
     "daily_change_pct": -11.670000076293945,
+    "daily_change_amount": -29991,
     "sector": "",
     "themes": [
-      "메타버스(Metaverse)",
-      "웹툰",
-      "클라우드 컴퓨팅",
+      "핀테크(FinTech)",
+      "자율주행차",
+      "마이데이터",
       "모바일콘텐츠(스마트폰/태블릿PC)",
-      "마이데이터"
+      "스테이블코인"
     ],
     "score": {
       "auto_total": 27,
@@ -6489,6 +7952,220 @@
       ]
     }
   },
+  "035720": {
+    "name": "카카오",
+    "per": 34.12,
+    "pbr": 1.49,
+    "eps": 1118.0,
+    "bps": 25625.0,
+    "div_yield": 0.2,
+    "dps": 75.0,
+    "market_cap_eok": 168533.0,
+    "roe_est": 4.37,
+    "close_price": 38150,
+    "daily_change_pct": -3.4200000762939453,
+    "daily_change_amount": -1351,
+    "sector": "",
+    "themes": [
+      "음원/음반",
+      "엔터테인먼트",
+      "두나무(Dunamu)",
+      "핀테크(FinTech)",
+      "모바일콘텐츠(스마트폰/태블릿PC)"
+    ],
+    "score": {
+      "auto_total": 20,
+      "auto_max": 45,
+      "normalized": 44.4,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 3,
+          "auto": true,
+          "detail": "낮음 (0~5%) | 추정 ROE = 4.37%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 1,
+          "auto": true,
+          "detail": "고평가 (PER 25~40) | PER = 34.12"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PBR 1.0~1.5) | PBR = 1.49"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 2,
+          "auto": true,
+          "detail": "낮음 (0~1.0%) | 배당수익률 = 0.20%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 10,
+          "auto": true,
+          "detail": "초대형주 (10조 이상) | 시총 = 168,533 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
+  "035760": {
+    "name": "CJ ENM",
+    "per": 25.56,
+    "pbr": 0.27,
+    "eps": 1422.0,
+    "bps": 134460.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 7971.0,
+    "roe_est": 1.06,
+    "close_price": 36350,
+    "daily_change_pct": 0.6899999976158142,
+    "daily_change_amount": 249,
+    "sector": "",
+    "themes": [
+      "음원/음반",
+      "엔터테인먼트",
+      "홈쇼핑",
+      "소매유통",
+      "미디어(방송/신문)"
+    ],
+    "score": {
+      "auto_total": 13,
+      "auto_max": 45,
+      "normalized": 28.9,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 3,
+          "auto": true,
+          "detail": "낮음 (0~5%) | 추정 ROE = 1.06%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 1,
+          "auto": true,
+          "detail": "고평가 (PER 25~40) | PER = 25.56"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 5,
+          "auto": true,
+          "detail": "장부가 이하 (PBR 1.0 이하) | PBR = 0.27"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 4,
+          "auto": true,
+          "detail": "중형주 (3천억~1조) | 시총 = 7,971 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "036570": {
     "name": "NC",
     "per": 14.38,
@@ -6499,12 +8176,14 @@
     "dps": 1150.0,
     "market_cap_eok": 55368.0,
     "roe_est": 10.29,
+    "close_price": 257000,
     "daily_change_pct": -2.8399999141693115,
+    "daily_change_amount": -7512,
     "sector": "",
     "themes": [
-      "증강현실(AR)",
       "모바일게임(스마트폰)",
-      "게임"
+      "게임",
+      "증강현실(AR)"
     ],
     "score": {
       "auto_total": 27,
@@ -6602,7 +8281,9 @@
     "dps": 330.0,
     "market_cap_eok": 3177.0,
     "roe_est": 10.99,
+    "close_price": 14420,
     "daily_change_pct": 1.5499999523162842,
+    "daily_change_amount": 220,
     "sector": "",
     "themes": [
       "건설기계"
@@ -6703,12 +8384,14 @@
     "dps": 53.0,
     "market_cap_eok": 92497.0,
     "roe_est": 6.04,
+    "close_price": 199000,
     "daily_change_pct": 3.809999942779541,
+    "daily_change_amount": 7304,
     "sector": "",
     "themes": [
-      "태양광에너지",
       "LED장비",
-      "플렉서블 디스플레이"
+      "플렉서블 디스플레이",
+      "태양광에너지"
     ],
     "score": {
       "auto_total": 16,
@@ -6806,7 +8489,9 @@
     "dps": 1200.0,
     "market_cap_eok": 53960.0,
     "roe_est": 8.39,
+    "close_price": 438000,
     "daily_change_pct": 1.2699999809265137,
+    "daily_change_amount": 5493,
     "sector": "",
     "themes": [
       "LED장비",
@@ -6908,13 +8593,15 @@
     "dps": 0.0,
     "market_cap_eok": 14902.0,
     "roe_est": 28.87,
+    "close_price": 38950,
     "daily_change_pct": -1.1399999856948853,
+    "daily_change_amount": -449,
     "sector": "",
     "themes": [
-      "치아 치료(임플란트 등)",
       "고령화 사회(노인복지)",
-      "치매",
-      "면역항암제"
+      "면역항암제",
+      "치아 치료(임플란트 등)",
+      "치매"
     ],
     "score": {
       "auto_total": 22,
@@ -7012,7 +8699,9 @@
     "dps": 11500.0,
     "market_cap_eok": 89832.0,
     "roe_est": 17.49,
+    "close_price": 342500,
     "daily_change_pct": -4.199999809265137,
+    "daily_change_amount": -15016,
     "sector": "",
     "themes": [
       "STO(토큰증권 발행)",
@@ -7114,7 +8803,9 @@
     "dps": 600.0,
     "market_cap_eok": 6154.0,
     "roe_est": 10.19,
+    "close_price": 45650,
     "daily_change_pct": 10.399999618530273,
+    "daily_change_amount": 4300,
     "sector": "",
     "themes": [
       "원격진료/비대면진료(U-Healthcare)",
@@ -7216,7 +8907,9 @@
     "dps": 0.0,
     "market_cap_eok": 3366.0,
     "roe_est": null,
+    "close_price": 23600,
     "daily_change_pct": -2.069999933242798,
+    "daily_change_amount": -499,
     "sector": "",
     "themes": [],
     "score": {
@@ -7315,7 +9008,9 @@
     "dps": 0.0,
     "market_cap_eok": 337668.0,
     "roe_est": 19.89,
+    "close_price": 110200,
     "daily_change_pct": 7.829999923706055,
+    "daily_change_amount": 8002,
     "sector": "",
     "themes": [
       "조선"
@@ -7416,12 +9111,14 @@
     "dps": 800.0,
     "market_cap_eok": 257343.0,
     "roe_est": 31.0,
+    "close_price": 270000,
     "daily_change_pct": -2.3499999046325684,
+    "daily_change_amount": -6498,
     "sector": "",
     "themes": [
-      "전자파",
+      "HBM(고대역폭메모리)",
       "시스템반도체",
-      "HBM(고대역폭메모리)"
+      "전자파"
     ],
     "score": {
       "auto_total": 27,
@@ -7519,12 +9216,14 @@
     "dps": 0.0,
     "market_cap_eok": 28795.0,
     "roe_est": 37.98,
+    "close_price": 40600,
     "daily_change_pct": -14.15999984741211,
+    "daily_change_amount": -6697,
     "sector": "",
     "themes": [
-      "LED",
       "공기청정기",
-      "광통신(광케이블/광섬유 등)"
+      "광통신(광케이블/광섬유 등)",
+      "LED"
     ],
     "score": {
       "auto_total": 22,
@@ -7622,14 +9321,16 @@
     "dps": 0.0,
     "market_cap_eok": 85263.0,
     "roe_est": null,
+    "close_price": 20750,
     "daily_change_pct": -1.4299999475479126,
+    "daily_change_amount": -301,
     "sector": "",
     "themes": [
       "수자원(양적/질적 개선)",
-      "GTX(수도권 광역급행철도)",
-      "건설 대표주",
       "원자력발전",
-      "전후 재건(우크라/중동 전쟁 등)"
+      "전후 재건(우크라/중동 전쟁 등)",
+      "GTX(수도권 광역급행철도)",
+      "건설 대표주"
     ],
     "score": {
       "auto_total": 10,
@@ -7717,6 +9418,113 @@
       ]
     }
   },
+  "047050": {
+    "name": "포스코인터내셔널",
+    "per": 16.18,
+    "pbr": 1.48,
+    "eps": 3603.0,
+    "bps": 39358.0,
+    "div_yield": 3.17,
+    "dps": 1850.0,
+    "market_cap_eok": 102563.0,
+    "roe_est": 9.15,
+    "close_price": 58300,
+    "daily_change_pct": 3.549999952316284,
+    "daily_change_amount": 1999,
+    "sector": "",
+    "themes": [
+      "셰일가스(Shale Gas)",
+      "리비안(RIVIAN)",
+      "자원개발",
+      "니켈",
+      "전후 재건(우크라/중동 전쟁 등)"
+    ],
+    "score": {
+      "auto_total": 29,
+      "auto_max": 45,
+      "normalized": 64.4,
+      "grade": "보수적 접근",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 6,
+          "auto": true,
+          "detail": "보통 (5~10%) | 추정 ROE = 9.15%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 3,
+          "auto": true,
+          "detail": "보통 (PER 12~18) | PER = 16.18"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PBR 1.0~1.5) | PBR = 1.48"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 6,
+          "auto": true,
+          "detail": "양호 (2.0~3.5%) | 배당수익률 = 3.17%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 10,
+          "auto": true,
+          "detail": "초대형주 (10조 이상) | 시총 = 102,563 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "047810": {
     "name": "한국항공우주",
     "per": 72.16,
@@ -7727,13 +9535,15 @@
     "dps": 500.0,
     "market_cap_eok": 134126.0,
     "roe_est": 10.16,
+    "close_price": 137600,
     "daily_change_pct": 7.75,
+    "daily_change_amount": 9897,
     "sector": "",
     "themes": [
-      "항공기부품",
-      "UAM(도심항공모빌리티)",
       "우주항공산업(누리호/인공위성 등)",
-      "드론(Drone)"
+      "항공기부품",
+      "드론(Drone)",
+      "UAM(도심항공모빌리티)"
     ],
     "score": {
       "auto_total": 22,
@@ -7821,6 +9631,217 @@
       ]
     }
   },
+  "049080": {
+    "name": "기가레인",
+    "per": null,
+    "pbr": 2.04,
+    "eps": null,
+    "bps": 487.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 843.0,
+    "roe_est": null,
+    "close_price": 993,
+    "daily_change_pct": 0.0,
+    "daily_change_amount": 0,
+    "sector": "",
+    "themes": [
+      "LED장비",
+      "갤럭시 부품주",
+      "통신장비",
+      "5G(5세대 이동통신)"
+    ],
+    "score": {
+      "auto_total": 4,
+      "auto_max": 45,
+      "normalized": 8.9,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 3,
+          "auto": true,
+          "detail": "보통 (PBR 1.5~2.5) | PBR = 2.04"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 1,
+          "auto": true,
+          "detail": "초소형주 | 시총 = 843 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
+  "051900": {
+    "name": "LG생활건강",
+    "per": null,
+    "pbr": 0.72,
+    "eps": null,
+    "bps": 325224.0,
+    "div_yield": 0.85,
+    "dps": 2000.0,
+    "market_cap_eok": 35858.0,
+    "roe_est": null,
+    "close_price": 234500,
+    "daily_change_pct": -3.0999999046325684,
+    "daily_change_amount": -7502,
+    "sector": "",
+    "themes": [
+      "여름",
+      "건강기능식품",
+      "마이크로바이옴"
+    ],
+    "score": {
+      "auto_total": 15,
+      "auto_max": 45,
+      "normalized": 33.3,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 5,
+          "auto": true,
+          "detail": "장부가 이하 (PBR 1.0 이하) | PBR = 0.72"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 2,
+          "auto": true,
+          "detail": "낮음 (0~1.0%) | 배당수익률 = 0.85%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 8,
+          "auto": true,
+          "detail": "대형주 (3~10조) | 시총 = 35,858 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "051910": {
     "name": "LG화학",
     "per": null,
@@ -7831,14 +9852,16 @@
     "dps": 2000.0,
     "market_cap_eok": 228013.0,
     "roe_est": null,
+    "close_price": 323000,
     "daily_change_pct": -1.8200000524520874,
+    "daily_change_amount": -5988,
     "sector": "",
     "themes": [
       "석유화학",
+      "고령화 사회(노인복지)",
+      "폴더블폰",
       "리튬",
-      "비만치료제",
-      "바이오시밀러(복제 바이오의약품)",
-      "고령화 사회(노인복지)"
+      "아이폰"
     ],
     "score": {
       "auto_total": 17,
@@ -7936,13 +9959,15 @@
     "dps": 1200.0,
     "market_cap_eok": 7267.0,
     "roe_est": 28.73,
+    "close_price": 49900,
     "daily_change_pct": -1.7699999809265137,
+    "daily_change_amount": -899,
     "sector": "",
     "themes": [
+      "핀테크(FinTech)",
       "인터넷은행",
-      "지역화폐",
       "삼성페이",
-      "핀테크(FinTech)"
+      "지역화폐"
     ],
     "score": {
       "auto_total": 31,
@@ -8030,6 +10055,113 @@
       ]
     }
   },
+  "052710": {
+    "name": "아모텍",
+    "per": 44.83,
+    "pbr": 2.27,
+    "eps": 542.0,
+    "bps": 10688.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 3551.0,
+    "roe_est": 5.06,
+    "close_price": 24300,
+    "daily_change_pct": -8.470000267028809,
+    "daily_change_amount": -2249,
+    "sector": "",
+    "themes": [
+      "MLCC(적층세라믹콘덴서)",
+      "전자파",
+      "갤럭시 부품주",
+      "초전도체",
+      "핀테크(FinTech)"
+    ],
+    "score": {
+      "auto_total": 13,
+      "auto_max": 45,
+      "normalized": 28.9,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 6,
+          "auto": true,
+          "detail": "보통 (5~10%) | 추정 ROE = 5.06%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "과열 가능 (PER 40 이상) | PER = 44.83"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 3,
+          "auto": true,
+          "detail": "보통 (PBR 1.5~2.5) | PBR = 2.27"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 4,
+          "auto": true,
+          "detail": "중형주 (3천억~1조) | 시총 = 3,551 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "055550": {
     "name": "신한지주",
     "per": 10.01,
@@ -8040,11 +10172,13 @@
     "dps": 2590.0,
     "market_cap_eok": 466111.0,
     "roe_est": 8.09,
+    "close_price": 98200,
     "daily_change_pct": -2.9600000381469727,
+    "daily_change_amount": -2995,
     "sector": "",
     "themes": [
-      "은행",
-      "STO(토큰증권 발행)"
+      "STO(토큰증권 발행)",
+      "은행"
     ],
     "score": {
       "auto_total": 31,
@@ -8142,11 +10276,13 @@
     "dps": 800.0,
     "market_cap_eok": 70877.0,
     "roe_est": 20.78,
+    "close_price": 93000,
     "daily_change_pct": -6.059999942779541,
+    "daily_change_amount": -5999,
     "sector": "",
     "themes": [
-      "시스템반도체",
-      "온디바이스 AI"
+      "온디바이스 AI",
+      "시스템반도체"
     ],
     "score": {
       "auto_total": 25,
@@ -8244,13 +10380,15 @@
     "dps": 250.0,
     "market_cap_eok": 19627.0,
     "roe_est": 3.54,
+    "close_price": 88500,
     "daily_change_pct": -7.519999980926514,
+    "daily_change_amount": -7196,
     "sector": "",
     "themes": [
+      "공기청정기",
       "철도",
-      "가상현실(VR)",
       "제습기",
-      "공기청정기"
+      "가상현실(VR)"
     ],
     "score": {
       "auto_total": 11,
@@ -8348,7 +10486,9 @@
     "dps": 1250.0,
     "market_cap_eok": 66896.0,
     "roe_est": 25.44,
+    "close_price": 218500,
     "daily_change_pct": -2.890000104904175,
+    "daily_change_amount": -6503,
     "sector": "",
     "themes": [
       "전력설비"
@@ -8449,7 +10589,9 @@
     "dps": 0.0,
     "market_cap_eok": 4985.0,
     "roe_est": null,
+    "close_price": 38750,
     "daily_change_pct": 1.840000033378601,
+    "daily_change_amount": 700,
     "sector": "",
     "themes": [
       "반도체 기판(FC-BGA/PCB/MLB 등)"
@@ -8550,12 +10692,14 @@
     "dps": 600.0,
     "market_cap_eok": 206716.0,
     "roe_est": 24.99,
+    "close_price": 189400,
     "daily_change_pct": 4.699999809265137,
+    "daily_change_amount": 8502,
     "sector": "",
     "themes": [
-      "GTX(수도권 광역급행철도)",
       "우주항공산업(누리호/인공위성 등)",
-      "철도"
+      "철도",
+      "GTX(수도권 광역급행철도)"
     ],
     "score": {
       "auto_total": 29,
@@ -8653,13 +10797,15 @@
     "dps": 1850.0,
     "market_cap_eok": 90879.0,
     "roe_est": 15.03,
+    "close_price": 93800,
     "daily_change_pct": -5.25,
+    "daily_change_amount": -5197,
     "sector": "",
     "themes": [
-      "클라우드 컴퓨팅",
       "SI(시스템통합)",
+      "스테이블코인",
       "스마트팩토리(스마트공장)",
-      "스테이블코인"
+      "클라우드 컴퓨팅"
     ],
     "score": {
       "auto_total": 29,
@@ -8757,7 +10903,9 @@
     "dps": 1430.0,
     "market_cap_eok": 28340.0,
     "roe_est": 13.22,
+    "close_price": 253500,
     "daily_change_pct": 0.0,
+    "daily_change_amount": 0,
     "sector": "",
     "themes": [
       "LED장비"
@@ -8858,14 +11006,16 @@
     "dps": 1350.0,
     "market_cap_eok": 364862.0,
     "roe_est": 4.02,
+    "close_price": 224000,
     "daily_change_pct": -9.680000305175781,
+    "daily_change_amount": -24007,
     "sector": "",
     "themes": [
-      "전력저장장치(ESS)",
-      "스마트홈(홈네트워크)",
-      "가상현실(VR)",
-      "무선충전기술",
-      "자율주행차"
+      "공기청정기",
+      "냉각시스템(액침냉각 등)",
+      "5G(5세대 이동통신)",
+      "LED",
+      "전력저장장치(ESS)"
     ],
     "score": {
       "auto_total": 18,
@@ -8963,7 +11113,9 @@
     "dps": 0.0,
     "market_cap_eok": 51278.0,
     "roe_est": null,
+    "close_price": 126400,
     "daily_change_pct": -2.4700000286102295,
+    "daily_change_amount": -3201,
     "sector": "",
     "themes": [
       "2차전지(LFP/리튬인산철)"
@@ -9064,7 +11216,9 @@
     "dps": 70.0,
     "market_cap_eok": 28148.0,
     "roe_est": 10.6,
+    "close_price": 42350,
     "daily_change_pct": -2.0799999237060547,
+    "daily_change_amount": -900,
     "sector": "",
     "themes": [
       "시스템반도체"
@@ -9155,6 +11309,109 @@
       ]
     }
   },
+  "068270": {
+    "name": "셀트리온",
+    "per": 37.6,
+    "pbr": 2.23,
+    "eps": 4449.0,
+    "bps": 75030.0,
+    "div_yield": 0.45,
+    "dps": 750.0,
+    "market_cap_eok": 370793.0,
+    "roe_est": 5.93,
+    "close_price": 167300,
+    "daily_change_pct": -1.590000033378601,
+    "daily_change_amount": -2703,
+    "sector": "",
+    "themes": [
+      "바이오시밀러(복제 바이오의약품)"
+    ],
+    "score": {
+      "auto_total": 22,
+      "auto_max": 45,
+      "normalized": 48.9,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 6,
+          "auto": true,
+          "detail": "보통 (5~10%) | 추정 ROE = 5.93%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 1,
+          "auto": true,
+          "detail": "고평가 (PER 25~40) | PER = 37.60"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 3,
+          "auto": true,
+          "detail": "보통 (PBR 1.5~2.5) | PBR = 2.23"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 2,
+          "auto": true,
+          "detail": "낮음 (0~1.0%) | 배당수익률 = 0.45%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 10,
+          "auto": true,
+          "detail": "초대형주 (10조 이상) | 시총 = 370,793 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "069960": {
     "name": "현대백화점",
     "per": 17.85,
@@ -9165,7 +11422,9 @@
     "dps": 2150.0,
     "market_cap_eok": 36854.0,
     "roe_est": 4.54,
+    "close_price": 170900,
     "daily_change_pct": 2.4600000381469727,
+    "daily_change_amount": 4103,
     "sector": "",
     "themes": [
       "백화점",
@@ -9258,6 +11517,112 @@
       ]
     }
   },
+  "071050": {
+    "name": "한국금융지주",
+    "per": 6.62,
+    "pbr": 1.11,
+    "eps": 34592.0,
+    "bps": 205667.0,
+    "div_yield": 3.79,
+    "dps": 8690.0,
+    "market_cap_eok": 127613.0,
+    "roe_est": 16.77,
+    "close_price": 229000,
+    "daily_change_pct": -1.0800000429153442,
+    "daily_change_amount": -2500,
+    "sector": "",
+    "themes": [
+      "인터넷은행",
+      "STO(토큰증권 발행)",
+      "카카오뱅크(kakao BANK)",
+      "증권"
+    ],
+    "score": {
+      "auto_total": 40,
+      "auto_max": 45,
+      "normalized": 88.9,
+      "grade": "우선 정밀검토 후보",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 13,
+          "auto": true,
+          "detail": "우수 (15~20%) | 추정 ROE = 16.77%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 5,
+          "auto": true,
+          "detail": "매우 저평가 (PER 8 이하) | PER = 6.62"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PBR 1.0~1.5) | PBR = 1.11"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 8,
+          "auto": true,
+          "detail": "매력적 (3.5~5%) | 배당수익률 = 3.79%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 10,
+          "auto": true,
+          "detail": "초대형주 (10조 이상) | 시총 = 127,613 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "074600": {
     "name": "원익QnC",
     "per": 39.08,
@@ -9268,7 +11633,9 @@
     "dps": 130.0,
     "market_cap_eok": 8793.0,
     "roe_est": 4.63,
+    "close_price": 33450,
     "daily_change_pct": -0.7400000095367432,
+    "daily_change_amount": -249,
     "sector": "",
     "themes": [],
     "score": {
@@ -9367,13 +11734,15 @@
     "dps": 0.0,
     "market_cap_eok": 5925.0,
     "roe_est": null,
+    "close_price": 13040,
     "daily_change_pct": -6.519999980926514,
+    "daily_change_amount": -910,
     "sector": "",
     "themes": [
+      "반도체 기판(FC-BGA/PCB/MLB 등)",
       "우주항공산업(누리호/인공위성 등)",
-      "드론(Drone)",
       "그래핀",
-      "반도체 기판(FC-BGA/PCB/MLB 등)"
+      "드론(Drone)"
     ],
     "score": {
       "auto_total": 6,
@@ -9471,13 +11840,15 @@
     "dps": 100.0,
     "market_cap_eok": 17972.0,
     "roe_est": 8.21,
+    "close_price": 115000,
     "daily_change_pct": 1.5,
+    "daily_change_amount": 1700,
     "sector": "",
     "themes": [
-      "태양광에너지",
+      "MLCC(적층세라믹콘덴서)",
       "우주태양광(페로브스카이트 등)",
-      "2차전지(전고체)",
-      "MLCC(적층세라믹콘덴서)"
+      "태양광에너지",
+      "2차전지(전고체)"
     ],
     "score": {
       "auto_total": 15,
@@ -9575,13 +11946,15 @@
     "dps": 2950.0,
     "market_cap_eok": 173800.0,
     "roe_est": 17.73,
+    "close_price": 790000,
     "daily_change_pct": 8.970000267028809,
+    "daily_change_amount": 65030,
     "sector": "",
     "themes": [
-      "항공기부품",
-      "UAM(도심항공모빌리티)",
       "우주항공산업(누리호/인공위성 등)",
-      "드론(Drone)"
+      "항공기부품",
+      "드론(Drone)",
+      "UAM(도심항공모빌리티)"
     ],
     "score": {
       "auto_total": 25,
@@ -9679,7 +12052,9 @@
     "dps": 0.0,
     "market_cap_eok": 32204.0,
     "roe_est": 17.4,
+    "close_price": 93500,
     "daily_change_pct": -6.869999885559082,
+    "daily_change_amount": -6897,
     "sector": "",
     "themes": [
       "온디바이스 AI"
@@ -9780,7 +12155,9 @@
     "dps": 0.0,
     "market_cap_eok": 3630.0,
     "roe_est": 16.93,
+    "close_price": 17210,
     "daily_change_pct": -4.28000020980835,
+    "daily_change_amount": -770,
     "sector": "",
     "themes": [
       "CXL(컴퓨트익스프레스링크)"
@@ -9881,11 +12258,13 @@
     "dps": 260.0,
     "market_cap_eok": 20471.0,
     "roe_est": 17.23,
+    "close_price": 45150,
     "daily_change_pct": -5.349999904632568,
+    "daily_change_amount": -2552,
     "sector": "",
     "themes": [
-      "전력저장장치(ESS)",
-      "스마트그리드(지능형전력망)"
+      "스마트그리드(지능형전력망)",
+      "전력저장장치(ESS)"
     ],
     "score": {
       "auto_total": 23,
@@ -9983,11 +12362,13 @@
     "dps": 650.0,
     "market_cap_eok": 10616.0,
     "roe_est": 15.04,
+    "close_price": 57600,
     "daily_change_pct": 4.539999961853027,
+    "daily_change_amount": 2501,
     "sector": "",
     "themes": [
-      "콜드체인(저온 유통)",
-      "냉각시스템(액침냉각 등)"
+      "냉각시스템(액침냉각 등)",
+      "콜드체인(저온 유통)"
     ],
     "score": {
       "auto_total": 27,
@@ -10075,6 +12456,113 @@
       ]
     }
   },
+  "083650": {
+    "name": "비에이치아이",
+    "per": 28.76,
+    "pbr": 10.56,
+    "eps": 2107.0,
+    "bps": 5739.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 18752.0,
+    "roe_est": 36.72,
+    "close_price": 60600,
+    "daily_change_pct": -3.3499999046325684,
+    "daily_change_amount": -2100,
+    "sector": "",
+    "themes": [
+      "고체산화물 연료전지(SOFC)",
+      "셰일가스(Shale Gas)",
+      "원자력발전소 해체",
+      "원자력발전",
+      "LNG(액화천연가스)"
+    ],
+    "score": {
+      "auto_total": 22,
+      "auto_max": 45,
+      "normalized": 48.9,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 15,
+          "auto": true,
+          "detail": "매우 우수 (20% 이상) | 추정 ROE = 36.72%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 1,
+          "auto": true,
+          "detail": "고평가 (PER 25~40) | PER = 28.76"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "과열 가능 (PBR 7.0 이상) | PBR = 10.56"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 6,
+          "auto": true,
+          "detail": "중대형주 (1~3조) | 시총 = 18,752 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "084370": {
     "name": "유진테크",
     "per": 81.27,
@@ -10085,7 +12573,9 @@
     "dps": 230.0,
     "market_cap_eok": 35497.0,
     "roe_est": 9.38,
+    "close_price": 154900,
     "daily_change_pct": 5.090000152587891,
+    "daily_change_amount": 7503,
     "sector": "",
     "themes": [],
     "score": {
@@ -10184,7 +12674,9 @@
     "dps": 0.0,
     "market_cap_eok": 30551.0,
     "roe_est": 5.32,
+    "close_price": 22600,
     "daily_change_pct": -6.420000076293945,
+    "daily_change_amount": -1550,
     "sector": "",
     "themes": [
       "생명보험"
@@ -10275,6 +12767,213 @@
       ]
     }
   },
+  "086280": {
+    "name": "현대글로비스",
+    "per": 8.44,
+    "pbr": 1.41,
+    "eps": 23117.0,
+    "bps": 138016.0,
+    "div_yield": 2.97,
+    "dps": 5800.0,
+    "market_cap_eok": 146400.0,
+    "roe_est": 16.71,
+    "close_price": 195200,
+    "daily_change_pct": -1.409999966621399,
+    "daily_change_amount": -2792,
+    "sector": "",
+    "themes": [
+      "종합 물류",
+      "피지컬 AI/휴머노이드 로봇"
+    ],
+    "score": {
+      "auto_total": 37,
+      "auto_max": 45,
+      "normalized": 82.2,
+      "grade": "우선 정밀검토 후보",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 13,
+          "auto": true,
+          "detail": "우수 (15~20%) | 추정 ROE = 16.71%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PER 8~12) | PER = 8.44"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PBR 1.0~1.5) | PBR = 1.41"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 6,
+          "auto": true,
+          "detail": "양호 (2.0~3.5%) | 배당수익률 = 2.97%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 10,
+          "auto": true,
+          "detail": "초대형주 (10조 이상) | 시총 = 146,400 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
+  "086450": {
+    "name": "동국제약",
+    "per": 12.24,
+    "pbr": 1.24,
+    "eps": 1487.0,
+    "bps": 14714.0,
+    "div_yield": 1.1,
+    "dps": 200.0,
+    "market_cap_eok": 8232.0,
+    "roe_est": 10.13,
+    "close_price": 18200,
+    "daily_change_pct": 2.6500000953674316,
+    "daily_change_amount": 470,
+    "sector": "",
+    "themes": [
+      "마스크"
+    ],
+    "score": {
+      "auto_total": 25,
+      "auto_max": 45,
+      "normalized": 55.6,
+      "grade": "보수적 접근",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 10,
+          "auto": true,
+          "detail": "양호 (10~15%) | 추정 ROE = 10.13%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 3,
+          "auto": true,
+          "detail": "보통 (PER 12~18) | PER = 12.24"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PBR 1.0~1.5) | PBR = 1.24"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 4,
+          "auto": true,
+          "detail": "보통 (1.0~2.0%) | 배당수익률 = 1.10%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 4,
+          "auto": true,
+          "detail": "중형주 (3천억~1조) | 시총 = 8,232 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "086520": {
     "name": "에코프로",
     "per": null,
@@ -10285,13 +12984,15 @@
     "dps": 150.0,
     "market_cap_eok": 143787.0,
     "roe_est": null,
+    "close_price": 105900,
     "daily_change_pct": -1.399999976158142,
+    "daily_change_amount": -1504,
     "sector": "",
     "themes": [
+      "2차전지(나트륨이온)",
       "리튬",
       "온실가스(탄소배출권)/탄소 포집·활용·저장(CCUS)",
-      "폐배터리",
-      "2차전지(나트륨이온)"
+      "폐배터리"
     ],
     "score": {
       "auto_total": 12,
@@ -10389,12 +13090,14 @@
     "dps": 4105.0,
     "market_cap_eok": 323480.0,
     "roe_est": 8.52,
+    "close_price": 117900,
     "daily_change_pct": -0.9200000166893005,
+    "daily_change_amount": -1095,
     "sector": "",
     "themes": [
-      "은행",
       "토스(toss)",
-      "STO(토큰증권 발행)"
+      "STO(토큰증권 발행)",
+      "은행"
     ],
     "score": {
       "auto_total": 31,
@@ -10482,6 +13185,110 @@
       ]
     }
   },
+  "086900": {
+    "name": "메디톡스",
+    "per": 34.42,
+    "pbr": 1.26,
+    "eps": 2371.0,
+    "bps": 64588.0,
+    "div_yield": 1.47,
+    "dps": 1200.0,
+    "market_cap_eok": 5956.0,
+    "roe_est": 3.66,
+    "close_price": 81600,
+    "daily_change_pct": 3.1600000858306885,
+    "daily_change_amount": 2500,
+    "sector": "",
+    "themes": [
+      "미용기기",
+      "보톡스(보툴리눔톡신)"
+    ],
+    "score": {
+      "auto_total": 16,
+      "auto_max": 45,
+      "normalized": 35.6,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 3,
+          "auto": true,
+          "detail": "낮음 (0~5%) | 추정 ROE = 3.66%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 1,
+          "auto": true,
+          "detail": "고평가 (PER 25~40) | PER = 34.42"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PBR 1.0~1.5) | PBR = 1.26"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 4,
+          "auto": true,
+          "detail": "보통 (1.0~2.0%) | 배당수익률 = 1.47%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 4,
+          "auto": true,
+          "detail": "중형주 (3천억~1조) | 시총 = 5,956 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "087010": {
     "name": "펩트론",
     "per": null,
@@ -10492,12 +13299,14 @@
     "dps": 0.0,
     "market_cap_eok": 56428.0,
     "roe_est": null,
+    "close_price": 242000,
     "daily_change_pct": -1.2200000286102295,
+    "daily_change_amount": -2989,
     "sector": "",
     "themes": [
-      "비만치료제",
+      "코로나19(치료제/백신 개발 등)",
       "치매",
-      "코로나19(치료제/백신 개발 등)"
+      "비만치료제"
     ],
     "score": {
       "auto_total": 8,
@@ -10595,11 +13404,13 @@
     "dps": 130.0,
     "market_cap_eok": 21343.0,
     "roe_est": 4.37,
+    "close_price": 57600,
     "daily_change_pct": -3.5199999809265137,
+    "daily_change_amount": -2101,
     "sector": "",
     "themes": [
-      "시스템반도체",
-      "HBM(고대역폭메모리)"
+      "HBM(고대역폭메모리)",
+      "시스템반도체"
     ],
     "score": {
       "auto_total": 11,
@@ -10697,7 +13508,9 @@
     "dps": 0.0,
     "market_cap_eok": 20016.0,
     "roe_est": 16.63,
+    "close_price": 80800,
     "daily_change_pct": 5.480000019073486,
+    "daily_change_amount": 4198,
     "sector": "",
     "themes": [],
     "score": {
@@ -10796,7 +13609,9 @@
     "dps": 0.0,
     "market_cap_eok": 10101.0,
     "roe_est": null,
+    "close_price": 103600,
     "daily_change_pct": -11.979999542236328,
+    "daily_change_amount": -14101,
     "sector": "",
     "themes": [
       "3D 프린터"
@@ -10887,108 +13702,6 @@
       ]
     }
   },
-  "090710": {
-    "name": "휴림로봇",
-    "per": null,
-    "pbr": 9.79,
-    "eps": null,
-    "bps": 1068.0,
-    "div_yield": 0.0,
-    "dps": 0.0,
-    "market_cap_eok": 12495.0,
-    "roe_est": null,
-    "daily_change_pct": -2.059999942779541,
-    "sector": "",
-    "themes": [
-      "스마트팩토리(스마트공장)",
-      "3D 프린터"
-    ],
-    "score": {
-      "auto_total": 6,
-      "auto_max": 45,
-      "normalized": 13.3,
-      "grade": "버핏식 기준 부적합 가능성",
-      "items": [
-        {
-          "name": "ROE·ROIC (PBR/PER 추정)",
-          "max": 15,
-          "score": 0,
-          "auto": true,
-          "detail": "데이터 없음"
-        },
-        {
-          "name": "PER 평가",
-          "max": 5,
-          "score": 0,
-          "auto": true,
-          "detail": "데이터 없음"
-        },
-        {
-          "name": "PBR 평가",
-          "max": 5,
-          "score": 0,
-          "auto": true,
-          "detail": "과열 가능 (PBR 7.0 이상) | PBR = 9.79"
-        },
-        {
-          "name": "주주환원 (배당수익률)",
-          "max": 10,
-          "score": 0,
-          "auto": true,
-          "detail": "무배당 | 배당수익률 = 0.00%"
-        },
-        {
-          "name": "규모 안정성 (시가총액)",
-          "max": 10,
-          "score": 6,
-          "auto": true,
-          "detail": "중대형주 (1~3조) | 시총 = 12,495 억원"
-        },
-        {
-          "name": "사업 이해도",
-          "max": 10,
-          "score": 0,
-          "auto": false,
-          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
-        },
-        {
-          "name": "장기 매출 성장성",
-          "max": 10,
-          "score": 0,
-          "auto": false,
-          "detail": "DART 에서 최근 5년 매출 추이 확인"
-        },
-        {
-          "name": "영업이익 안정성",
-          "max": 10,
-          "score": 0,
-          "auto": false,
-          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
-        },
-        {
-          "name": "현금흐름 (영업CF/FCF)",
-          "max": 15,
-          "score": 0,
-          "auto": false,
-          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
-        },
-        {
-          "name": "부채 안정성",
-          "max": 10,
-          "score": 0,
-          "auto": false,
-          "detail": "부채비율, 이자보상배율, 순차입금 확인"
-        },
-        {
-          "name": "해자·경쟁력",
-          "max": 10,
-          "score": 0,
-          "auto": false,
-          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
-        }
-      ]
-    }
-  },
   "093370": {
     "name": "후성",
     "per": 324.8,
@@ -10999,7 +13712,9 @@
     "dps": 0.0,
     "market_cap_eok": 17418.0,
     "roe_est": 1.6,
+    "close_price": 16240,
     "daily_change_pct": 20.1200008392334,
+    "daily_change_amount": 2720,
     "sector": "",
     "themes": [
       "여름",
@@ -11103,11 +13818,13 @@
     "dps": 850.0,
     "market_cap_eok": 38282.0,
     "roe_est": 10.46,
+    "close_price": 180600,
     "daily_change_pct": -0.8799999952316284,
+    "daily_change_amount": -1603,
     "sector": "",
     "themes": [
-      "HBM(고대역폭메모리)",
-      "소캠(SOCAMM)"
+      "소캠(SOCAMM)",
+      "HBM(고대역폭메모리)"
     ],
     "score": {
       "auto_total": 21,
@@ -11205,7 +13922,9 @@
     "dps": 850.0,
     "market_cap_eok": 33570.0,
     "roe_est": 14.69,
+    "close_price": 173400,
     "daily_change_pct": 7.429999828338623,
+    "daily_change_amount": 11993,
     "sector": "",
     "themes": [
       "전력반도체"
@@ -11306,7 +14025,9 @@
     "dps": 0.0,
     "market_cap_eok": 18420.0,
     "roe_est": 7.68,
+    "close_price": 20400,
     "daily_change_pct": 0.0,
+    "daily_change_amount": 0,
     "sector": "",
     "themes": [
       "조선",
@@ -11409,12 +14130,14 @@
     "dps": 140.0,
     "market_cap_eok": 21249.0,
     "roe_est": 4.41,
+    "close_price": 30950,
     "daily_change_pct": -7.46999979019165,
+    "daily_change_amount": -2499,
     "sector": "",
     "themes": [
-      "스마트팩토리(스마트공장)",
+      "HBM(고대역폭메모리)",
       "시스템반도체",
-      "HBM(고대역폭메모리)"
+      "스마트팩토리(스마트공장)"
     ],
     "score": {
       "auto_total": 12,
@@ -11502,6 +14225,217 @@
       ]
     }
   },
+  "099320": {
+    "name": "쎄트렉아이",
+    "per": 80.66,
+    "pbr": 4.95,
+    "eps": 1396.0,
+    "bps": 22735.0,
+    "div_yield": 0.09,
+    "dps": 100.0,
+    "market_cap_eok": 12331.0,
+    "roe_est": 6.14,
+    "close_price": 112600,
+    "daily_change_pct": 0.18000000715255737,
+    "daily_change_amount": 202,
+    "sector": "",
+    "themes": [
+      "우주항공산업(누리호/인공위성 등)",
+      "드론(Drone)"
+    ],
+    "score": {
+      "auto_total": 15,
+      "auto_max": 45,
+      "normalized": 33.3,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 6,
+          "auto": true,
+          "detail": "보통 (5~10%) | 추정 ROE = 6.14%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "과열 가능 (PER 40 이상) | PER = 80.66"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 1,
+          "auto": true,
+          "detail": "고평가 (PBR 4.0~7.0) | PBR = 4.95"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 2,
+          "auto": true,
+          "detail": "낮음 (0~1.0%) | 배당수익률 = 0.09%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 6,
+          "auto": true,
+          "detail": "중대형주 (1~3조) | 시총 = 12,331 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
+  "100090": {
+    "name": "SK오션플랜트",
+    "per": 27.02,
+    "pbr": 1.3,
+    "eps": 625.0,
+    "bps": 13037.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 10553.0,
+    "roe_est": 4.81,
+    "close_price": 16890,
+    "daily_change_pct": 16.15999984741211,
+    "daily_change_amount": 2350,
+    "sector": "",
+    "themes": [
+      "철강 중소형",
+      "LNG(액화천연가스)",
+      "조선기자재",
+      "풍력에너지",
+      "강관업체(Steel pipe)"
+    ],
+    "score": {
+      "auto_total": 14,
+      "auto_max": 45,
+      "normalized": 31.1,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 3,
+          "auto": true,
+          "detail": "낮음 (0~5%) | 추정 ROE = 4.81%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 1,
+          "auto": true,
+          "detail": "고평가 (PER 25~40) | PER = 27.02"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PBR 1.0~1.5) | PBR = 1.30"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 6,
+          "auto": true,
+          "detail": "중대형주 (1~3조) | 시총 = 10,553 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "100790": {
     "name": "미래에셋벤처투자",
     "per": 67.78,
@@ -11512,11 +14446,12 @@
     "dps": 0.0,
     "market_cap_eok": 20958.0,
     "roe_est": 8.17,
+    "close_price": 39450,
     "daily_change_pct": -9.729999542236328,
+    "daily_change_amount": -4252,
     "sector": "",
     "themes": [
       "스페이스X(SpaceX)",
-      "창투사",
       "마켓컬리(kurly)"
     ],
     "score": {
@@ -11615,11 +14550,13 @@
     "dps": 200.0,
     "market_cap_eok": 12993.0,
     "roe_est": 19.25,
+    "close_price": 60900,
     "daily_change_pct": -1.7699999809265137,
+    "daily_change_amount": -1097,
     "sector": "",
     "themes": [
-      "日 수출 규제(국산화 등)",
-      "시스템반도체"
+      "시스템반도체",
+      "日 수출 규제(국산화 등)"
     ],
     "score": {
       "auto_total": 24,
@@ -11707,6 +14644,107 @@
       ]
     }
   },
+  "102710": {
+    "name": "이엔에프테크놀로지",
+    "per": 11.86,
+    "pbr": 1.38,
+    "eps": 3635.0,
+    "bps": 31327.0,
+    "div_yield": 0.46,
+    "dps": 200.0,
+    "market_cap_eok": 6158.0,
+    "roe_est": 11.64,
+    "close_price": 43100,
+    "daily_change_pct": 1.5299999713897705,
+    "daily_change_amount": 649,
+    "sector": "",
+    "themes": [],
+    "score": {
+      "auto_total": 24,
+      "auto_max": 45,
+      "normalized": 53.3,
+      "grade": "보수적 접근",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 10,
+          "auto": true,
+          "detail": "양호 (10~15%) | 추정 ROE = 11.64%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PER 8~12) | PER = 11.86"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PBR 1.0~1.5) | PBR = 1.38"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 2,
+          "auto": true,
+          "detail": "낮음 (0~1.0%) | 배당수익률 = 0.46%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 4,
+          "auto": true,
+          "detail": "중형주 (3천억~1조) | 시총 = 6,158 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "105560": {
     "name": "KB금융",
     "per": 9.99,
@@ -11717,13 +14755,15 @@
     "dps": 4367.0,
     "market_cap_eok": 546219.0,
     "roe_est": 9.41,
+    "close_price": 154000,
     "daily_change_pct": -0.5199999809265137,
+    "daily_change_amount": -805,
     "sector": "",
     "themes": [
-      "은행",
       "인터넷은행",
+      "STO(토큰증권 발행)",
       "카카오뱅크(kakao BANK)",
-      "STO(토큰증권 발행)"
+      "은행"
     ],
     "score": {
       "auto_total": 31,
@@ -11821,7 +14861,9 @@
     "dps": 0.0,
     "market_cap_eok": 40234.0,
     "roe_est": 1.77,
+    "close_price": 274500,
     "daily_change_pct": -5.340000152587891,
+    "daily_change_amount": -15485,
     "sector": "",
     "themes": [
       "피지컬 AI/휴머노이드 로봇"
@@ -11912,6 +14954,107 @@
       ]
     }
   },
+  "114810": {
+    "name": "한솔아이원스",
+    "per": 13.23,
+    "pbr": 1.79,
+    "eps": 1029.0,
+    "bps": 7607.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 3830.0,
+    "roe_est": 13.53,
+    "close_price": 13610,
+    "daily_change_pct": 6.0,
+    "daily_change_amount": 770,
+    "sector": "",
+    "themes": [],
+    "score": {
+      "auto_total": 20,
+      "auto_max": 45,
+      "normalized": 44.4,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 10,
+          "auto": true,
+          "detail": "양호 (10~15%) | 추정 ROE = 13.53%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 3,
+          "auto": true,
+          "detail": "보통 (PER 12~18) | PER = 13.23"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 3,
+          "auto": true,
+          "detail": "보통 (PBR 1.5~2.5) | PBR = 1.79"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 4,
+          "auto": true,
+          "detail": "중형주 (3천억~1조) | 시총 = 3,830 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "120110": {
     "name": "코오롱인더",
     "per": 306.67,
@@ -11922,14 +15065,16 @@
     "dps": 1300.0,
     "market_cap_eok": 20663.0,
     "roe_est": 0.17,
+    "close_price": 69000,
     "daily_change_pct": 7.639999866485596,
+    "daily_change_amount": 4897,
     "sector": "",
     "themes": [
-      "화학섬유",
-      "패션/의류",
+      "플렉서블 디스플레이",
       "석유화학",
-      "타이어",
-      "두나무(Dunamu)"
+      "폴더블폰",
+      "두나무(Dunamu)",
+      "패션/의류"
     ],
     "score": {
       "auto_total": 18,
@@ -12027,11 +15172,13 @@
     "dps": 0.0,
     "market_cap_eok": 7705.0,
     "roe_est": null,
+    "close_price": 107300,
     "daily_change_pct": 2.390000104904175,
+    "daily_change_amount": 2505,
     "sector": "",
     "themes": [
-      "고체산화물 연료전지(SOFC)",
-      "전력저장장치(ESS)"
+      "전력저장장치(ESS)",
+      "고체산화물 연료전지(SOFC)"
     ],
     "score": {
       "auto_total": 4,
@@ -12129,12 +15276,14 @@
     "dps": 0.0,
     "market_cap_eok": 10698.0,
     "roe_est": null,
+    "close_price": 30900,
     "daily_change_pct": -10.5600004196167,
+    "daily_change_amount": -3648,
     "sector": "",
     "themes": [
       "의료AI",
-      "유전자 치료제/분석",
-      "희귀금속(희토류 등)"
+      "희귀금속(희토류 등)",
+      "유전자 치료제/분석"
     ],
     "score": {
       "auto_total": 6,
@@ -12232,14 +15381,16 @@
     "dps": 2000.0,
     "market_cap_eok": 52717.0,
     "roe_est": 13.58,
+    "close_price": 411500,
     "daily_change_pct": -3.9700000286102295,
+    "daily_change_amount": -17012,
     "sector": "",
     "themes": [
-      "겨울",
-      "비만치료제",
+      "mRNA(메신저 리보핵산)",
       "백신/진단시약/방역(신종플루, AI 등)",
+      "비만치료제",
       "바이오시밀러(복제 바이오의약품)",
-      "mRNA(메신저 리보핵산)"
+      "겨울"
     ],
     "score": {
       "auto_total": 22,
@@ -12337,7 +15488,9 @@
     "dps": 450.0,
     "market_cap_eok": 22952.0,
     "roe_est": 9.97,
+    "close_price": 207500,
     "daily_change_pct": -2.809999942779541,
+    "daily_change_amount": -5999,
     "sector": "",
     "themes": [
       "LED장비"
@@ -12438,7 +15591,9 @@
     "dps": 160.0,
     "market_cap_eok": 26188.0,
     "roe_est": 0.34,
+    "close_price": 135500,
     "daily_change_pct": 8.140000343322754,
+    "daily_change_amount": 10199,
     "sector": "",
     "themes": [
       "시스템반도체"
@@ -12539,7 +15694,9 @@
     "dps": 0.0,
     "market_cap_eok": 181070.0,
     "roe_est": 21.1,
+    "close_price": 108200,
     "daily_change_pct": -0.8199999928474426,
+    "daily_change_amount": -895,
     "sector": "",
     "themes": [],
     "score": {
@@ -12628,6 +15785,110 @@
       ]
     }
   },
+  "138080": {
+    "name": "오이솔루션",
+    "per": null,
+    "pbr": 5.06,
+    "eps": null,
+    "bps": 5774.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 3614.0,
+    "roe_est": null,
+    "close_price": 29200,
+    "daily_change_pct": -10.979999542236328,
+    "daily_change_amount": -3602,
+    "sector": "",
+    "themes": [
+      "통신장비",
+      "5G(5세대 이동통신)"
+    ],
+    "score": {
+      "auto_total": 5,
+      "auto_max": 45,
+      "normalized": 11.1,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 1,
+          "auto": true,
+          "detail": "고평가 (PBR 4.0~7.0) | PBR = 5.06"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 4,
+          "auto": true,
+          "detail": "중형주 (3천억~1조) | 시총 = 3,614 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "141080": {
     "name": "리가켐바이오",
     "per": null,
@@ -12638,11 +15899,13 @@
     "dps": 0.0,
     "market_cap_eok": 48458.0,
     "roe_est": null,
+    "close_price": 130900,
     "daily_change_pct": 2.2699999809265137,
+    "daily_change_amount": 2905,
     "sector": "",
     "themes": [
-      "면역항암제",
-      "코로나19(치료제/백신 개발 등)"
+      "코로나19(치료제/백신 개발 등)",
+      "면역항암제"
     ],
     "score": {
       "auto_total": 8,
@@ -12740,7 +16003,9 @@
     "dps": 50.0,
     "market_cap_eok": 3465.0,
     "roe_est": 2.98,
+    "close_price": 7930,
     "daily_change_pct": -3.059999942779541,
+    "daily_change_amount": -250,
     "sector": "",
     "themes": [],
     "score": {
@@ -12839,7 +16104,9 @@
     "dps": 400.0,
     "market_cap_eok": 4468.0,
     "roe_est": 8.01,
+    "close_price": 40900,
     "daily_change_pct": -5.869999885559082,
+    "daily_change_amount": -2551,
     "sector": "",
     "themes": [],
     "score": {
@@ -12938,7 +16205,9 @@
     "dps": 300.0,
     "market_cap_eok": 12025.0,
     "roe_est": 8.25,
+    "close_price": 60800,
     "daily_change_pct": -3.799999952316284,
+    "daily_change_amount": -2402,
     "sector": "",
     "themes": [],
     "score": {
@@ -13037,7 +16306,9 @@
     "dps": 100.0,
     "market_cap_eok": 5293.0,
     "roe_est": 4.0,
+    "close_price": 50100,
     "daily_change_pct": -1.7599999904632568,
+    "daily_change_amount": -898,
     "sector": "",
     "themes": [
       "고체산화물 연료전지(SOFC)"
@@ -13138,12 +16409,14 @@
     "dps": 0.0,
     "market_cap_eok": 44351.0,
     "roe_est": null,
+    "close_price": 69700,
     "daily_change_pct": -5.300000190734863,
+    "daily_change_amount": -3901,
     "sector": "",
     "themes": [
-      "전력저장장치(ESS)",
       "통신장비",
-      "5G(5세대 이동통신)"
+      "5G(5세대 이동통신)",
+      "전력저장장치(ESS)"
     ],
     "score": {
       "auto_total": 9,
@@ -13241,7 +16514,9 @@
     "dps": 1400.0,
     "market_cap_eok": 11203.0,
     "roe_est": 18.4,
+    "close_price": 107100,
     "daily_change_pct": 6.889999866485596,
+    "daily_change_amount": 6904,
     "sector": "",
     "themes": [
       "태양광에너지"
@@ -13342,7 +16617,9 @@
     "dps": 650.0,
     "market_cap_eok": 3064.0,
     "roe_est": 10.67,
+    "close_price": 22250,
     "daily_change_pct": -1.1100000143051147,
+    "daily_change_amount": -250,
     "sector": "",
     "themes": [],
     "score": {
@@ -13431,6 +16708,110 @@
       ]
     }
   },
+  "189300": {
+    "name": "인텔리안테크",
+    "per": 135.77,
+    "pbr": 3.77,
+    "eps": 724.0,
+    "bps": 26101.0,
+    "div_yield": 0.2,
+    "dps": 200.0,
+    "market_cap_eok": 10555.0,
+    "roe_est": 2.78,
+    "close_price": 98300,
+    "daily_change_pct": -3.630000114440918,
+    "daily_change_amount": -3703,
+    "sector": "",
+    "themes": [
+      "우주항공산업(누리호/인공위성 등)",
+      "통신장비"
+    ],
+    "score": {
+      "auto_total": 13,
+      "auto_max": 45,
+      "normalized": 28.9,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 3,
+          "auto": true,
+          "detail": "낮음 (0~5%) | 추정 ROE = 2.78%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "과열 가능 (PER 40 이상) | PER = 135.77"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 2,
+          "auto": true,
+          "detail": "다소 고평가 (PBR 2.5~4.0) | PBR = 3.77"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 2,
+          "auto": true,
+          "detail": "낮음 (0~1.0%) | 배당수익률 = 0.20%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 6,
+          "auto": true,
+          "detail": "중대형주 (1~3조) | 시총 = 10,555 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "195870": {
     "name": "해성디에스",
     "per": 52.89,
@@ -13441,7 +16822,9 @@
     "dps": 900.0,
     "market_cap_eok": 12597.0,
     "roe_est": 4.22,
+    "close_price": 74100,
     "daily_change_pct": 0.6800000071525574,
+    "daily_change_amount": 500,
     "sector": "",
     "themes": [],
     "score": {
@@ -13540,11 +16923,13 @@
     "dps": 410.0,
     "market_cap_eok": 11743.0,
     "roe_est": 5.67,
+    "close_price": 41450,
     "daily_change_pct": 0.8500000238418579,
+    "daily_change_amount": 349,
     "sector": "",
     "themes": [
-      "비만치료제",
-      "건강기능식품"
+      "건강기능식품",
+      "비만치료제"
     ],
     "score": {
       "auto_total": 22,
@@ -13642,7 +17027,9 @@
     "dps": 371.0,
     "market_cap_eok": 168797.0,
     "roe_est": 32.13,
+    "close_price": 315000,
     "daily_change_pct": -3.5199999809265137,
+    "daily_change_amount": -11493,
     "sector": "",
     "themes": [
       "바이오시밀러(복제 바이오의약품)"
@@ -13733,6 +17120,110 @@
       ]
     }
   },
+  "207940": {
+    "name": "삼성바이오로직스",
+    "per": 48.75,
+    "pbr": 8.06,
+    "eps": 26628.0,
+    "bps": 161142.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 600857.0,
+    "roe_est": 16.53,
+    "close_price": 1298000,
+    "daily_change_pct": 0.15000000596046448,
+    "daily_change_amount": 1944,
+    "sector": "",
+    "themes": [
+      "모더나(MODERNA)",
+      "오가노이드"
+    ],
+    "score": {
+      "auto_total": 23,
+      "auto_max": 45,
+      "normalized": 51.1,
+      "grade": "보수적 접근",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 13,
+          "auto": true,
+          "detail": "우수 (15~20%) | 추정 ROE = 16.53%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "과열 가능 (PER 40 이상) | PER = 48.75"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "과열 가능 (PBR 7.0 이상) | PBR = 8.06"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 10,
+          "auto": true,
+          "detail": "초대형주 (10조 이상) | 시총 = 600,857 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "213420": {
     "name": "덕산네오룩스",
     "per": 15.89,
@@ -13743,7 +17234,9 @@
     "dps": 0.0,
     "market_cap_eok": 8542.0,
     "roe_est": 11.77,
+    "close_price": 34400,
     "daily_change_pct": 3.299999952316284,
+    "daily_change_amount": 1099,
     "sector": "",
     "themes": [
       "플렉서블 디스플레이",
@@ -13836,6 +17329,109 @@
       ]
     }
   },
+  "214150": {
+    "name": "클래시스",
+    "per": 21.47,
+    "pbr": 5.1,
+    "eps": 2017.0,
+    "bps": 8487.0,
+    "div_yield": 2.31,
+    "dps": 1000.0,
+    "market_cap_eok": 28247.0,
+    "roe_est": 23.75,
+    "close_price": 43300,
+    "daily_change_pct": -2.700000047683716,
+    "daily_change_amount": -1202,
+    "sector": "",
+    "themes": [
+      "미용기기"
+    ],
+    "score": {
+      "auto_total": 30,
+      "auto_max": 45,
+      "normalized": 66.7,
+      "grade": "조건부 검토",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 15,
+          "auto": true,
+          "detail": "매우 우수 (20% 이상) | 추정 ROE = 23.75%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 2,
+          "auto": true,
+          "detail": "다소 고평가 (PER 18~25) | PER = 21.47"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 1,
+          "auto": true,
+          "detail": "고평가 (PBR 4.0~7.0) | PBR = 5.10"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 6,
+          "auto": true,
+          "detail": "양호 (2.0~3.5%) | 배당수익률 = 2.31%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 6,
+          "auto": true,
+          "detail": "중대형주 (1~3조) | 시총 = 28,247 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "214450": {
     "name": "파마리서치",
     "per": 17.71,
@@ -13846,7 +17442,9 @@
     "dps": 3700.0,
     "market_cap_eok": 29247.0,
     "roe_est": 26.65,
+    "close_price": 281500,
     "daily_change_pct": 1.9900000095367432,
+    "daily_change_amount": 5493,
     "sector": "",
     "themes": [
       "미용기기",
@@ -13948,12 +17546,14 @@
     "dps": 400.0,
     "market_cap_eok": 19331.0,
     "roe_est": 8.45,
+    "close_price": 72800,
     "daily_change_pct": -6.190000057220459,
+    "daily_change_amount": -4804,
     "sector": "",
     "themes": [
+      "광통신(광케이블/광섬유 등)",
       "통신장비",
-      "5G(5세대 이동통신)",
-      "광통신(광케이블/광섬유 등)"
+      "5G(5세대 이동통신)"
     ],
     "score": {
       "auto_total": 15,
@@ -14051,12 +17651,14 @@
     "dps": 100.0,
     "market_cap_eok": 41023.0,
     "roe_est": null,
+    "close_price": 109500,
     "daily_change_pct": -4.869999885559082,
+    "daily_change_amount": -5606,
     "sector": "",
     "themes": [
+      "소캠(SOCAMM)",
       "반도체 기판(FC-BGA/PCB/MLB 등)",
       "PCB(FPCB 등)",
-      "소캠(SOCAMM)",
       "온디바이스 AI"
     ],
     "score": {
@@ -14155,12 +17757,14 @@
     "dps": 0.0,
     "market_cap_eok": 25010.0,
     "roe_est": null,
+    "close_price": 123200,
     "daily_change_pct": -6.449999809265137,
+    "daily_change_amount": -8494,
     "sector": "",
     "themes": [
-      "비만치료제",
+      "mRNA(메신저 리보핵산)",
       "탈모 치료",
-      "mRNA(메신저 리보핵산)"
+      "비만치료제"
     ],
     "score": {
       "auto_total": 6,
@@ -14248,6 +17852,212 @@
       ]
     }
   },
+  "232140": {
+    "name": "와이씨",
+    "per": 59.67,
+    "pbr": 3.18,
+    "eps": 239.0,
+    "bps": 4490.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 11700.0,
+    "roe_est": 5.33,
+    "close_price": 14260,
+    "daily_change_pct": -1.9900000095367432,
+    "daily_change_amount": -290,
+    "sector": "",
+    "themes": [
+      "HBM(고대역폭메모리)"
+    ],
+    "score": {
+      "auto_total": 14,
+      "auto_max": 45,
+      "normalized": 31.1,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 6,
+          "auto": true,
+          "detail": "보통 (5~10%) | 추정 ROE = 5.33%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "과열 가능 (PER 40 이상) | PER = 59.67"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 2,
+          "auto": true,
+          "detail": "다소 고평가 (PBR 2.5~4.0) | PBR = 3.18"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 6,
+          "auto": true,
+          "detail": "중대형주 (1~3조) | 시총 = 11,700 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
+  "232680": {
+    "name": "라온로보틱스",
+    "per": 43.71,
+    "pbr": 4.52,
+    "eps": 310.0,
+    "bps": 2998.0,
+    "div_yield": 1.48,
+    "dps": 200.0,
+    "market_cap_eok": 1784.0,
+    "roe_est": 10.34,
+    "close_price": 13550,
+    "daily_change_pct": -5.239999771118164,
+    "daily_change_amount": -749,
+    "sector": "",
+    "themes": [
+      "스마트팩토리(스마트공장)"
+    ],
+    "score": {
+      "auto_total": 17,
+      "auto_max": 45,
+      "normalized": 37.8,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 10,
+          "auto": true,
+          "detail": "양호 (10~15%) | 추정 ROE = 10.34%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "과열 가능 (PER 40 이상) | PER = 43.71"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 1,
+          "auto": true,
+          "detail": "고평가 (PBR 4.0~7.0) | PBR = 4.52"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 4,
+          "auto": true,
+          "detail": "보통 (1.0~2.0%) | 배당수익률 = 1.48%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 2,
+          "auto": true,
+          "detail": "소형주 (1천억~3천억) | 시총 = 1,784 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "240810": {
     "name": "원익IPS",
     "per": 67.57,
@@ -14258,7 +18068,9 @@
     "dps": 200.0,
     "market_cap_eok": 57281.0,
     "roe_est": 8.66,
+    "close_price": 116700,
     "daily_change_pct": -2.0199999809265137,
+    "daily_change_amount": -2406,
     "sector": "",
     "themes": [
       "태양광에너지"
@@ -14359,7 +18171,9 @@
     "dps": 100.0,
     "market_cap_eok": 160931.0,
     "roe_est": 2.28,
+    "close_price": 164500,
     "daily_change_pct": -1.850000023841858,
+    "daily_change_amount": -3101,
     "sector": "",
     "themes": [
       "2차전지(나트륨이온)"
@@ -14460,7 +18274,9 @@
     "dps": 0.0,
     "market_cap_eok": 7690.0,
     "roe_est": 9.22,
+    "close_price": 12770,
     "daily_change_pct": -5.829999923706055,
+    "daily_change_amount": -791,
     "sector": "",
     "themes": [],
     "score": {
@@ -14559,7 +18375,9 @@
     "dps": 306.0,
     "market_cap_eok": 22624.0,
     "roe_est": 39.54,
+    "close_price": 34500,
     "daily_change_pct": 3.5999999046325684,
+    "daily_change_amount": 1199,
     "sector": "",
     "themes": [],
     "score": {
@@ -14648,6 +18466,215 @@
       ]
     }
   },
+  "259960": {
+    "name": "크래프톤",
+    "per": 14.1,
+    "pbr": 1.47,
+    "eps": 16454.0,
+    "bps": 157747.0,
+    "div_yield": 0.97,
+    "dps": 2240.0,
+    "market_cap_eok": 107038.0,
+    "roe_est": 10.43,
+    "close_price": 232000,
+    "daily_change_pct": -5.110000133514404,
+    "daily_change_amount": -12494,
+    "sector": "",
+    "themes": [
+      "모바일게임(스마트폰)",
+      "게임"
+    ],
+    "score": {
+      "auto_total": 29,
+      "auto_max": 45,
+      "normalized": 64.4,
+      "grade": "보수적 접근",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 10,
+          "auto": true,
+          "detail": "양호 (10~15%) | 추정 ROE = 10.43%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 3,
+          "auto": true,
+          "detail": "보통 (PER 12~18) | PER = 14.10"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PBR 1.0~1.5) | PBR = 1.47"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 2,
+          "auto": true,
+          "detail": "낮음 (0~1.0%) | 배당수익률 = 0.97%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 10,
+          "auto": true,
+          "detail": "초대형주 (10조 이상) | 시총 = 107,038 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
+  "263750": {
+    "name": "펄어비스",
+    "per": null,
+    "pbr": 3.08,
+    "eps": null,
+    "bps": 13011.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 25763.0,
+    "roe_est": null,
+    "close_price": 40100,
+    "daily_change_pct": 3.890000104904175,
+    "daily_change_amount": 1501,
+    "sector": "",
+    "themes": [
+      "모바일게임(스마트폰)",
+      "게임",
+      "메타버스(Metaverse)"
+    ],
+    "score": {
+      "auto_total": 8,
+      "auto_max": 45,
+      "normalized": 17.8,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 2,
+          "auto": true,
+          "detail": "다소 고평가 (PBR 2.5~4.0) | PBR = 3.08"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 6,
+          "auto": true,
+          "detail": "중대형주 (1~3조) | 시총 = 25,763 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "267260": {
     "name": "HD현대일렉트릭",
     "per": 48.44,
@@ -14658,7 +18685,9 @@
     "dps": 7100.0,
     "market_cap_eok": 355425.0,
     "roe_est": 36.11,
+    "close_price": 986000,
     "daily_change_pct": 4.449999809265137,
+    "daily_change_amount": 42008,
     "sector": "",
     "themes": [
       "전력저장장치(ESS)",
@@ -14760,11 +18789,13 @@
     "dps": 550.0,
     "market_cap_eok": 69103.0,
     "roe_est": 5.49,
+    "close_price": 144200,
     "daily_change_pct": 0.20999999344348907,
+    "daily_change_amount": 302,
     "sector": "",
     "themes": [
-      "전후 재건(우크라/중동 전쟁 등)",
-      "건설기계"
+      "건설기계",
+      "전후 재건(우크라/중동 전쟁 등)"
     ],
     "score": {
       "auto_total": 21,
@@ -14862,13 +18893,15 @@
     "dps": 500.0,
     "market_cap_eok": 173050.0,
     "roe_est": 4.97,
+    "close_price": 91600,
     "daily_change_pct": 5.769999980926514,
+    "daily_change_amount": 4997,
     "sector": "",
     "themes": [
-      "UAM(도심항공모빌리티)",
       "우주항공산업(누리호/인공위성 등)",
+      "SI(시스템통합)",
       "드론(Drone)",
-      "SI(시스템통합)"
+      "UAM(도심항공모빌리티)"
     ],
     "score": {
       "auto_total": 17,
@@ -14956,6 +18989,113 @@
       ]
     }
   },
+  "272290": {
+    "name": "이녹스첨단소재",
+    "per": 8.59,
+    "pbr": 1.27,
+    "eps": 3080.0,
+    "bps": 20895.0,
+    "div_yield": 1.32,
+    "dps": 350.0,
+    "market_cap_eok": 5273.0,
+    "roe_est": 14.78,
+    "close_price": 26450,
+    "daily_change_pct": -3.2899999618530273,
+    "daily_change_amount": -900,
+    "sector": "",
+    "themes": [
+      "PCB(FPCB 등)",
+      "스페이스X(SpaceX)",
+      "우주항공산업(누리호/인공위성 등)",
+      "日 수출 규제(국산화 등)",
+      "갤럭시 부품주"
+    ],
+    "score": {
+      "auto_total": 26,
+      "auto_max": 45,
+      "normalized": 57.8,
+      "grade": "보수적 접근",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 10,
+          "auto": true,
+          "detail": "양호 (10~15%) | 추정 ROE = 14.78%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PER 8~12) | PER = 8.59"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 4,
+          "auto": true,
+          "detail": "저평가 (PBR 1.0~1.5) | PBR = 1.27"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 4,
+          "auto": true,
+          "detail": "보통 (1.0~2.0%) | 배당수익률 = 1.32%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 4,
+          "auto": true,
+          "detail": "중형주 (3천억~1조) | 시총 = 5,273 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "277810": {
     "name": "레인보우로보틱스",
     "per": 8191.78,
@@ -14966,7 +19106,9 @@
     "dps": 0.0,
     "market_cap_eok": 116011.0,
     "roe_est": 1.06,
+    "close_price": 598000,
     "daily_change_pct": -4.010000228881836,
+    "daily_change_amount": -24982,
     "sector": "",
     "themes": [
       "피지컬 AI/휴머노이드 로봇"
@@ -15067,11 +19209,13 @@
     "dps": 5090.0,
     "market_cap_eok": 153684.0,
     "roe_est": 65.2,
+    "close_price": 410500,
     "daily_change_pct": 1.3600000143051147,
+    "daily_change_amount": 5508,
     "sector": "",
     "themes": [
-      "패션/의류",
-      "미용기기"
+      "미용기기",
+      "패션/의류"
     ],
     "score": {
       "auto_total": 29,
@@ -15169,7 +19313,9 @@
     "dps": 50.0,
     "market_cap_eok": 20119.0,
     "roe_est": null,
+    "close_price": 74600,
     "daily_change_pct": -3.740000009536743,
+    "daily_change_amount": -2898,
     "sector": "",
     "themes": [],
     "score": {
@@ -15268,11 +19414,13 @@
     "dps": 0.0,
     "market_cap_eok": 12196.0,
     "roe_est": 14.0,
+    "close_price": 101400,
     "daily_change_pct": 3.049999952316284,
+    "daily_change_amount": 3001,
     "sector": "",
     "themes": [
-      "우주항공산업(누리호/인공위성 등)",
-      "스페이스X(SpaceX)"
+      "스페이스X(SpaceX)",
+      "우주항공산업(누리호/인공위성 등)"
     ],
     "score": {
       "auto_total": 16,
@@ -15370,13 +19518,15 @@
     "dps": 7500.0,
     "market_cap_eok": 320485.0,
     "roe_est": 22.11,
+    "close_price": 3437000,
     "daily_change_pct": -0.8700000047683716,
+    "daily_change_amount": -30164,
     "sector": "",
     "themes": [
-      "풍력에너지",
-      "원자력발전",
       "전력저장장치(ESS)",
-      "전력설비"
+      "전력설비",
+      "원자력발전",
+      "풍력에너지"
     ],
     "score": {
       "auto_total": 27,
@@ -15474,11 +19624,13 @@
     "dps": 0.0,
     "market_cap_eok": 50501.0,
     "roe_est": null,
+    "close_price": 90200,
     "daily_change_pct": -2.380000114440918,
+    "daily_change_amount": -2199,
     "sector": "",
     "themes": [
-      "치매",
-      "면역항암제"
+      "면역항암제",
+      "치매"
     ],
     "score": {
       "auto_total": 8,
@@ -15566,6 +19718,111 @@
       ]
     }
   },
+  "307950": {
+    "name": "현대오토에버",
+    "per": 102.65,
+    "pbr": 10.14,
+    "eps": 6654.0,
+    "bps": 67357.0,
+    "div_yield": 0.28,
+    "dps": 1900.0,
+    "market_cap_eok": 187306.0,
+    "roe_est": 9.88,
+    "close_price": 683000,
+    "daily_change_pct": -0.5799999833106995,
+    "daily_change_amount": -3985,
+    "sector": "",
+    "themes": [
+      "SI(시스템통합)",
+      "자율주행차",
+      "피지컬 AI/휴머노이드 로봇"
+    ],
+    "score": {
+      "auto_total": 18,
+      "auto_max": 45,
+      "normalized": 40.0,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 6,
+          "auto": true,
+          "detail": "보통 (5~10%) | 추정 ROE = 9.88%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "과열 가능 (PER 40 이상) | PER = 102.65"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "과열 가능 (PBR 7.0 이상) | PBR = 10.14"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 2,
+          "auto": true,
+          "detail": "낮음 (0~1.0%) | 배당수익률 = 0.28%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 10,
+          "auto": true,
+          "detail": "초대형주 (10조 이상) | 시총 = 187,306 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "310210": {
     "name": "보로노이",
     "per": null,
@@ -15576,7 +19833,9 @@
     "dps": 0.0,
     "market_cap_eok": 36436.0,
     "roe_est": null,
+    "close_price": 198000,
     "daily_change_pct": 6.170000076293945,
+    "daily_change_amount": 11507,
     "sector": "",
     "themes": [
       "치매"
@@ -15677,7 +19936,9 @@
     "dps": 50.0,
     "market_cap_eok": 39427.0,
     "roe_est": 7.08,
+    "close_price": 35400,
     "daily_change_pct": 1.7200000286102295,
+    "daily_change_amount": 599,
     "sector": "",
     "themes": [
       "SI(시스템통합)",
@@ -15779,7 +20040,9 @@
     "dps": 680.0,
     "market_cap_eok": 42233.0,
     "roe_est": 14.58,
+    "close_price": 145800,
     "daily_change_pct": 5.5,
+    "daily_change_amount": 7601,
     "sector": "",
     "themes": [
       "시스템반도체"
@@ -15880,11 +20143,13 @@
     "dps": 0.0,
     "market_cap_eok": 16554.0,
     "roe_est": 9.97,
+    "close_price": 147800,
     "daily_change_pct": 2.640000104904175,
+    "daily_change_amount": 3802,
     "sector": "",
     "themes": [
-      "태양광에너지",
       "우주태양광(페로브스카이트 등)",
+      "태양광에너지",
       "전력저장장치(ESS)"
     ],
     "score": {
@@ -15983,12 +20248,14 @@
     "dps": 460.0,
     "market_cap_eok": 118087.0,
     "roe_est": 7.13,
+    "close_price": 24750,
     "daily_change_pct": 1.4299999475479126,
+    "daily_change_amount": 349,
     "sector": "",
     "themes": [
-      "은행",
       "인터넷은행",
-      "카카오뱅크(kakao BANK)"
+      "카카오뱅크(kakao BANK)",
+      "은행"
     ],
     "score": {
       "auto_total": 25,
@@ -16086,11 +20353,13 @@
     "dps": 0.0,
     "market_cap_eok": 5157.0,
     "roe_est": 13.73,
+    "close_price": 60700,
     "daily_change_pct": -14.630000114440918,
+    "daily_change_amount": -10402,
     "sector": "",
     "themes": [
-      "통신장비",
-      "광통신(광케이블/광섬유 등)"
+      "광통신(광케이블/광섬유 등)",
+      "통신장비"
     ],
     "score": {
       "auto_total": 14,
@@ -16188,7 +20457,9 @@
     "dps": 5661.0,
     "market_cap_eok": 672801.0,
     "roe_est": 17.64,
+    "close_price": 641000,
     "daily_change_pct": 4.739999771118164,
+    "daily_change_amount": 29008,
     "sector": "",
     "themes": [
       "조선",
@@ -16290,7 +20561,9 @@
     "dps": 0.0,
     "market_cap_eok": 47090.0,
     "roe_est": null,
+    "close_price": 71900,
     "daily_change_pct": -0.14000000059604645,
+    "daily_change_amount": -101,
     "sector": "",
     "themes": [
       "고체산화물 연료전지(SOFC)"
@@ -16391,13 +20664,15 @@
     "dps": 0.0,
     "market_cap_eok": 15281.0,
     "roe_est": 0.34,
+    "close_price": 29650,
     "daily_change_pct": 5.519999980926514,
+    "daily_change_amount": 1551,
     "sector": "",
     "themes": [
       "원격진료/비대면진료(U-Healthcare)",
+      "스페이스X(SpaceX)",
       "우주항공산업(누리호/인공위성 등)",
-      "의료AI",
-      "스페이스X(SpaceX)"
+      "의료AI"
     ],
     "score": {
       "auto_total": 9,
@@ -16495,7 +20770,9 @@
     "dps": 0.0,
     "market_cap_eok": 38066.0,
     "roe_est": null,
+    "close_price": 86900,
     "daily_change_pct": -3.009999990463257,
+    "daily_change_amount": -2697,
     "sector": "",
     "themes": [
       "비만치료제"
@@ -16596,7 +20873,9 @@
     "dps": 510.0,
     "market_cap_eok": 5679.0,
     "roe_est": null,
+    "close_price": 54200,
     "daily_change_pct": -6.230000019073486,
+    "daily_change_amount": -3601,
     "sector": "",
     "themes": [
       "HBM(고대역폭메모리)"
@@ -16687,6 +20966,109 @@
       ]
     }
   },
+  "348340": {
+    "name": "뉴로메카",
+    "per": null,
+    "pbr": 37.99,
+    "eps": null,
+    "bps": 1211.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 5708.0,
+    "roe_est": null,
+    "close_price": 46000,
+    "daily_change_pct": -0.4300000071525574,
+    "daily_change_amount": -199,
+    "sector": "",
+    "themes": [
+      "피지컬 AI/휴머노이드 로봇"
+    ],
+    "score": {
+      "auto_total": 4,
+      "auto_max": 45,
+      "normalized": 8.9,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "과열 가능 (PBR 7.0 이상) | PBR = 37.99"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 4,
+          "auto": true,
+          "detail": "중형주 (3천억~1조) | 시총 = 5,708 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "352820": {
     "name": "하이브",
     "per": null,
@@ -16697,7 +21079,9 @@
     "dps": 500.0,
     "market_cap_eok": 88360.0,
     "roe_est": null,
+    "close_price": 205000,
     "daily_change_pct": -0.7300000190734863,
+    "daily_change_amount": -1508,
     "sector": "",
     "themes": [
       "음원/음반",
@@ -16799,14 +21183,16 @@
     "dps": 500.0,
     "market_cap_eok": 73335.0,
     "roe_est": 5.3,
+    "close_price": 148400,
     "daily_change_pct": -2.75,
+    "daily_change_amount": -4196,
     "sector": "",
     "themes": [
+      "소캠(SOCAMM)",
       "반도체 기판(FC-BGA/PCB/MLB 등)",
       "PCB(FPCB 등)",
-      "소캠(SOCAMM)",
-      "5G(5세대 이동통신)",
-      "온디바이스 AI"
+      "온디바이스 AI",
+      "5G(5세대 이동통신)"
     ],
     "score": {
       "auto_total": 16,
@@ -16904,12 +21290,14 @@
     "dps": 450.0,
     "market_cap_eok": 9488.0,
     "roe_est": 15.1,
+    "close_price": 96500,
     "daily_change_pct": -3.880000114440918,
+    "daily_change_amount": -3895,
     "sector": "",
     "themes": [
+      "소캠(SOCAMM)",
       "반도체 기판(FC-BGA/PCB/MLB 등)",
       "PCB(FPCB 등)",
-      "소캠(SOCAMM)",
       "CXL(컴퓨트익스프레스링크)"
     ],
     "score": {
@@ -17008,7 +21396,9 @@
     "dps": 2350.0,
     "market_cap_eok": 26330.0,
     "roe_est": 7.47,
+    "close_price": 338500,
     "daily_change_pct": -1.1699999570846558,
+    "daily_change_amount": -4007,
     "sector": "",
     "themes": [
       "日 수출 규제(국산화 등)"
@@ -17109,14 +21499,16 @@
     "dps": 0.0,
     "market_cap_eok": 902070.0,
     "roe_est": null,
+    "close_price": 385500,
     "daily_change_pct": -2.7699999809265137,
+    "daily_change_amount": -10983,
     "sector": "",
     "themes": [
-      "리튬",
-      "폐배터리",
-      "전력저장장치(ESS)",
+      "스페이스X(SpaceX)",
+      "2차전지(나트륨이온)",
       "2차전지(LFP/리튬인산철)",
-      "니켈"
+      "리튬",
+      "2차전지(전고체)"
     ],
     "score": {
       "auto_total": 11,
@@ -17214,13 +21606,15 @@
     "dps": 890.0,
     "market_cap_eok": 27240.0,
     "roe_est": 6.96,
+    "close_price": 70400,
     "daily_change_pct": 1.149999976158142,
+    "daily_change_amount": 800,
     "sector": "",
     "themes": [
-      "GTX(수도권 광역급행철도)",
-      "건설 대표주",
       "원자력발전",
-      "전후 재건(우크라/중동 전쟁 등)"
+      "전후 재건(우크라/중동 전쟁 등)",
+      "GTX(수도권 광역급행철도)",
+      "건설 대표주"
     ],
     "score": {
       "auto_total": 25,
@@ -17318,7 +21712,9 @@
     "dps": 0.0,
     "market_cap_eok": 10115.0,
     "roe_est": null,
+    "close_price": 43200,
     "daily_change_pct": 4.21999979019165,
+    "daily_change_amount": 1749,
     "sector": "",
     "themes": [
       "면역항암제"
@@ -17419,7 +21815,9 @@
     "dps": 0.0,
     "market_cap_eok": 1561068.0,
     "roe_est": 31.87,
+    "close_price": 1183000,
     "daily_change_pct": -6.78000020980835,
+    "daily_change_amount": -86041,
     "sector": "",
     "themes": [
       "모바일콘텐츠(스마트폰/태블릿PC)"
@@ -17520,7 +21918,9 @@
     "dps": 500.0,
     "market_cap_eok": 43701.0,
     "roe_est": 23.64,
+    "close_price": 53100,
     "daily_change_pct": -6.840000152587891,
+    "daily_change_amount": -3899,
     "sector": "",
     "themes": [
       "온디바이스 AI"
@@ -17611,6 +22011,110 @@
       ]
     }
   },
+  "417200": {
+    "name": "LS머트리얼즈",
+    "per": 2721.67,
+    "pbr": 5.97,
+    "eps": 6.0,
+    "bps": 2736.0,
+    "div_yield": 0.13,
+    "dps": 22.0,
+    "market_cap_eok": 11048.0,
+    "roe_est": 0.22,
+    "close_price": 16330,
+    "daily_change_pct": -1.5099999904632568,
+    "daily_change_amount": -250,
+    "sector": "",
+    "themes": [
+      "고체산화물 연료전지(SOFC)",
+      "풍력에너지"
+    ],
+    "score": {
+      "auto_total": 12,
+      "auto_max": 45,
+      "normalized": 26.7,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 3,
+          "auto": true,
+          "detail": "낮음 (0~5%) | 추정 ROE = 0.22%"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "과열 가능 (PER 40 이상) | PER = 2721.67"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 1,
+          "auto": true,
+          "detail": "고평가 (PBR 4.0~7.0) | PBR = 5.97"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 2,
+          "auto": true,
+          "detail": "낮음 (0~1.0%) | 배당수익률 = 0.13%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 6,
+          "auto": true,
+          "detail": "중대형주 (1~3조) | 시총 = 11,048 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "417840": {
     "name": "저스템",
     "per": 87.55,
@@ -17621,7 +22125,9 @@
     "dps": 0.0,
     "market_cap_eok": 3234.0,
     "roe_est": 6.51,
+    "close_price": 14270,
     "daily_change_pct": -6.119999885559082,
+    "daily_change_amount": -930,
     "sector": "",
     "themes": [],
     "score": {
@@ -17720,7 +22226,9 @@
     "dps": 800.0,
     "market_cap_eok": 16593.0,
     "roe_est": 7.32,
+    "close_price": 130900,
     "daily_change_pct": 4.96999979019165,
+    "daily_change_amount": 6198,
     "sector": "",
     "themes": [
       "반도체 기판(FC-BGA/PCB/MLB 등)",
@@ -17822,7 +22330,9 @@
     "dps": 0.0,
     "market_cap_eok": 7123.0,
     "roe_est": null,
+    "close_price": 21950,
     "daily_change_pct": -16.540000915527344,
+    "daily_change_amount": -4350,
     "sector": "",
     "themes": [
       "2026 상반기 신규상장"
@@ -17923,11 +22433,13 @@
     "dps": 0.0,
     "market_cap_eok": 49896.0,
     "roe_est": null,
+    "close_price": 99600,
     "daily_change_pct": -3.490000009536743,
+    "daily_change_amount": -3602,
     "sector": "",
     "themes": [
-      "시스템반도체",
-      "CXL(컴퓨트익스프레스링크)"
+      "CXL(컴퓨트익스프레스링크)",
+      "시스템반도체"
     ],
     "score": {
       "auto_total": 8,
@@ -18025,7 +22537,9 @@
     "dps": 3950.0,
     "market_cap_eok": 102669.0,
     "roe_est": 32.69,
+    "close_price": 229000,
     "daily_change_pct": 9.050000190734863,
+    "daily_change_amount": 19005,
     "sector": "",
     "themes": [
       "조선기자재"
@@ -18116,6 +22630,110 @@
       ]
     }
   },
+  "448900": {
+    "name": "한국피아이엠",
+    "per": null,
+    "pbr": 8.27,
+    "eps": null,
+    "bps": 9488.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 4768.0,
+    "roe_est": null,
+    "close_price": 78500,
+    "daily_change_pct": 8.279999732971191,
+    "daily_change_amount": 6003,
+    "sector": "",
+    "themes": [
+      "피지컬 AI/휴머노이드 로봇",
+      "치아 치료(임플란트 등)"
+    ],
+    "score": {
+      "auto_total": 4,
+      "auto_max": 45,
+      "normalized": 8.9,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "과열 가능 (PBR 7.0 이상) | PBR = 8.27"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 4,
+          "auto": true,
+          "detail": "중형주 (3천억~1조) | 시총 = 4,768 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "452280": {
     "name": "한선엔지니어링",
     "per": 41.51,
@@ -18126,7 +22744,9 @@
     "dps": 0.0,
     "market_cap_eok": 4138.0,
     "roe_est": 13.08,
+    "close_price": 21500,
     "daily_change_pct": -5.909999847412109,
+    "daily_change_amount": -1350,
     "sector": "",
     "themes": [
       "고체산화물 연료전지(SOFC)",
@@ -18228,7 +22848,9 @@
     "dps": 0.0,
     "market_cap_eok": 69098.0,
     "roe_est": null,
+    "close_price": 106600,
     "daily_change_pct": -8.579999923706055,
+    "daily_change_amount": -10005,
     "sector": "",
     "themes": [],
     "score": {
@@ -18327,12 +22949,14 @@
     "dps": 0.0,
     "market_cap_eok": 12666.0,
     "roe_est": null,
+    "close_price": 90900,
     "daily_change_pct": -3.190000057220459,
+    "daily_change_amount": -2995,
     "sector": "",
     "themes": [
       "2025 하반기 신규상장",
-      "유전자 치료제/분석",
-      "치매"
+      "치매",
+      "유전자 치료제/분석"
     ],
     "score": {
       "auto_total": 6,
@@ -18420,6 +23044,213 @@
       ]
     }
   },
+  "477850": {
+    "name": "마키나락스",
+    "per": null,
+    "pbr": 20.69,
+    "eps": null,
+    "bps": 974.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 3535.0,
+    "roe_est": null,
+    "close_price": 20150,
+    "daily_change_pct": -7.989999771118164,
+    "daily_change_amount": -1750,
+    "sector": "",
+    "themes": [
+      "2026 상반기 신규상장"
+    ],
+    "score": {
+      "auto_total": 4,
+      "auto_max": 45,
+      "normalized": 8.9,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "과열 가능 (PBR 7.0 이상) | PBR = 20.69"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 4,
+          "auto": true,
+          "detail": "중형주 (3천억~1조) | 시총 = 3,535 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
+  "486990": {
+    "name": "노타",
+    "per": null,
+    "pbr": 20.96,
+    "eps": null,
+    "bps": 1288.0,
+    "div_yield": 0.0,
+    "dps": 0.0,
+    "market_cap_eok": 5763.0,
+    "roe_est": null,
+    "close_price": 27000,
+    "daily_change_pct": -10.600000381469727,
+    "daily_change_amount": -3201,
+    "sector": "",
+    "themes": [
+      "온디바이스 AI",
+      "2025 하반기 신규상장"
+    ],
+    "score": {
+      "auto_total": 4,
+      "auto_max": 45,
+      "normalized": 8.9,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "과열 가능 (PBR 7.0 이상) | PBR = 20.96"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "무배당 | 배당수익률 = 0.00%"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 4,
+          "auto": true,
+          "detail": "중형주 (3천억~1조) | 시총 = 5,763 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
   "489790": {
     "name": "한화비전",
     "per": 75.17,
@@ -18430,12 +23261,14 @@
     "dps": 0.0,
     "market_cap_eok": 34231.0,
     "roe_est": 5.24,
+    "close_price": 67800,
     "daily_change_pct": 1.9500000476837158,
+    "daily_change_amount": 1297,
     "sector": "",
     "themes": [
+      "HBM(고대역폭메모리)",
       "CCTV＆DVR",
-      "보안주(물리)",
-      "HBM(고대역폭메모리)"
+      "보안주(물리)"
     ],
     "score": {
       "auto_total": 16,
@@ -18533,11 +23366,13 @@
     "dps": 0.0,
     "market_cap_eok": 8966.0,
     "roe_est": null,
+    "close_price": 26350,
     "daily_change_pct": -6.389999866485596,
+    "daily_change_amount": -1799,
     "sector": "",
     "themes": [
-      "2025 하반기 신규상장",
-      "시스템반도체"
+      "시스템반도체",
+      "2025 하반기 신규상장"
     ],
     "score": {
       "auto_total": 5,
@@ -18579,6 +23414,109 @@
           "score": 4,
           "auto": true,
           "detail": "중형주 (3천억~1조) | 시총 = 8,966 억원"
+        },
+        {
+          "name": "사업 이해도",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "사업보고서로 매출 구조를 직접 설명할 수 있는지 확인"
+        },
+        {
+          "name": "장기 매출 성장성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 매출 추이 확인"
+        },
+        {
+          "name": "영업이익 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "DART 에서 최근 5년 영업이익률 추이 확인"
+        },
+        {
+          "name": "현금흐름 (영업CF/FCF)",
+          "max": 15,
+          "score": 0,
+          "auto": false,
+          "detail": "현금흐름표에서 영업CF ≥ 순이익 여부, FCF 양수 여부 확인"
+        },
+        {
+          "name": "부채 안정성",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "부채비율, 이자보상배율, 순차입금 확인"
+        },
+        {
+          "name": "해자·경쟁력",
+          "max": 10,
+          "score": 0,
+          "auto": false,
+          "detail": "브랜드/비용우위/네트워크/독점력 등 정성 평가"
+        }
+      ]
+    }
+  },
+  "950160": {
+    "name": "코오롱티슈진",
+    "per": null,
+    "pbr": null,
+    "eps": null,
+    "bps": null,
+    "div_yield": null,
+    "dps": null,
+    "market_cap_eok": 84567.0,
+    "roe_est": null,
+    "close_price": 99800,
+    "daily_change_pct": -3.009999990463257,
+    "daily_change_amount": -3097,
+    "sector": "",
+    "themes": [
+      "고령화 사회(노인복지)"
+    ],
+    "score": {
+      "auto_total": 8,
+      "auto_max": 45,
+      "normalized": 17.8,
+      "grade": "버핏식 기준 부적합 가능성",
+      "items": [
+        {
+          "name": "ROE·ROIC (PBR/PER 추정)",
+          "max": 15,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PER 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "PBR 평가",
+          "max": 5,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "주주환원 (배당수익률)",
+          "max": 10,
+          "score": 0,
+          "auto": true,
+          "detail": "데이터 없음"
+        },
+        {
+          "name": "규모 안정성 (시가총액)",
+          "max": 10,
+          "score": 8,
+          "auto": true,
+          "detail": "대형주 (3~10조) | 시총 = 84,567 억원"
         },
         {
           "name": "사업 이해도",

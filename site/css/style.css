@@ -1,8 +1,7 @@
 /* ============================================================
-   버핏식 수급 뷰어 - 모바일 우선 반응형 스타일
+   버핏식 수급 뷰어 v3 - 모바일 가독성 강화
    ============================================================ */
 
-/* hidden 속성을 가진 모든 요소는 무조건 숨김 (CSS display 덮어쓰기 방지) */
 [hidden] { display: none !important; }
 
 :root {
@@ -16,6 +15,8 @@
   --border: #e3e8f0;
   --buy: #d83b3b;
   --sell: #1f6feb;
+  --hot: #ff5722;
+  --hot-bg: #fff4ed;
   --grade-a: #2e7d32;
   --grade-b: #f9a825;
   --grade-c: #ef6c00;
@@ -27,65 +28,36 @@
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0; padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
                "맑은 고딕", "Malgun Gothic", "Apple SD Gothic Neo",
                "Helvetica Neue", Arial, sans-serif;
-  background: var(--bg);
-  color: var(--text);
-  line-height: 1.5;
-  font-size: 14px;
+  background: var(--bg); color: var(--text);
+  line-height: 1.5; font-size: 14px;
   -webkit-tap-highlight-color: transparent;
 }
 
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 14px;
-}
+.container { max-width: 1200px; margin: 0 auto; padding: 0 14px; }
 
-/* ============================================================
-   헤더
-   ============================================================ */
+/* ============================================================ 헤더 */
 .app-header {
   background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
-  color: white;
-  padding: 18px 0 16px;
+  color: white; padding: 18px 0 16px;
 }
-.app-header h1 {
-  margin: 0;
-  font-size: 22px;
-  font-weight: 700;
-}
-.app-header .subtitle {
-  margin: 4px 0 10px;
-  font-size: 12px;
-  opacity: 0.9;
-}
-.meta-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
+.app-header h1 { margin: 0; font-size: 22px; font-weight: 700; }
+.app-header .subtitle { margin: 4px 0 10px; font-size: 12px; opacity: 0.9; }
+.meta-row { display: flex; flex-wrap: wrap; gap: 8px; }
 .meta-item {
   background: rgba(255, 255, 255, 0.18);
-  padding: 4px 10px;
-  border-radius: 4px;
-  font-size: 11px;
-  font-feature-settings: "tnum";
+  padding: 4px 10px; border-radius: 4px;
+  font-size: 11px; font-feature-settings: "tnum";
 }
 
-/* ============================================================
-   탭 영역
-   ============================================================ */
+/* ============================================================ 탭 */
 .tab-row {
-  display: flex;
-  gap: 6px;
-  margin: 12px 0;
-  padding: 4px 0;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  display: flex; gap: 6px;
+  margin: 12px 0; padding: 4px 0;
+  overflow-x: auto; -webkit-overflow-scrolling: touch;
   scrollbar-width: thin;
 }
 .tab-row::-webkit-scrollbar { height: 4px; }
@@ -97,94 +69,60 @@ body {
   border: 1px solid var(--border);
   background: var(--surface);
   border-radius: 20px;
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--text-muted);
-  cursor: pointer;
-  white-space: nowrap;
-  transition: all 0.15s ease;
+  font-size: 13px; font-weight: 500;
+  color: var(--text-muted); cursor: pointer;
+  white-space: nowrap; transition: all 0.15s ease;
   font-family: inherit;
 }
 .tab:hover { background: var(--accent); }
-.tab.active {
-  background: var(--primary);
-  color: white;
+.tab.active { background: var(--primary); color: white; border-color: var(--primary); }
+.tabs-flow .tab.active[data-flow="net_buy"]  { background: var(--buy);  border-color: var(--buy); }
+.tabs-flow .tab.active[data-flow="net_sell"] { background: var(--sell); border-color: var(--sell); }
+.tabs-flow .tab.active[data-flow="combined"] {
+  background: linear-gradient(135deg, var(--buy), var(--sell));
   border-color: var(--primary);
 }
-.tabs-flow .tab.active[data-flow="buy"]  { background: var(--buy);  border-color: var(--buy); }
-.tabs-flow .tab.active[data-flow="sell"] { background: var(--sell); border-color: var(--sell); }
 
-/* ============================================================
-   배너 / 안내
-   ============================================================ */
+/* ============================================================ 배너/안내 */
 .info-banner {
-  background: #fff7e0;
-  border: 1px solid #ffd96b;
-  color: #7a5b00;
-  padding: 10px 12px;
-  border-radius: var(--radius);
-  margin: 12px 0;
-  font-size: 13px;
-  line-height: 1.55;
+  background: #fff7e0; border: 1px solid #ffd96b; color: #7a5b00;
+  padding: 10px 12px; border-radius: var(--radius);
+  margin: 12px 0; font-size: 13px;
 }
-.info-banner.error {
-  background: #ffeaea;
-  border-color: #ff9a9a;
-  color: #8a1c1c;
-}
-.hint {
-  text-align: center;
-  color: var(--text-muted);
-  font-size: 12px;
-  margin: 14px 0 24px;
-}
+.hint { text-align: center; color: var(--text-muted); font-size: 12px; margin: 14px 0 24px; }
 
-/* ============================================================
-   데이터 테이블
-   ============================================================ */
+/* ============================================================ 테이블 */
 .table-wrap {
-  background: var(--surface);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  overflow: hidden;
-  margin-top: 8px;
+  background: var(--surface); border-radius: var(--radius);
+  box-shadow: var(--shadow); overflow: hidden; margin-top: 8px;
 }
 .data-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 13px;
-  font-feature-settings: "tnum";
+  width: 100%; border-collapse: collapse;
+  font-size: 13px; font-feature-settings: "tnum";
 }
-.data-table thead {
-  background: var(--accent);
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
+.data-table thead { background: var(--accent); }
 .data-table th {
-  padding: 10px 6px;
-  text-align: center;
-  font-weight: 600;
-  color: var(--primary);
-  font-size: 11px;
-  border-bottom: 2px solid var(--border);
-  line-height: 1.25;
+  padding: 10px 6px; text-align: center;
+  font-weight: 600; color: var(--primary); font-size: 11px;
+  border-bottom: 2px solid var(--border); line-height: 1.25;
 }
 .data-table td {
-  padding: 10px 6px;
-  border-bottom: 1px solid #f0f2f6;
+  padding: 10px 6px; border-bottom: 1px solid #f0f2f6;
   vertical-align: middle;
 }
-.data-table tbody tr {
-  cursor: pointer;
-  transition: background 0.1s;
-}
-.data-table tbody tr:hover,
-.data-table tbody tr:active { background: #f7faff; }
+.data-table tbody tr { cursor: pointer; transition: background 0.1s; }
+.data-table tbody tr:hover { background: #f7faff; }
+
 .data-table .col-rank { width: 36px; text-align: center; color: var(--text-muted); }
-.data-table .col-name { font-weight: 500; }
+.data-table .col-name { font-weight: 500; min-width: 160px; }
 .data-table .col-num  { text-align: right; }
+.data-table .col-price { width: 90px; }
+.data-table .col-flow-amount { width: 110px; font-weight: 600; }
+.data-table .col-change-amt { width: 80px; }
+.data-table .col-change { text-align: right; width: 90px; font-weight: 600; }
 .data-table .col-score { text-align: center; width: 60px; }
+
+.flow-label { display: none; }  /* PC 표에서는 컬럼 헤더로 충분 */
 
 .ticker-cell { display: flex; flex-direction: column; gap: 1px; }
 .ticker-cell .name { font-weight: 600; font-size: 13px; }
@@ -192,16 +130,21 @@ body {
 
 .value-pos { color: var(--buy); }
 .value-neg { color: var(--sell); }
+.change-pos { color: var(--buy); }
+.change-neg { color: var(--sell); }
+.change-neutral { color: var(--text-muted); font-weight: normal; }
 
+/* 🔥 강세 종목 (+6% 이상) */
+.hot-rise { background: linear-gradient(to right, var(--hot-bg) 0%, transparent 60%); }
+.hot-rise:hover { background: linear-gradient(to right, #ffe9d9 0%, #f7faff 60%); }
+.hot-mark { font-size: 12px; }
+
+/* 점수 칩 */
 .score-pill {
-  display: inline-block;
-  padding: 3px 8px;
-  border-radius: 10px;
-  color: white;
-  font-size: 11px;
-  font-weight: 700;
-  min-width: 34px;
-  text-align: center;
+  display: inline-block; padding: 3px 8px;
+  border-radius: 10px; color: white;
+  font-size: 11px; font-weight: 700;
+  min-width: 34px; text-align: center;
 }
 .score-pill.grade-a { background: var(--grade-a); }
 .score-pill.grade-b { background: var(--grade-b); }
@@ -209,150 +152,91 @@ body {
 .score-pill.grade-d { background: var(--grade-d); }
 .score-pill.none    { background: #999; }
 
-.loading {
-  text-align: center;
-  color: var(--text-muted);
-  padding: 40px 12px;
-  font-size: 13px;
-}
-.empty-state {
-  text-align: center;
-  color: var(--text-muted);
-  padding: 28px 12px;
-  font-size: 13px;
-  line-height: 1.6;
+/* 섹터/테마 뱃지 */
+.sector-badge {
+  display: inline-block; background: var(--accent); color: var(--primary);
+  padding: 2px 8px; border-radius: 10px;
+  font-size: 11px; font-weight: 500; margin-left: 6px;
 }
 
-/* ============================================================
-   상세 모달
-   ============================================================ */
-.modal[hidden] { display: none !important; }
+.loading { text-align: center; color: var(--text-muted); padding: 40px 12px; font-size: 13px; }
+.empty-state { text-align: center; color: var(--text-muted); padding: 28px 12px; font-size: 13px; line-height: 1.6; }
+
+/* ============================================================ 모달 */
 .modal {
-  position: fixed;
-  inset: 0;
-  z-index: 100;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 12px;
+  position: fixed; inset: 0; z-index: 100;
+  display: flex; align-items: center; justify-content: center; padding: 12px;
 }
 .modal-backdrop {
-  position: absolute;
-  inset: 0;
-  background: rgba(15, 30, 60, 0.55);
-  backdrop-filter: blur(2px);
+  position: absolute; inset: 0;
+  background: rgba(15, 30, 60, 0.55); backdrop-filter: blur(2px);
 }
 .modal-panel {
-  position: relative;
-  background: var(--surface);
-  border-radius: var(--radius);
-  max-width: 720px;
-  width: 100%;
-  max-height: 90vh;
-  overflow-y: auto;
+  position: relative; background: var(--surface);
+  border-radius: var(--radius); max-width: 720px; width: 100%;
+  max-height: 90vh; overflow-y: auto;
   padding: 22px 22px 28px;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
-  z-index: 1;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25); z-index: 1;
 }
 .modal-close {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  width: 32px; height: 32px;
-  border-radius: 50%;
-  border: none;
-  background: var(--bg);
-  font-size: 20px;
-  cursor: pointer;
-  color: var(--text-muted);
+  position: absolute; top: 12px; right: 12px;
+  width: 32px; height: 32px; border-radius: 50%;
+  border: none; background: var(--bg);
+  font-size: 20px; cursor: pointer; color: var(--text-muted);
 }
 .modal-close:hover { background: var(--accent); color: var(--primary); }
 .modal-panel h2 { margin: 0 0 4px; color: var(--primary); font-size: 18px; }
 .detail-ticker { color: var(--text-muted); font-size: 12px; margin-bottom: 14px; }
 
 .metrics-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-  margin-bottom: 18px;
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 18px;
 }
-.metric-box {
-  background: var(--bg);
-  padding: 10px;
-  border-radius: 6px;
-}
+.metric-box { background: var(--bg); padding: 10px; border-radius: 6px; }
 .metric-box .label {
-  font-size: 10px;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+  font-size: 10px; color: var(--text-muted);
+  text-transform: uppercase; letter-spacing: 0.04em;
 }
 .metric-box .value {
-  font-size: 15px;
-  font-weight: 600;
-  margin-top: 3px;
-  font-feature-settings: "tnum";
+  font-size: 15px; font-weight: 600; margin-top: 3px; font-feature-settings: "tnum";
 }
 
 .score-summary {
   background: linear-gradient(135deg, var(--accent) 0%, #f7faff 100%);
-  border: 1px solid #d6e0f0;
-  border-radius: var(--radius);
-  padding: 14px 16px;
-  margin: 12px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 10px;
+  border: 1px solid #d6e0f0; border-radius: var(--radius);
+  padding: 14px 16px; margin: 12px 0;
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 10px;
 }
 .score-num { font-size: 28px; font-weight: 700; color: var(--primary); }
 .score-num small { font-size: 14px; color: var(--text-muted); font-weight: normal; }
 .score-detail { font-size: 11px; color: var(--text-muted); }
 .grade-badge {
-  display: inline-block;
-  padding: 6px 14px;
-  border-radius: 16px;
-  color: white;
-  font-weight: 600;
-  font-size: 12px;
+  display: inline-block; padding: 6px 14px; border-radius: 16px;
+  color: white; font-weight: 600; font-size: 12px;
 }
 
-.score-list { margin-top: 8px; }
 .score-list table { width: 100%; border-collapse: collapse; font-size: 12px; }
 .score-list th, .score-list td {
-  padding: 6px 6px;
-  text-align: left;
-  border-bottom: 1px solid #f0f2f6;
+  padding: 6px; text-align: left; border-bottom: 1px solid #f0f2f6;
   vertical-align: top;
 }
 .score-list th { background: var(--bg); font-size: 11px; color: var(--primary); }
 .score-list .auto-row { background: #f6fbf7; }
 .score-list .manual-row { background: #fffcf2; }
 .score-list .col-type { width: 50px; font-size: 10px; }
-.score-list .col-score { text-align: right; font-weight: 600; width: 70px; font-feature-settings: "tnum"; }
+.score-list .col-score { text-align: right; font-weight: 600; width: 70px; }
 .score-list .col-detail { color: var(--text-muted); font-size: 11px; }
 
 .dart-link {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 7px 14px;
-  background: var(--primary);
-  color: white;
-  text-decoration: none;
-  border-radius: 16px;
-  font-size: 12px;
+  display: inline-block; margin-top: 10px;
+  padding: 7px 14px; background: var(--primary); color: white;
+  text-decoration: none; border-radius: 16px; font-size: 12px;
 }
 
-/* ============================================================
-   푸터
-   ============================================================ */
+/* ============================================================ 푸터 */
 .app-footer {
-  margin-top: 36px;
-  padding: 22px 0 28px;
-  background: #2a3854;
-  color: #b8c5e0;
-  font-size: 11px;
+  margin-top: 36px; padding: 22px 0 28px;
+  background: #2a3854; color: #b8c5e0; font-size: 11px;
 }
 .app-footer p { margin: 4px 0; }
 .app-footer b { color: white; }
@@ -361,25 +245,116 @@ body {
 .repo-link { margin-top: 12px !important; }
 
 /* ============================================================
-   태블릿+ (640px+)
+   📱 모바일 (≤640px): 표 → 카드형 자동 전환
    ============================================================ */
-@media (min-width: 640px) {
-  body { font-size: 15px; }
-  .container { padding: 0 20px; }
-  .app-header { padding: 22px 0 18px; }
-  .app-header h1 { font-size: 26px; }
-  .app-header .subtitle { font-size: 13px; }
-  .meta-item { font-size: 12px; }
-  .data-table { font-size: 14px; }
-  .data-table th { font-size: 12px; }
-  .metrics-grid { grid-template-columns: repeat(6, 1fr); }
+@media (max-width: 640px) {
+  body { font-size: 13px; }
+  .app-header h1 { font-size: 20px; }
+  .container { padding: 0 10px; }
+
+  /* 테이블 헤더 숨김 (카드형엔 불필요) */
+  .data-table thead { display: none; }
+
+  /* 각 행을 카드로 */
+  .data-table { display: block; }
+  .data-table tbody { display: block; }
+  .data-table tbody tr {
+    display: grid;
+    grid-template-columns: 36px 1fr auto;
+    grid-template-areas:
+      "rank name score"
+      "rank info info"
+      "rank flow flow";
+    gap: 6px 10px;
+    padding: 14px 12px;
+    border-bottom: 6px solid var(--bg);
+    background: var(--surface);
+  }
+  .data-table tbody tr:last-child { border-bottom: none; }
+
+  .data-table tbody td { display: block; padding: 0; border: none; }
+
+  /* 셀별 영역 배치 */
+  .data-table tbody td.col-rank {
+    grid-area: rank;
+    font-size: 18px; font-weight: 700; color: var(--text-muted);
+    text-align: center; align-self: start;
+  }
+  .data-table tbody td.col-name { grid-area: name; }
+  .data-table tbody td.col-score {
+    grid-area: score;
+    align-self: start;
+  }
+
+  /* 가운데 정보 줄 (현재가, 대비, 등락률) — 한 줄에 인라인 표시 */
+  .data-table tbody td.col-price,
+  .data-table tbody td.col-change-amt,
+  .data-table tbody td.col-change {
+    grid-area: info;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 8px;
+  }
+  /* 라벨 텍스트 추가 (data-label 활용) */
+  .data-table tbody td.col-price::before {
+    content: "💰 ";
+  }
+  .data-table tbody td.col-change-amt::before {
+    content: "대비 ";
+    color: var(--text-muted); font-size: 10px;
+  }
+  /* 정보 줄을 한 줄에 묶기 */
+  .data-table tbody td.col-price,
+  .data-table tbody td.col-change-amt {
+    display: inline-block;
+  }
+  .data-table tbody td.col-change {
+    display: inline-block; font-weight: 700;
+  }
+
+  /* 순매수/매도 - 강조 */
+  .data-table tbody td.col-flow-amount {
+    grid-area: flow;
+    font-size: 14px; font-weight: 700;
+    text-align: left;
+  }
+  .data-table tbody td.col-flow-amount .flow-label {
+    display: inline-block; font-size: 10px;
+    background: var(--accent); color: var(--primary);
+    padding: 2px 6px; border-radius: 4px;
+    margin-right: 6px; font-weight: 600;
+    vertical-align: middle;
+  }
+  .data-table tbody td.col-flow-amount.value-pos .flow-label {
+    background: var(--buy); color: white;
+  }
+  .data-table tbody td.col-flow-amount.value-neg .flow-label {
+    background: var(--sell); color: white;
+  }
+
+  .ticker-cell .name { font-size: 15px; }
+  .ticker-cell .ticker { font-size: 11px; word-break: keep-all; }
+
+  /* 🔥 hot-rise: 카드 좌측 빨간 바 */
+  .hot-rise {
+    position: relative;
+    background: linear-gradient(to right, var(--hot-bg) 0%, transparent 70%) !important;
+  }
+  .hot-rise::before {
+    content: ''; position: absolute;
+    left: 0; top: 0; bottom: 0; width: 3px;
+    background: var(--hot);
+  }
+
+  .modal-panel { padding: 18px 16px 22px; }
+  .modal-panel h2 { font-size: 16px; }
+  .metrics-grid { grid-template-columns: repeat(2, 1fr); }
+  .score-num { font-size: 24px; }
 }
 
-/* ============================================================
-   데스크탑 (960px+)
-   ============================================================ */
+/* ============================================================ 데스크탑 (>960px) */
 @media (min-width: 960px) {
-  .app-header { padding: 28px 0 22px; }
-  .app-header h1 { font-size: 30px; }
+  body { font-size: 14px; }
+  .app-header h1 { font-size: 28px; }
   .data-table th, .data-table td { padding: 12px 10px; }
 }

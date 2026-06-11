@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta name="description" content="한국 코스피·코스닥 투자자별 순매수/매수/매도 상위 종목 + 버핏식 간이 점수 — 매일 자동 갱신">
+  <meta name="description" content="한국 코스피·코스닥 투자자별 순매수/순매도 상위 종목 + 버핏식 간이 점수 — 매일 자동 갱신">
   <meta name="theme-color" content="#0d2c6c">
   <title>📊 버핏식 수급 뷰어</title>
   <link rel="stylesheet" href="css/style.css">
@@ -13,7 +13,7 @@
   <header class="app-header">
     <div class="container">
       <h1>📊 버핏식 수급 뷰어</h1>
-      <p class="subtitle">기관 · 연기금 · 외국인 · 사모펀드 순매수 상위 + 버핏식 간이 점수</p>
+      <p class="subtitle">기관 · 연기금 · 외국인 · 사모펀드 순매수 / 순매도 상위 + 버핏식 간이 점수</p>
       <div class="meta-row" id="meta-row">
         <span class="meta-item" id="meta-base-date">기준일 로드 중...</span>
         <span class="meta-item" id="meta-generated">갱신 시각 로드 중...</span>
@@ -22,20 +22,17 @@
   </header>
 
   <main class="container">
-    <!-- 1) 시장 탭 -->
     <nav class="tab-row" id="tabs-market" role="tablist" aria-label="시장">
       <button class="tab active" data-market="KOSPI">코스피</button>
       <button class="tab" data-market="KOSDAQ">코스닥</button>
     </nav>
 
-    <!-- 2) 기간 탭 -->
     <nav class="tab-row" id="tabs-period" role="tablist" aria-label="기간">
       <button class="tab active" data-period="1">1일 (당일)</button>
       <button class="tab" data-period="5">5일 (1주)</button>
       <button class="tab" data-period="20">20일 (1개월)</button>
     </nav>
 
-    <!-- 3) 투자자 탭 -->
     <nav class="tab-row" id="tabs-investor" role="tablist" aria-label="투자자">
       <button class="tab active" data-investor="기관합계">기관 (전체)</button>
       <button class="tab" data-investor="연기금">연기금</button>
@@ -43,14 +40,12 @@
       <button class="tab" data-investor="사모">사모펀드</button>
     </nav>
 
-    <!-- 4) 매수/매도/순매수 탭 -->
     <nav class="tab-row tabs-flow" id="tabs-flow" role="tablist" aria-label="매매 종류">
       <button class="tab active" data-flow="net_buy">📈 순매수</button>
-      <button class="tab" data-flow="buy">🟢 매수</button>
-      <button class="tab" data-flow="sell">🔴 매도</button>
+      <button class="tab" data-flow="net_sell">📉 순매도</button>
+      <button class="tab" data-flow="combined">⚖️ 통합</button>
     </nav>
 
-    <!-- 데이터 표 -->
     <section class="table-wrap">
       <div id="info-banner" class="info-banner" hidden></div>
       <table class="data-table" id="ranking-table">
@@ -58,22 +53,22 @@
           <tr>
             <th class="col-rank">순위</th>
             <th class="col-name">종목</th>
-            <th class="col-num">매수<br>(억원)</th>
-            <th class="col-num">매도<br>(억원)</th>
-            <th class="col-num">순매수<br>(억원)</th>
-            <th class="col-score">버핏<br>점수</th>
+            <th class="col-num col-price">현재가</th>
+            <th class="col-num col-flow-amount" id="th-flow">순매수<br>(억원)</th>
+            <th class="col-num col-change-amt">대비<br>(원)</th>
+            <th class="col-change">등락률</th>
+            <th class="col-score">점수</th>
           </tr>
         </thead>
         <tbody id="ranking-tbody">
-          <tr><td colspan="6" class="loading">⏳ 로딩 중...</td></tr>
+          <tr><td colspan="7" class="loading">⏳ 로딩 중...</td></tr>
         </tbody>
       </table>
     </section>
 
-    <p class="hint">💡 종목을 탭하면 펀더멘털과 버핏식 점수표를 볼 수 있습니다.</p>
+    <p class="hint">💡 종목을 탭하면 펀더멘털과 버핏식 점수표를 볼 수 있습니다 · 🔥 표시는 등락률 +6% 이상 강세 종목</p>
   </main>
 
-  <!-- 종목 상세 모달 -->
   <div class="modal" id="detail-modal" hidden role="dialog" aria-modal="true" aria-labelledby="detail-title">
     <div class="modal-backdrop" data-close="modal"></div>
     <div class="modal-panel">
@@ -85,7 +80,7 @@
 
   <footer class="app-footer">
     <div class="container">
-      <p>📡 <b>데이터 출처:</b> 한국거래소(KRX) Data Marketplace · pykrx</p>
+      <p>📡 <b>데이터 출처:</b> 한국거래소(KRX) Data Marketplace · pykrx · 네이버 금융(테마)</p>
       <p>📚 <b>점수 기준:</b> buffett_investment_method_korean.md 20번 점수표</p>
       <p>⚠️ <b>면책:</b> 본 사이트는 투자 판단 보조 자료이며 매매 추천이 아닙니다.
         자동 채점은 PER/PBR/배당/시총 등 제한된 항목만 반영하며,

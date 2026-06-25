@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-24T21:20:27.914382+09:00",
-  "base_date": "2026-06-24",
+  "generated_at": "2026-06-25T21:18:34.814964+09:00",
+  "base_date": "2026-06-25",
   "markets": [
     "KOSPI",
     "KOSDAQ"
@@ -29,5 +29,5 @@
     }
   ],
   "top_n": 20,
-  "ticker_count": 240
+  "ticker_count": 237
 }

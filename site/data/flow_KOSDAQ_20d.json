@@ -1,8 +1,8 @@
 {
   "market": "KOSDAQ",
   "period_days": 20,
-  "base_date": "2026-06-26",
-  "start_date": "2026-05-29",
+  "base_date": "2026-06-29",
+  "start_date": "2026-06-01",
   "investors": {
     "기관합계": {
       "label": "기관 (전체)",
@@ -10,123 +10,123 @@
         "net_buy": [
           {
             "rank": 1,
-            "ticker": "403870",
-            "name": "HPSP",
-            "net_value_eok": 2865.8
+            "ticker": "240810",
+            "name": "원익IPS",
+            "net_value_eok": 2718.3
           },
           {
             "rank": 2,
-            "ticker": "240810",
-            "name": "원익IPS",
-            "net_value_eok": 2802.0
+            "ticker": "403870",
+            "name": "HPSP",
+            "net_value_eok": 2645.1
           },
           {
             "rank": 3,
             "ticker": "089970",
             "name": "브이엠",
-            "net_value_eok": 2208.5
+            "net_value_eok": 2300.1
           },
           {
             "rank": 4,
             "ticker": "222800",
             "name": "심텍",
-            "net_value_eok": 1840.7
+            "net_value_eok": 2146.8
           },
           {
             "rank": 5,
             "ticker": "196170",
             "name": "알테오젠",
-            "net_value_eok": 1752.3
+            "net_value_eok": 2054.2
           },
           {
             "rank": 6,
             "ticker": "319660",
             "name": "피에스케이",
-            "net_value_eok": 1417.7
+            "net_value_eok": 1508.7
           },
           {
             "rank": 7,
             "ticker": "319400",
             "name": "현대무벡스",
-            "net_value_eok": 1318.7
+            "net_value_eok": 1333.2
           },
           {
             "rank": 8,
             "ticker": "095610",
             "name": "테스",
-            "net_value_eok": 1283.7
+            "net_value_eok": 1304.8
           },
           {
             "rank": 9,
             "ticker": "347850",
             "name": "디앤디파마텍",
-            "net_value_eok": 1030.7
+            "net_value_eok": 1193.0
           },
           {
             "rank": 10,
-            "ticker": "420770",
-            "name": "기가비스",
-            "net_value_eok": 824.9
+            "ticker": "058470",
+            "name": "리노공업",
+            "net_value_eok": 842.6
           },
           {
             "rank": 11,
-            "ticker": "090710",
-            "name": "휴림로봇",
-            "net_value_eok": 739.1
+            "ticker": "420770",
+            "name": "기가비스",
+            "net_value_eok": 811.4
           },
           {
             "rank": 12,
             "ticker": "475830",
             "name": "오름테라퓨틱",
-            "net_value_eok": 706.1
+            "net_value_eok": 774.1
           },
           {
             "rank": 13,
-            "ticker": "043260",
-            "name": "성호전자",
-            "net_value_eok": 692.8
+            "ticker": "090710",
+            "name": "휴림로봇",
+            "net_value_eok": 754.9
           },
           {
             "rank": 14,
-            "ticker": "030530",
-            "name": "원익홀딩스",
-            "net_value_eok": 657.2
+            "ticker": "226950",
+            "name": "올릭스",
+            "net_value_eok": 730.3
           },
           {
             "rank": 15,
-            "ticker": "290650",
-            "name": "엘앤씨바이오",
-            "net_value_eok": 588.1
+            "ticker": "080220",
+            "name": "제주반도체",
+            "net_value_eok": 725.0
           },
           {
             "rank": 16,
-            "ticker": "058470",
-            "name": "리노공업",
-            "net_value_eok": 582.2
+            "ticker": "067310",
+            "name": "하나마이크론",
+            "net_value_eok": 711.5
           },
           {
             "rank": 17,
-            "ticker": "067310",
-            "name": "하나마이크론",
-            "net_value_eok": 551.0
+            "ticker": "043260",
+            "name": "성호전자",
+            "net_value_eok": 705.5
           },
           {
             "rank": 18,
-            "ticker": "082920",
-            "name": "비츠로셀",
-            "net_value_eok": 545.5
+            "ticker": "030530",
+            "name": "원익홀딩스",
+            "net_value_eok": 681.9
           },
           {
             "rank": 19,
-            "ticker": "031980",
-            "name": "피에스케이홀딩스",
-            "net_value_eok": 497.5
+            "ticker": "084370",
+            "name": "유진테크",
+            "net_value_eok": 635.1
           },
           {
             "rank": 20,
-            "ticker": "080220",
-            "name": "제주반도체",
-            "net_value_eok": 456.7
+            "ticker": "290650",
+            "name": "엘앤씨바이오",
+            "net_value_eok": 611.4
           }
         ],
         "net_sell": [
@@ -134,121 +134,121 @@
             "rank": 1,
             "ticker": "440110",
             "name": "파두",
-            "net_value_eok": 1808.3
+            "net_value_eok": 1510.7
           },
           {
             "rank": 2,
-            "ticker": "036930",
-            "name": "주성엔지니어링",
-            "net_value_eok": 1414.5
+            "ticker": "247540",
+            "name": "에코프로비엠",
+            "net_value_eok": 1020.5
           },
           {
             "rank": 3,
-            "ticker": "247540",
-            "name": "에코프로비엠",
-            "net_value_eok": 1151.3
+            "ticker": "078600",
+            "name": "대주전자재료",
+            "net_value_eok": 760.9
           },
           {
             "rank": 4,
-            "ticker": "039030",
-            "name": "이오테크닉스",
-            "net_value_eok": 951.2
+            "ticker": "095340",
+            "name": "ISC",
+            "net_value_eok": 739.5
           },
           {
             "rank": 5,
-            "ticker": "095340",
-            "name": "ISC",
-            "net_value_eok": 793.6
+            "ticker": "357780",
+            "name": "솔브레인",
+            "net_value_eok": 659.3
           },
           {
             "rank": 6,
-            "ticker": "078600",
-            "name": "대주전자재료",
-            "net_value_eok": 761.2
+            "ticker": "039030",
+            "name": "이오테크닉스",
+            "net_value_eok": 638.0
           },
           {
             "rank": 7,
-            "ticker": "101490",
-            "name": "에스앤에스텍",
-            "net_value_eok": 579.6
+            "ticker": "036930",
+            "name": "주성엔지니어링",
+            "net_value_eok": 580.8
           },
           {
             "rank": 8,
-            "ticker": "357780",
-            "name": "솔브레인",
-            "net_value_eok": 575.7
+            "ticker": "476830",
+            "name": "알지노믹스",
+            "net_value_eok": 542.5
           },
           {
             "rank": 9,
-            "ticker": "086520",
-            "name": "에코프로",
-            "net_value_eok": 575.1
+            "ticker": "101490",
+            "name": "에스앤에스텍",
+            "net_value_eok": 510.8
           },
           {
             "rank": 10,
-            "ticker": "476830",
-            "name": "알지노믹스",
-            "net_value_eok": 564.3
+            "ticker": "086520",
+            "name": "에코프로",
+            "net_value_eok": 508.3
           },
           {
             "rank": 11,
             "ticker": "183300",
             "name": "코미코",
-            "net_value_eok": 537.1
+            "net_value_eok": 471.9
           },
           {
             "rank": 12,
-            "ticker": "064760",
-            "name": "티씨케이",
-            "net_value_eok": 532.4
+            "ticker": "087010",
+            "name": "펩트론",
+            "net_value_eok": 452.9
           },
           {
             "rank": 13,
-            "ticker": "218410",
-            "name": "RFHIC",
-            "net_value_eok": 476.7
+            "ticker": "064760",
+            "name": "티씨케이",
+            "net_value_eok": 364.6
           },
           {
             "rank": 14,
-            "ticker": "087010",
-            "name": "펩트론",
-            "net_value_eok": 391.8
+            "ticker": "490470",
+            "name": "세미파이브",
+            "net_value_eok": 345.6
           },
           {
             "rank": 15,
             "ticker": "232140",
             "name": "와이씨",
-            "net_value_eok": 374.2
+            "net_value_eok": 345.6
           },
           {
             "rank": 16,
             "ticker": "126340",
             "name": "비나텍",
-            "net_value_eok": 358.1
+            "net_value_eok": 341.8
           },
           {
             "rank": 17,
-            "ticker": "189300",
-            "name": "인텔리안테크",
-            "net_value_eok": 336.3
+            "ticker": "218410",
+            "name": "RFHIC",
+            "net_value_eok": 313.7
           },
           {
             "rank": 18,
-            "ticker": "354320",
-            "name": "알멕",
-            "net_value_eok": 309.3
+            "ticker": "189300",
+            "name": "인텔리안테크",
+            "net_value_eok": 310.5
           },
           {
             "rank": 19,
-            "ticker": "041510",
-            "name": "에스엠",
-            "net_value_eok": 301.5
+            "ticker": "365340",
+            "name": "성일하이텍",
+            "net_value_eok": 293.5
           },
           {
             "rank": 20,
-            "ticker": "348210",
-            "name": "넥스틴",
-            "net_value_eok": 297.2
+            "ticker": "0117P0",
+            "name": "피스피스스튜디오",
+            "net_value_eok": 286.8
           }
         ]
       }
@@ -261,243 +261,243 @@
             "rank": 1,
             "ticker": "222800",
             "name": "심텍",
-            "net_value_eok": 918.0
+            "net_value_eok": 980.0
           },
           {
             "rank": 2,
             "ticker": "240810",
             "name": "원익IPS",
-            "net_value_eok": 502.3
+            "net_value_eok": 520.7
           },
           {
             "rank": 3,
-            "ticker": "089970",
-            "name": "브이엠",
-            "net_value_eok": 399.2
+            "ticker": "196170",
+            "name": "알테오젠",
+            "net_value_eok": 398.8
           },
           {
             "rank": 4,
-            "ticker": "196170",
-            "name": "알테오젠",
-            "net_value_eok": 384.6
+            "ticker": "089970",
+            "name": "브이엠",
+            "net_value_eok": 366.8
           },
           {
             "rank": 5,
             "ticker": "347850",
             "name": "디앤디파마텍",
-            "net_value_eok": 321.3
+            "net_value_eok": 365.8
           },
           {
             "rank": 6,
-            "ticker": "131970",
-            "name": "두산테스나",
-            "net_value_eok": 249.4
+            "ticker": "214450",
+            "name": "파마리서치",
+            "net_value_eok": 308.8
           },
           {
             "rank": 7,
-            "ticker": "214450",
-            "name": "파마리서치",
-            "net_value_eok": 220.5
+            "ticker": "131970",
+            "name": "두산테스나",
+            "net_value_eok": 210.3
           },
           {
             "rank": 8,
             "ticker": "031980",
             "name": "피에스케이홀딩스",
-            "net_value_eok": 214.2
+            "net_value_eok": 177.4
           },
           {
             "rank": 9,
-            "ticker": "095610",
-            "name": "테스",
-            "net_value_eok": 138.9
+            "ticker": "298380",
+            "name": "에이비엘바이오",
+            "net_value_eok": 163.3
           },
           {
             "rank": 10,
-            "ticker": "108490",
-            "name": "로보티즈",
-            "net_value_eok": 131.7
+            "ticker": "237690",
+            "name": "에스티팜",
+            "net_value_eok": 161.1
           },
           {
             "rank": 11,
-            "ticker": "080220",
-            "name": "제주반도체",
-            "net_value_eok": 125.2
+            "ticker": "226950",
+            "name": "올릭스",
+            "net_value_eok": 141.2
           },
           {
             "rank": 12,
-            "ticker": "330860",
-            "name": "네패스아크",
-            "net_value_eok": 123.8
+            "ticker": "095610",
+            "name": "테스",
+            "net_value_eok": 136.3
           },
           {
             "rank": 13,
-            "ticker": "420770",
-            "name": "기가비스",
-            "net_value_eok": 115.9
+            "ticker": "330860",
+            "name": "네패스아크",
+            "net_value_eok": 132.2
           },
           {
             "rank": 14,
             "ticker": "319400",
             "name": "현대무벡스",
-            "net_value_eok": 114.8
+            "net_value_eok": 116.1
           },
           {
             "rank": 15,
-            "ticker": "058470",
-            "name": "리노공업",
-            "net_value_eok": 99.6
+            "ticker": "108490",
+            "name": "로보티즈",
+            "net_value_eok": 112.3
           },
           {
             "rank": 16,
+            "ticker": "080220",
+            "name": "제주반도체",
+            "net_value_eok": 110.2
+          },
+          {
+            "rank": 17,
+            "ticker": "058470",
+            "name": "리노공업",
+            "net_value_eok": 106.6
+          },
+          {
+            "rank": 18,
+            "ticker": "420770",
+            "name": "기가비스",
+            "net_value_eok": 106.1
+          },
+          {
+            "rank": 19,
             "ticker": "127120",
             "name": "제이에스링크",
             "net_value_eok": 96.0
           },
           {
-            "rank": 17,
-            "ticker": "089030",
-            "name": "테크윙",
-            "net_value_eok": 84.0
-          },
-          {
-            "rank": 18,
-            "ticker": "448900",
-            "name": "한국피아이엠",
-            "net_value_eok": 77.2
-          },
-          {
-            "rank": 19,
-            "ticker": "030530",
-            "name": "원익홀딩스",
-            "net_value_eok": 76.7
-          },
-          {
             "rank": 20,
-            "ticker": "074600",
-            "name": "원익QnC",
-            "net_value_eok": 75.2
+            "ticker": "475830",
+            "name": "오름테라퓨틱",
+            "net_value_eok": 94.1
           }
         ],
         "net_sell": [
           {
             "rank": 1,
-            "ticker": "086520",
-            "name": "에코프로",
-            "net_value_eok": 318.1
+            "ticker": "078600",
+            "name": "대주전자재료",
+            "net_value_eok": 276.9
           },
           {
             "rank": 2,
-            "ticker": "218410",
-            "name": "RFHIC",
-            "net_value_eok": 290.8
+            "ticker": "036930",
+            "name": "주성엔지니어링",
+            "net_value_eok": 271.8
           },
           {
             "rank": 3,
-            "ticker": "078600",
-            "name": "대주전자재료",
-            "net_value_eok": 267.6
+            "ticker": "086520",
+            "name": "에코프로",
+            "net_value_eok": 268.3
           },
           {
             "rank": 4,
-            "ticker": "277810",
-            "name": "레인보우로보틱스",
-            "net_value_eok": 264.3
+            "ticker": "218410",
+            "name": "RFHIC",
+            "net_value_eok": 249.2
           },
           {
             "rank": 5,
-            "ticker": "036930",
-            "name": "주성엔지니어링",
-            "net_value_eok": 261.6
+            "ticker": "277810",
+            "name": "레인보우로보틱스",
+            "net_value_eok": 237.0
           },
           {
             "rank": 6,
             "ticker": "189300",
             "name": "인텔리안테크",
-            "net_value_eok": 171.2
+            "net_value_eok": 171.1
           },
           {
             "rank": 7,
             "ticker": "064760",
             "name": "티씨케이",
-            "net_value_eok": 161.4
+            "net_value_eok": 168.2
           },
           {
             "rank": 8,
             "ticker": "327260",
             "name": "RF머트리얼즈",
-            "net_value_eok": 159.1
+            "net_value_eok": 147.9
           },
           {
             "rank": 9,
-            "ticker": "319660",
-            "name": "피에스케이",
-            "net_value_eok": 146.9
+            "ticker": "357780",
+            "name": "솔브레인",
+            "net_value_eok": 134.8
           },
           {
             "rank": 10,
-            "ticker": "357780",
-            "name": "솔브레인",
-            "net_value_eok": 137.9
+            "ticker": "126340",
+            "name": "비나텍",
+            "net_value_eok": 133.7
           },
           {
             "rank": 11,
-            "ticker": "403870",
-            "name": "HPSP",
-            "net_value_eok": 136.6
+            "ticker": "101490",
+            "name": "에스앤에스텍",
+            "net_value_eok": 129.6
           },
           {
             "rank": 12,
-            "ticker": "101490",
-            "name": "에스앤에스텍",
-            "net_value_eok": 123.4
+            "ticker": "319660",
+            "name": "피에스케이",
+            "net_value_eok": 129.5
           },
           {
             "rank": 13,
-            "ticker": "035900",
-            "name": "JYP Ent.",
-            "net_value_eok": 122.1
+            "ticker": "476830",
+            "name": "알지노믹스",
+            "net_value_eok": 111.9
           },
           {
             "rank": 14,
-            "ticker": "126340",
-            "name": "비나텍",
-            "net_value_eok": 120.9
+            "ticker": "035900",
+            "name": "JYP Ent.",
+            "net_value_eok": 110.0
           },
           {
             "rank": 15,
-            "ticker": "476830",
-            "name": "알지노믹스",
-            "net_value_eok": 120.9
+            "ticker": "403870",
+            "name": "HPSP",
+            "net_value_eok": 100.8
           },
           {
             "rank": 16,
             "ticker": "183300",
             "name": "코미코",
-            "net_value_eok": 107.5
+            "net_value_eok": 100.8
           },
           {
             "rank": 17,
-            "ticker": "257720",
-            "name": "실리콘투",
-            "net_value_eok": 101.0
+            "ticker": "440110",
+            "name": "파두",
+            "net_value_eok": 84.3
           },
           {
             "rank": 18,
-            "ticker": "440110",
-            "name": "파두",
-            "net_value_eok": 94.6
+            "ticker": "087010",
+            "name": "펩트론",
+            "net_value_eok": 83.5
           },
           {
             "rank": 19,
-            "ticker": "014620",
-            "name": "성광벤드",
-            "net_value_eok": 85.6
+            "ticker": "178320",
+            "name": "서진시스템",
+            "net_value_eok": 83.4
           },
           {
             "rank": 20,
-            "ticker": "087010",
-            "name": "펩트론",
-            "net_value_eok": 83.1
+            "ticker": "257720",
+            "name": "실리콘투",
+            "net_value_eok": 80.7
           }
         ]
       }
@@ -510,121 +510,121 @@
             "rank": 1,
             "ticker": "058470",
             "name": "리노공업",
-            "net_value_eok": 4709.0
+            "net_value_eok": 4597.9
           },
           {
             "rank": 2,
             "ticker": "440110",
             "name": "파두",
-            "net_value_eok": 2986.6
+            "net_value_eok": 2682.7
           },
           {
             "rank": 3,
             "ticker": "027360",
             "name": "아주IB투자",
-            "net_value_eok": 1149.7
+            "net_value_eok": 1080.2
           },
           {
             "rank": 4,
-            "ticker": "039030",
-            "name": "이오테크닉스",
-            "net_value_eok": 1012.7
+            "ticker": "178320",
+            "name": "서진시스템",
+            "net_value_eok": 1025.1
           },
           {
             "rank": 5,
-            "ticker": "100790",
-            "name": "미래에셋벤처투자",
-            "net_value_eok": 804.5
+            "ticker": "039030",
+            "name": "이오테크닉스",
+            "net_value_eok": 814.3
           },
           {
             "rank": 6,
-            "ticker": "095340",
-            "name": "ISC",
-            "net_value_eok": 791.9
+            "ticker": "000250",
+            "name": "삼천당제약",
+            "net_value_eok": 798.2
           },
           {
             "rank": 7,
-            "ticker": "218410",
-            "name": "RFHIC",
-            "net_value_eok": 716.2
+            "ticker": "095340",
+            "name": "ISC",
+            "net_value_eok": 776.3
           },
           {
             "rank": 8,
-            "ticker": "183300",
-            "name": "코미코",
-            "net_value_eok": 648.2
+            "ticker": "100790",
+            "name": "미래에셋벤처투자",
+            "net_value_eok": 711.4
           },
           {
             "rank": 9,
             "ticker": "078600",
             "name": "대주전자재료",
-            "net_value_eok": 644.1
+            "net_value_eok": 676.7
           },
           {
             "rank": 10,
-            "ticker": "064760",
-            "name": "티씨케이",
-            "net_value_eok": 563.9
+            "ticker": "183300",
+            "name": "코미코",
+            "net_value_eok": 607.1
           },
           {
             "rank": 11,
-            "ticker": "089030",
-            "name": "테크윙",
-            "net_value_eok": 499.7
+            "ticker": "218410",
+            "name": "RFHIC",
+            "net_value_eok": 592.7
           },
           {
             "rank": 12,
-            "ticker": "178320",
-            "name": "서진시스템",
-            "net_value_eok": 483.4
+            "ticker": "357780",
+            "name": "솔브레인",
+            "net_value_eok": 566.9
           },
           {
             "rank": 13,
             "ticker": "086520",
             "name": "에코프로",
-            "net_value_eok": 465.8
+            "net_value_eok": 560.1
           },
           {
             "rank": 14,
-            "ticker": "000250",
-            "name": "삼천당제약",
-            "net_value_eok": 461.4
+            "ticker": "189300",
+            "name": "인텔리안테크",
+            "net_value_eok": 440.3
           },
           {
             "rank": 15,
-            "ticker": "189300",
-            "name": "인텔리안테크",
-            "net_value_eok": 447.5
+            "ticker": "064760",
+            "name": "티씨케이",
+            "net_value_eok": 425.5
           },
           {
             "rank": 16,
-            "ticker": "327260",
-            "name": "RF머트리얼즈",
-            "net_value_eok": 440.0
+            "ticker": "354320",
+            "name": "알멕",
+            "net_value_eok": 412.6
           },
           {
             "rank": 17,
-            "ticker": "357780",
-            "name": "솔브레인",
-            "net_value_eok": 428.4
+            "ticker": "196170",
+            "name": "알테오젠",
+            "net_value_eok": 403.7
           },
           {
             "rank": 18,
-            "ticker": "354320",
-            "name": "알멕",
-            "net_value_eok": 427.7
+            "ticker": "490470",
+            "name": "세미파이브",
+            "net_value_eok": 390.3
           },
           {
             "rank": 19,
-            "ticker": "196170",
-            "name": "알테오젠",
-            "net_value_eok": 411.5
+            "ticker": "327260",
+            "name": "RF머트리얼즈",
+            "net_value_eok": 382.0
           },
           {
             "rank": 20,
-            "ticker": "101490",
-            "name": "에스앤에스텍",
-            "net_value_eok": 408.5
+            "ticker": "089030",
+            "name": "테크윙",
+            "net_value_eok": 378.2
           }
         ],
         "net_sell": [
@@ -632,121 +632,121 @@
             "rank": 1,
             "ticker": "080220",
             "name": "제주반도체",
-            "net_value_eok": 2121.9
+            "net_value_eok": 2184.4
           },
           {
             "rank": 2,
-            "ticker": "403870",
-            "name": "HPSP",
-            "net_value_eok": 1799.6
+            "ticker": "240810",
+            "name": "원익IPS",
+            "net_value_eok": 1804.0
           },
           {
             "rank": 3,
             "ticker": "222800",
             "name": "심텍",
-            "net_value_eok": 1375.4
+            "net_value_eok": 1682.1
           },
           {
             "rank": 4,
-            "ticker": "240810",
-            "name": "원익IPS",
-            "net_value_eok": 1330.7
+            "ticker": "403870",
+            "name": "HPSP",
+            "net_value_eok": 1570.8
           },
           {
             "rank": 5,
             "ticker": "089970",
             "name": "브이엠",
-            "net_value_eok": 1283.3
+            "net_value_eok": 1511.4
           },
           {
             "rank": 6,
-            "ticker": "277810",
-            "name": "레인보우로보틱스",
-            "net_value_eok": 921.1
+            "ticker": "319660",
+            "name": "피에스케이",
+            "net_value_eok": 1040.1
           },
           {
             "rank": 7,
             "ticker": "036930",
             "name": "주성엔지니어링",
-            "net_value_eok": 909.9
+            "net_value_eok": 971.4
           },
           {
             "rank": 8,
-            "ticker": "319660",
-            "name": "피에스케이",
-            "net_value_eok": 838.1
+            "ticker": "277810",
+            "name": "레인보우로보틱스",
+            "net_value_eok": 792.5
           },
           {
             "rank": 9,
             "ticker": "247540",
             "name": "에코프로비엠",
-            "net_value_eok": 570.8
+            "net_value_eok": 711.9
           },
           {
             "rank": 10,
-            "ticker": "028300",
-            "name": "HLB",
-            "net_value_eok": 545.7
+            "ticker": "141080",
+            "name": "리가켐바이오",
+            "net_value_eok": 592.3
           },
           {
             "rank": 11,
-            "ticker": "141080",
-            "name": "리가켐바이오",
-            "net_value_eok": 429.0
+            "ticker": "028300",
+            "name": "HLB",
+            "net_value_eok": 493.9
           },
           {
             "rank": 12,
-            "ticker": "347850",
-            "name": "디앤디파마텍",
-            "net_value_eok": 375.9
+            "ticker": "475830",
+            "name": "오름테라퓨틱",
+            "net_value_eok": 396.5
           },
           {
             "rank": 13,
-            "ticker": "475830",
-            "name": "오름테라퓨틱",
-            "net_value_eok": 327.9
+            "ticker": "319400",
+            "name": "현대무벡스",
+            "net_value_eok": 387.1
           },
           {
             "rank": 14,
-            "ticker": "030530",
-            "name": "원익홀딩스",
-            "net_value_eok": 310.5
+            "ticker": "067310",
+            "name": "하나마이크론",
+            "net_value_eok": 360.3
           },
           {
             "rank": 15,
-            "ticker": "319400",
-            "name": "현대무벡스",
-            "net_value_eok": 304.4
+            "ticker": "095610",
+            "name": "테스",
+            "net_value_eok": 334.3
           },
           {
             "rank": 16,
-            "ticker": "214150",
-            "name": "클래시스",
-            "net_value_eok": 297.6
+            "ticker": "030530",
+            "name": "원익홀딩스",
+            "net_value_eok": 314.5
           },
           {
             "rank": 17,
-            "ticker": "067310",
-            "name": "하나마이크론",
-            "net_value_eok": 277.2
+            "ticker": "420770",
+            "name": "기가비스",
+            "net_value_eok": 298.1
           },
           {
             "rank": 18,
-            "ticker": "420770",
-            "name": "기가비스",
-            "net_value_eok": 273.8
+            "ticker": "214150",
+            "name": "클래시스",
+            "net_value_eok": 287.6
           },
           {
             "rank": 19,
             "ticker": "033160",
             "name": "엠케이전자",
-            "net_value_eok": 256.8
+            "net_value_eok": 277.1
           },
           {
             "rank": 20,
-            "ticker": "039200",
-            "name": "오스코텍",
-            "net_value_eok": 224.0
+            "ticker": "032820",
+            "name": "우리기술",
+            "net_value_eok": 263.1
           }
         ]
       }
@@ -759,121 +759,121 @@
             "rank": 1,
             "ticker": "196170",
             "name": "알테오젠",
-            "net_value_eok": 628.9
+            "net_value_eok": 767.7
           },
           {
             "rank": 2,
             "ticker": "240810",
             "name": "원익IPS",
-            "net_value_eok": 415.2
+            "net_value_eok": 460.6
           },
           {
             "rank": 3,
-            "ticker": "131290",
-            "name": "티에스이",
-            "net_value_eok": 342.8
+            "ticker": "319660",
+            "name": "피에스케이",
+            "net_value_eok": 312.4
           },
           {
             "rank": 4,
-            "ticker": "319660",
-            "name": "피에스케이",
-            "net_value_eok": 289.8
+            "ticker": "226950",
+            "name": "올릭스",
+            "net_value_eok": 298.6
           },
           {
             "rank": 5,
-            "ticker": "290650",
-            "name": "엘앤씨바이오",
-            "net_value_eok": 284.3
+            "ticker": "131290",
+            "name": "티에스이",
+            "net_value_eok": 295.6
           },
           {
             "rank": 6,
-            "ticker": "089030",
-            "name": "테크윙",
-            "net_value_eok": 246.1
+            "ticker": "290650",
+            "name": "엘앤씨바이오",
+            "net_value_eok": 258.4
           },
           {
             "rank": 7,
-            "ticker": "031980",
-            "name": "피에스케이홀딩스",
-            "net_value_eok": 198.6
+            "ticker": "089030",
+            "name": "테크윙",
+            "net_value_eok": 251.8
           },
           {
             "rank": 8,
-            "ticker": "084370",
-            "name": "유진테크",
-            "net_value_eok": 194.9
+            "ticker": "141080",
+            "name": "리가켐바이오",
+            "net_value_eok": 223.9
           },
           {
             "rank": 9,
-            "ticker": "095610",
-            "name": "테스",
-            "net_value_eok": 174.8
+            "ticker": "084370",
+            "name": "유진테크",
+            "net_value_eok": 212.4
           },
           {
             "rank": 10,
-            "ticker": "141080",
-            "name": "리가켐바이오",
-            "net_value_eok": 160.4
+            "ticker": "031980",
+            "name": "피에스케이홀딩스",
+            "net_value_eok": 211.3
           },
           {
             "rank": 11,
-            "ticker": "347850",
-            "name": "디앤디파마텍",
-            "net_value_eok": 148.1
+            "ticker": "080220",
+            "name": "제주반도체",
+            "net_value_eok": 182.2
           },
           {
             "rank": 12,
-            "ticker": "080220",
-            "name": "제주반도체",
-            "net_value_eok": 133.9
+            "ticker": "347850",
+            "name": "디앤디파마텍",
+            "net_value_eok": 153.2
           },
           {
             "rank": 13,
-            "ticker": "226950",
-            "name": "올릭스",
-            "net_value_eok": 129.8
+            "ticker": "089970",
+            "name": "브이엠",
+            "net_value_eok": 152.1
           },
           {
             "rank": 14,
-            "ticker": "033160",
-            "name": "엠케이전자",
-            "net_value_eok": 111.7
+            "ticker": "095610",
+            "name": "테스",
+            "net_value_eok": 151.3
           },
           {
             "rank": 15,
-            "ticker": "039200",
-            "name": "오스코텍",
-            "net_value_eok": 103.5
+            "ticker": "058470",
+            "name": "리노공업",
+            "net_value_eok": 145.5
           },
           {
             "rank": 16,
-            "ticker": "058470",
-            "name": "리노공업",
-            "net_value_eok": 97.4
+            "ticker": "033160",
+            "name": "엠케이전자",
+            "net_value_eok": 125.9
           },
           {
             "rank": 17,
-            "ticker": "160980",
-            "name": "싸이맥스",
-            "net_value_eok": 96.0
+            "ticker": "420770",
+            "name": "기가비스",
+            "net_value_eok": 96.6
           },
           {
             "rank": 18,
-            "ticker": "388210",
-            "name": "씨엠티엑스",
-            "net_value_eok": 93.6
+            "ticker": "083650",
+            "name": "비에이치아이",
+            "net_value_eok": 90.2
           },
           {
             "rank": 19,
-            "ticker": "083650",
-            "name": "비에이치아이",
-            "net_value_eok": 90.6
+            "ticker": "039200",
+            "name": "오스코텍",
+            "net_value_eok": 89.2
           },
           {
             "rank": 20,
-            "ticker": "420770",
-            "name": "기가비스",
-            "net_value_eok": 88.5
+            "ticker": "160980",
+            "name": "싸이맥스",
+            "net_value_eok": 85.6
           }
         ],
         "net_sell": [
@@ -881,121 +881,121 @@
             "rank": 1,
             "ticker": "440110",
             "name": "파두",
-            "net_value_eok": 605.3
+            "net_value_eok": 475.8
           },
           {
             "rank": 2,
             "ticker": "036930",
             "name": "주성엔지니어링",
-            "net_value_eok": 480.5
+            "net_value_eok": 321.6
           },
           {
             "rank": 3,
-            "ticker": "476830",
-            "name": "알지노믹스",
-            "net_value_eok": 318.3
+            "ticker": "214450",
+            "name": "파마리서치",
+            "net_value_eok": 315.7
           },
           {
             "rank": 4,
-            "ticker": "247540",
-            "name": "에코프로비엠",
-            "net_value_eok": 289.0
+            "ticker": "476830",
+            "name": "알지노믹스",
+            "net_value_eok": 312.6
           },
           {
             "rank": 5,
-            "ticker": "277810",
-            "name": "레인보우로보틱스",
-            "net_value_eok": 268.1
+            "ticker": "108490",
+            "name": "로보티즈",
+            "net_value_eok": 270.7
           },
           {
             "rank": 6,
-            "ticker": "108490",
-            "name": "로보티즈",
-            "net_value_eok": 213.3
+            "ticker": "277810",
+            "name": "레인보우로보틱스",
+            "net_value_eok": 269.7
           },
           {
             "rank": 7,
-            "ticker": "178320",
-            "name": "서진시스템",
-            "net_value_eok": 211.8
+            "ticker": "0009K0",
+            "name": "에임드바이오",
+            "net_value_eok": 201.0
           },
           {
             "rank": 8,
-            "ticker": "0009K0",
-            "name": "에임드바이오",
-            "net_value_eok": 195.9
+            "ticker": "178320",
+            "name": "서진시스템",
+            "net_value_eok": 185.8
           },
           {
             "rank": 9,
-            "ticker": "086520",
-            "name": "에코프로",
-            "net_value_eok": 182.0
+            "ticker": "247540",
+            "name": "에코프로비엠",
+            "net_value_eok": 180.6
           },
           {
             "rank": 10,
-            "ticker": "232140",
-            "name": "와이씨",
-            "net_value_eok": 149.7
+            "ticker": "131970",
+            "name": "두산테스나",
+            "net_value_eok": 171.0
           },
           {
             "rank": 11,
-            "ticker": "0011T0",
-            "name": "채비",
-            "net_value_eok": 141.3
+            "ticker": "232140",
+            "name": "와이씨",
+            "net_value_eok": 151.7
           },
           {
             "rank": 12,
-            "ticker": "101490",
-            "name": "에스앤에스텍",
-            "net_value_eok": 139.0
+            "ticker": "348210",
+            "name": "넥스틴",
+            "net_value_eok": 151.5
           },
           {
             "rank": 13,
-            "ticker": "348210",
-            "name": "넥스틴",
-            "net_value_eok": 136.0
+            "ticker": "101490",
+            "name": "에스앤에스텍",
+            "net_value_eok": 137.2
           },
           {
             "rank": 14,
-            "ticker": "397030",
-            "name": "에이프릴바이오",
-            "net_value_eok": 119.5
+            "ticker": "252990",
+            "name": "샘씨엔에스",
+            "net_value_eok": 115.3
           },
           {
             "rank": 15,
-            "ticker": "064760",
-            "name": "티씨케이",
-            "net_value_eok": 118.3
+            "ticker": "095340",
+            "name": "ISC",
+            "net_value_eok": 100.8
           },
           {
             "rank": 16,
-            "ticker": "252990",
-            "name": "샘씨엔에스",
-            "net_value_eok": 116.8
+            "ticker": "357780",
+            "name": "솔브레인",
+            "net_value_eok": 98.0
           },
           {
             "rank": 17,
-            "ticker": "214450",
-            "name": "파마리서치",
-            "net_value_eok": 112.4
+            "ticker": "0165X0",
+            "name": "메리츠제2호스팩",
+            "net_value_eok": 97.2
           },
           {
             "rank": 18,
-            "ticker": "095340",
-            "name": "ISC",
-            "net_value_eok": 108.3
+            "ticker": "183300",
+            "name": "코미코",
+            "net_value_eok": 93.3
           },
           {
             "rank": 19,
-            "ticker": "131970",
-            "name": "두산테스나",
-            "net_value_eok": 107.2
+            "ticker": "082920",
+            "name": "비츠로셀",
+            "net_value_eok": 90.7
           },
           {
             "rank": 20,
-            "ticker": "082920",
-            "name": "비츠로셀",
-            "net_value_eok": 105.1
+            "ticker": "452280",
+            "name": "한선엔지니어링",
+            "net_value_eok": 90.5
           }
         ]
       }

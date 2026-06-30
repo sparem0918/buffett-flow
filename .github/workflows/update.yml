@@ -2,7 +2,14 @@ name: 📊 Update Buffett Flow Data
 
 on:
   schedule:
-    - cron: '0 10 * * 1-5'
+    # ⚠️ GitHub Actions 무료 cron 은 정확성 보장 안 됨 (1~4시간 지연 흔함).
+    # 따라서 여러 시점에 트리거 → 어느 하나라도 빨리 실행되면 OK.
+    # 첫 성공 후 같은 영업일이면 후속 실행은 자동으로 빠르게 종료.
+    - cron: '0 8 * * 1-5'    # UTC 08:00 = KST 17:00 — 가장 빠른 시도
+    - cron: '0 9 * * 1-5'    # UTC 09:00 = KST 18:00
+    - cron: '30 9 * * 1-5'   # UTC 09:30 = KST 18:30
+    - cron: '0 10 * * 1-5'   # UTC 10:00 = KST 19:00
+    - cron: '0 11 * * 1-5'   # UTC 11:00 = KST 20:00 — 마지막 보험
   workflow_dispatch:
 
 permissions:
@@ -23,7 +30,40 @@ jobs:
       - name: 📥 Checkout repository
         uses: actions/checkout@v4
 
+      # 데이터 신선도 검사 — 오늘 영업일 데이터가 이미 있으면 빠른 종료
+      - name: 🔍 Check data freshness
+        id: freshness
+        env:
+          TZ: Asia/Seoul
+        run: |
+          # KST 18시 이전이면 어제 영업일 기준 (fetch_data.py와 동일 로직)
+          if [ $(date +%H) -lt 18 ]; then
+            target=$(date -d "yesterday" +%Y-%m-%d)
+          else
+            target=$(date +%Y-%m-%d)
+          fi
+          echo "🗓️ 대상 영업일: $target"
+
+          # 토/일이면 금요일로 보정
+          dow=$(date -d "$target" +%u)
+          if [ "$dow" = "6" ]; then target=$(date -d "$target -1 day" +%Y-%m-%d); fi
+          if [ "$dow" = "7" ]; then target=$(date -d "$target -2 day" +%Y-%m-%d); fi
+          echo "🗓️ 보정 후 영업일: $target"
+
+          # manifest.json 의 base_date 확인
+          fresh=false
+          if [ -f site/data/manifest.json ]; then
+            base=$(grep -oP '"base_date":\s*"\K[^"]+' site/data/manifest.json || echo "")
+            echo "📋 현재 base_date: $base"
+            if [ "$base" = "$target" ]; then
+              fresh=true
+              echo "✅ 이미 최신 데이터 존재 — 빠른 종료"
+            fi
+          fi
+          echo "fresh=$fresh" >> $GITHUB_OUTPUT
+
       - name: 🐍 Setup Python 3.11
+        if: steps.freshness.outputs.fresh != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -31,11 +71,13 @@ jobs:
           cache-dependency-path: scripts/requirements.txt
 
       - name: 📦 Install dependencies
+        if: steps.freshness.outputs.fresh != 'true'
         run: |
           python -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
 
       - name: 🌐 Fetch KRX data
+        if: steps.freshness.outputs.fresh != 'true'
         env:
           KRX_ID: ${{ secrets.KRX_ID }}
           KRX_PW: ${{ secrets.KRX_PW }}
@@ -45,6 +87,7 @@ jobs:
           python fetch_data.py
 
       - name: 💾 Commit updated JSON to main
+        if: steps.freshness.outputs.fresh != 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

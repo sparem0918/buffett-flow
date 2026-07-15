@@ -1,8 +1,8 @@
 {
   "market": "KOSPI",
   "period_days": 5,
-  "base_date": "2026-07-14",
-  "start_date": "2026-07-08",
+  "base_date": "2026-07-15",
+  "start_date": "2026-07-09",
   "investors": {
     "기관합계": {
       "label": "기관 (전체)",
@@ -10,123 +10,123 @@
         "net_buy": [
           {
             "rank": 1,
-            "ticker": "005930",
-            "name": "삼성전자",
-            "net_value_eok": 17879.7
+            "ticker": "000660",
+            "name": "SK하이닉스",
+            "net_value_eok": 17229.2
           },
           {
             "rank": 2,
-            "ticker": "000660",
-            "name": "SK하이닉스",
-            "net_value_eok": 6089.8
+            "ticker": "005930",
+            "name": "삼성전자",
+            "net_value_eok": 13893.4
           },
           {
             "rank": 3,
-            "ticker": "105560",
-            "name": "KB금융",
-            "net_value_eok": 2675.2
+            "ticker": "353200",
+            "name": "대덕전자",
+            "net_value_eok": 2660.6
           },
           {
             "rank": 4,
-            "ticker": "353200",
-            "name": "대덕전자",
-            "net_value_eok": 1879.7
+            "ticker": "105560",
+            "name": "KB금융",
+            "net_value_eok": 1855.2
           },
           {
             "rank": 5,
             "ticker": "007660",
             "name": "이수페타시스",
-            "net_value_eok": 1682.3
+            "net_value_eok": 1835.1
           },
           {
             "rank": 6,
-            "ticker": "005935",
-            "name": "삼성전자우",
-            "net_value_eok": 1145.0
+            "ticker": "096770",
+            "name": "SK이노베이션",
+            "net_value_eok": 1236.0
           },
           {
             "rank": 7,
-            "ticker": "000270",
-            "name": "기아",
-            "net_value_eok": 1061.0
+            "ticker": "006400",
+            "name": "삼성SDI",
+            "net_value_eok": 1161.6
           },
           {
             "rank": 8,
-            "ticker": "010950",
-            "name": "S-Oil",
-            "net_value_eok": 1057.9
+            "ticker": "005935",
+            "name": "삼성전자우",
+            "net_value_eok": 1050.5
           },
           {
             "rank": 9,
-            "ticker": "055550",
-            "name": "신한지주",
-            "net_value_eok": 1018.6
+            "ticker": "010950",
+            "name": "S-Oil",
+            "net_value_eok": 772.1
           },
           {
             "rank": 10,
-            "ticker": "068270",
-            "name": "셀트리온",
-            "net_value_eok": 995.5
+            "ticker": "066570",
+            "name": "LG전자",
+            "net_value_eok": 741.3
           },
           {
             "rank": 11,
-            "ticker": "096770",
-            "name": "SK이노베이션",
-            "net_value_eok": 953.8
+            "ticker": "055550",
+            "name": "신한지주",
+            "net_value_eok": 737.7
           },
           {
             "rank": 12,
-            "ticker": "066570",
-            "name": "LG전자",
-            "net_value_eok": 875.6
+            "ticker": "086790",
+            "name": "하나금융지주",
+            "net_value_eok": 655.5
           },
           {
             "rank": 13,
-            "ticker": "086790",
-            "name": "하나금융지주",
-            "net_value_eok": 792.5
+            "ticker": "005830",
+            "name": "DB손해보험",
+            "net_value_eok": 643.9
           },
           {
             "rank": 14,
-            "ticker": "005380",
-            "name": "현대차",
-            "net_value_eok": 766.0
+            "ticker": "034020",
+            "name": "두산에너빌리티",
+            "net_value_eok": 620.2
           },
           {
             "rank": 15,
-            "ticker": "042660",
-            "name": "한화오션",
-            "net_value_eok": 653.8
+            "ticker": "000270",
+            "name": "기아",
+            "net_value_eok": 593.1
           },
           {
             "rank": 16,
-            "ticker": "005830",
-            "name": "DB손해보험",
-            "net_value_eok": 651.3
+            "ticker": "068270",
+            "name": "셀트리온",
+            "net_value_eok": 554.3
           },
           {
             "rank": 17,
-            "ticker": "006400",
-            "name": "삼성SDI",
-            "net_value_eok": 648.2
+            "ticker": "000810",
+            "name": "삼성화재",
+            "net_value_eok": 525.1
           },
           {
             "rank": 18,
-            "ticker": "034020",
-            "name": "두산에너빌리티",
-            "net_value_eok": 545.8
+            "ticker": "042660",
+            "name": "한화오션",
+            "net_value_eok": 474.2
           },
           {
             "rank": 19,
-            "ticker": "267270",
-            "name": "HD건설기계",
-            "net_value_eok": 539.8
+            "ticker": "373220",
+            "name": "LG에너지솔루션",
+            "net_value_eok": 472.1
           },
           {
             "rank": 20,
-            "ticker": "000810",
-            "name": "삼성화재",
-            "net_value_eok": 503.0
+            "ticker": "267270",
+            "name": "HD건설기계",
+            "net_value_eok": 465.7
           }
         ],
         "net_sell": [
@@ -134,121 +134,121 @@
             "rank": 1,
             "ticker": "009150",
             "name": "삼성전기",
-            "net_value_eok": 5691.5
+            "net_value_eok": 4673.0
           },
           {
             "rank": 2,
             "ticker": "011070",
             "name": "LG이노텍",
-            "net_value_eok": 4464.6
+            "net_value_eok": 3882.7
           },
           {
             "rank": 3,
             "ticker": "402340",
             "name": "SK스퀘어",
-            "net_value_eok": 3983.8
+            "net_value_eok": 3707.6
           },
           {
             "rank": 4,
             "ticker": "064350",
             "name": "현대로템",
-            "net_value_eok": 878.1
+            "net_value_eok": 780.8
           },
           {
             "rank": 5,
             "ticker": "012450",
             "name": "한화에어로스페이스",
-            "net_value_eok": 759.9
+            "net_value_eok": 552.5
           },
           {
             "rank": 6,
-            "ticker": "004170",
-            "name": "신세계",
-            "net_value_eok": 586.4
+            "ticker": "000500",
+            "name": "가온전선",
+            "net_value_eok": 478.1
           },
           {
             "rank": 7,
-            "ticker": "010120",
-            "name": "LS ELECTRIC",
-            "net_value_eok": 504.6
+            "ticker": "278470",
+            "name": "에이피알",
+            "net_value_eok": 473.0
           },
           {
             "rank": 8,
-            "ticker": "000500",
-            "name": "가온전선",
-            "net_value_eok": 502.9
+            "ticker": "003230",
+            "name": "삼양식품",
+            "net_value_eok": 444.6
           },
           {
             "rank": 9,
             "ticker": "298040",
             "name": "효성중공업",
-            "net_value_eok": 493.6
+            "net_value_eok": 444.1
           },
           {
             "rank": 10,
             "ticker": "005490",
             "name": "POSCO홀딩스",
-            "net_value_eok": 421.2
+            "net_value_eok": 414.1
           },
           {
             "rank": 11,
-            "ticker": "051910",
-            "name": "LG화학",
-            "net_value_eok": 307.6
+            "ticker": "004170",
+            "name": "신세계",
+            "net_value_eok": 372.9
           },
           {
             "rank": 12,
-            "ticker": "329180",
-            "name": "HD현대중공업",
-            "net_value_eok": 290.7
+            "ticker": "000150",
+            "name": "두산",
+            "net_value_eok": 326.0
           },
           {
             "rank": 13,
-            "ticker": "062040",
-            "name": "산일전기",
-            "net_value_eok": 252.6
+            "ticker": "329180",
+            "name": "HD현대중공업",
+            "net_value_eok": 324.8
           },
           {
             "rank": 14,
-            "ticker": "278470",
-            "name": "에이피알",
-            "net_value_eok": 246.9
+            "ticker": "015760",
+            "name": "한국전력",
+            "net_value_eok": 315.7
           },
           {
             "rank": 15,
-            "ticker": "003230",
-            "name": "삼양식품",
-            "net_value_eok": 244.8
+            "ticker": "069960",
+            "name": "현대백화점",
+            "net_value_eok": 306.1
           },
           {
             "rank": 16,
-            "ticker": "000150",
-            "name": "두산",
-            "net_value_eok": 217.3
+            "ticker": "034230",
+            "name": "파라다이스",
+            "net_value_eok": 305.6
           },
           {
             "rank": 17,
-            "ticker": "010140",
-            "name": "삼성중공업",
-            "net_value_eok": 213.9
+            "ticker": "001040",
+            "name": "CJ",
+            "net_value_eok": 290.4
           },
           {
             "rank": 18,
-            "ticker": "069960",
-            "name": "현대백화점",
-            "net_value_eok": 208.0
+            "ticker": "023530",
+            "name": "롯데쇼핑",
+            "net_value_eok": 269.8
           },
           {
             "rank": 19,
             "ticker": "128940",
             "name": "한미약품",
-            "net_value_eok": 207.4
+            "net_value_eok": 232.3
           },
           {
             "rank": 20,
-            "ticker": "066970",
-            "name": "엘앤에프",
-            "net_value_eok": 199.8
+            "ticker": "086280",
+            "name": "현대글로비스",
+            "net_value_eok": 220.5
           }
         ]
       }
@@ -261,121 +261,121 @@
             "rank": 1,
             "ticker": "000660",
             "name": "SK하이닉스",
-            "net_value_eok": 2089.5
+            "net_value_eok": 2757.5
           },
           {
             "rank": 2,
             "ticker": "005930",
             "name": "삼성전자",
-            "net_value_eok": 847.9
+            "net_value_eok": 935.1
           },
           {
             "rank": 3,
-            "ticker": "010950",
-            "name": "S-Oil",
-            "net_value_eok": 696.2
+            "ticker": "096770",
+            "name": "SK이노베이션",
+            "net_value_eok": 634.7
           },
           {
             "rank": 4,
             "ticker": "086790",
             "name": "하나금융지주",
-            "net_value_eok": 571.1
+            "net_value_eok": 508.0
           },
           {
             "rank": 5,
-            "ticker": "096770",
-            "name": "SK이노베이션",
-            "net_value_eok": 567.9
+            "ticker": "010950",
+            "name": "S-Oil",
+            "net_value_eok": 485.0
           },
           {
             "rank": 6,
-            "ticker": "005830",
-            "name": "DB손해보험",
-            "net_value_eok": 452.2
+            "ticker": "005935",
+            "name": "삼성전자우",
+            "net_value_eok": 393.3
           },
           {
             "rank": 7,
-            "ticker": "066570",
-            "name": "LG전자",
-            "net_value_eok": 401.1
+            "ticker": "005830",
+            "name": "DB손해보험",
+            "net_value_eok": 343.4
           },
           {
             "rank": 8,
-            "ticker": "000270",
-            "name": "기아",
-            "net_value_eok": 367.3
+            "ticker": "066570",
+            "name": "LG전자",
+            "net_value_eok": 333.7
           },
           {
             "rank": 9,
-            "ticker": "005935",
-            "name": "삼성전자우",
-            "net_value_eok": 336.3
+            "ticker": "000810",
+            "name": "삼성화재",
+            "net_value_eok": 307.1
           },
           {
             "rank": 10,
-            "ticker": "000810",
-            "name": "삼성화재",
-            "net_value_eok": 281.2
+            "ticker": "000270",
+            "name": "기아",
+            "net_value_eok": 300.5
           },
           {
             "rank": 11,
-            "ticker": "068270",
-            "name": "셀트리온",
-            "net_value_eok": 280.9
+            "ticker": "011200",
+            "name": "HMM",
+            "net_value_eok": 162.5
           },
           {
             "rank": 12,
-            "ticker": "011200",
-            "name": "HMM",
-            "net_value_eok": 235.2
+            "ticker": "034730",
+            "name": "SK",
+            "net_value_eok": 152.0
           },
           {
             "rank": 13,
-            "ticker": "003490",
-            "name": "대한항공",
-            "net_value_eok": 215.4
+            "ticker": "007810",
+            "name": "코리아써키트",
+            "net_value_eok": 147.7
           },
           {
             "rank": 14,
-            "ticker": "267270",
-            "name": "HD건설기계",
-            "net_value_eok": 164.9
+            "ticker": "006400",
+            "name": "삼성SDI",
+            "net_value_eok": 143.7
           },
           {
             "rank": 15,
-            "ticker": "047040",
-            "name": "대우건설",
-            "net_value_eok": 142.2
+            "ticker": "003490",
+            "name": "대한항공",
+            "net_value_eok": 135.9
           },
           {
             "rank": 16,
-            "ticker": "055550",
-            "name": "신한지주",
-            "net_value_eok": 128.2
+            "ticker": "068270",
+            "name": "셀트리온",
+            "net_value_eok": 131.2
           },
           {
             "rank": 17,
-            "ticker": "001450",
-            "name": "현대해상",
-            "net_value_eok": 128.0
+            "ticker": "042700",
+            "name": "한미반도체",
+            "net_value_eok": 115.5
           },
           {
             "rank": 18,
-            "ticker": "316140",
-            "name": "우리금융지주",
-            "net_value_eok": 123.2
+            "ticker": "047040",
+            "name": "대우건설",
+            "net_value_eok": 113.1
           },
           {
             "rank": 19,
-            "ticker": "078930",
-            "name": "GS",
-            "net_value_eok": 111.4
+            "ticker": "082740",
+            "name": "한화엔진",
+            "net_value_eok": 112.5
           },
           {
             "rank": 20,
-            "ticker": "007810",
-            "name": "코리아써키트",
-            "net_value_eok": 105.0
+            "ticker": "000990",
+            "name": "DB하이텍",
+            "net_value_eok": 92.7
           }
         ],
         "net_sell": [
@@ -383,121 +383,121 @@
             "rank": 1,
             "ticker": "402340",
             "name": "SK스퀘어",
-            "net_value_eok": 1873.6
+            "net_value_eok": 1530.6
           },
           {
             "rank": 2,
             "ticker": "009150",
             "name": "삼성전기",
-            "net_value_eok": 923.6
+            "net_value_eok": 787.7
           },
           {
             "rank": 3,
             "ticker": "011070",
             "name": "LG이노텍",
-            "net_value_eok": 709.7
+            "net_value_eok": 667.5
           },
           {
             "rank": 4,
             "ticker": "012450",
             "name": "한화에어로스페이스",
-            "net_value_eok": 619.7
+            "net_value_eok": 472.1
           },
           {
             "rank": 5,
-            "ticker": "064350",
-            "name": "현대로템",
-            "net_value_eok": 461.9
+            "ticker": "005380",
+            "name": "현대차",
+            "net_value_eok": 419.9
           },
           {
             "rank": 6,
-            "ticker": "329180",
-            "name": "HD현대중공업",
-            "net_value_eok": 345.1
+            "ticker": "064350",
+            "name": "현대로템",
+            "net_value_eok": 407.3
           },
           {
             "rank": 7,
-            "ticker": "005380",
-            "name": "현대차",
-            "net_value_eok": 332.3
+            "ticker": "105560",
+            "name": "KB금융",
+            "net_value_eok": 338.2
           },
           {
             "rank": 8,
-            "ticker": "105560",
-            "name": "KB금융",
-            "net_value_eok": 311.7
+            "ticker": "042660",
+            "name": "한화오션",
+            "net_value_eok": 221.4
           },
           {
             "rank": 9,
-            "ticker": "032830",
-            "name": "삼성생명",
-            "net_value_eok": 296.8
+            "ticker": "329180",
+            "name": "HD현대중공업",
+            "net_value_eok": 214.9
           },
           {
             "rank": 10,
-            "ticker": "042660",
-            "name": "한화오션",
-            "net_value_eok": 238.8
+            "ticker": "066970",
+            "name": "엘앤에프",
+            "net_value_eok": 180.3
           },
           {
             "rank": 11,
-            "ticker": "028050",
-            "name": "삼성E&A",
-            "net_value_eok": 210.2
+            "ticker": "090430",
+            "name": "아모레퍼시픽",
+            "net_value_eok": 171.2
           },
           {
             "rank": 12,
-            "ticker": "066970",
-            "name": "엘앤에프",
-            "net_value_eok": 199.9
+            "ticker": "047810",
+            "name": "한국항공우주",
+            "net_value_eok": 170.1
           },
           {
             "rank": 13,
-            "ticker": "079550",
-            "name": "LIG디펜스앤에어로스페이스",
-            "net_value_eok": 195.8
+            "ticker": "034230",
+            "name": "파라다이스",
+            "net_value_eok": 157.0
           },
           {
             "rank": 14,
-            "ticker": "000150",
-            "name": "두산",
-            "net_value_eok": 192.7
+            "ticker": "035420",
+            "name": "NAVER",
+            "net_value_eok": 149.1
           },
           {
             "rank": 15,
-            "ticker": "028260",
-            "name": "삼성물산",
-            "net_value_eok": 172.1
+            "ticker": "028050",
+            "name": "삼성E&A",
+            "net_value_eok": 147.4
           },
           {
             "rank": 16,
-            "ticker": "010120",
-            "name": "LS ELECTRIC",
-            "net_value_eok": 168.3
+            "ticker": "036570",
+            "name": "NC",
+            "net_value_eok": 138.0
           },
           {
             "rank": 17,
-            "ticker": "035420",
-            "name": "NAVER",
-            "net_value_eok": 163.6
+            "ticker": "323410",
+            "name": "카카오뱅크",
+            "net_value_eok": 137.3
           },
           {
             "rank": 18,
-            "ticker": "047810",
-            "name": "한국항공우주",
-            "net_value_eok": 153.6
+            "ticker": "000150",
+            "name": "두산",
+            "net_value_eok": 133.0
           },
           {
             "rank": 19,
-            "ticker": "051910",
-            "name": "LG화학",
-            "net_value_eok": 142.7
+            "ticker": "032830",
+            "name": "삼성생명",
+            "net_value_eok": 128.9
           },
           {
             "rank": 20,
-            "ticker": "298040",
-            "name": "효성중공업",
-            "net_value_eok": 132.5
+            "ticker": "033780",
+            "name": "KT&G",
+            "net_value_eok": 126.3
           }
         ]
       }
@@ -510,121 +510,121 @@
             "rank": 1,
             "ticker": "402340",
             "name": "SK스퀘어",
-            "net_value_eok": 6411.4
+            "net_value_eok": 6242.5
           },
           {
             "rank": 2,
-            "ticker": "011070",
-            "name": "LG이노텍",
-            "net_value_eok": 5089.8
+            "ticker": "005930",
+            "name": "삼성전자",
+            "net_value_eok": 4607.2
           },
           {
             "rank": 3,
-            "ticker": "009150",
-            "name": "삼성전기",
-            "net_value_eok": 4092.2
+            "ticker": "011070",
+            "name": "LG이노텍",
+            "net_value_eok": 4279.7
           },
           {
             "rank": 4,
-            "ticker": "005380",
-            "name": "현대차",
-            "net_value_eok": 1830.5
+            "ticker": "009150",
+            "name": "삼성전기",
+            "net_value_eok": 3132.2
           },
           {
             "rank": 5,
-            "ticker": "005935",
-            "name": "삼성전자우",
-            "net_value_eok": 1495.3
+            "ticker": "042700",
+            "name": "한미반도체",
+            "net_value_eok": 2252.8
           },
           {
             "rank": 6,
-            "ticker": "012330",
-            "name": "현대모비스",
-            "net_value_eok": 932.4
+            "ticker": "005935",
+            "name": "삼성전자우",
+            "net_value_eok": 2064.1
           },
           {
             "rank": 7,
-            "ticker": "042700",
-            "name": "한미반도체",
-            "net_value_eok": 913.2
+            "ticker": "005380",
+            "name": "현대차",
+            "net_value_eok": 1405.8
           },
           {
             "rank": 8,
-            "ticker": "064350",
-            "name": "현대로템",
-            "net_value_eok": 910.2
+            "ticker": "006800",
+            "name": "미래에셋증권",
+            "net_value_eok": 875.4
           },
           {
             "rank": 9,
-            "ticker": "006800",
-            "name": "미래에셋증권",
-            "net_value_eok": 737.2
+            "ticker": "012330",
+            "name": "현대모비스",
+            "net_value_eok": 833.3
           },
           {
             "rank": 10,
-            "ticker": "017670",
-            "name": "SK텔레콤",
-            "net_value_eok": 696.9
+            "ticker": "035420",
+            "name": "NAVER",
+            "net_value_eok": 825.1
           },
           {
             "rank": 11,
-            "ticker": "034730",
-            "name": "SK",
-            "net_value_eok": 670.2
+            "ticker": "064350",
+            "name": "현대로템",
+            "net_value_eok": 808.4
           },
           {
             "rank": 12,
-            "ticker": "010120",
-            "name": "LS ELECTRIC",
-            "net_value_eok": 661.9
+            "ticker": "005490",
+            "name": "POSCO홀딩스",
+            "net_value_eok": 677.8
           },
           {
             "rank": 13,
-            "ticker": "005490",
-            "name": "POSCO홀딩스",
-            "net_value_eok": 647.4
+            "ticker": "298040",
+            "name": "효성중공업",
+            "net_value_eok": 653.9
           },
           {
             "rank": 14,
-            "ticker": "298040",
-            "name": "효성중공업",
-            "net_value_eok": 636.3
+            "ticker": "017670",
+            "name": "SK텔레콤",
+            "net_value_eok": 563.2
           },
           {
             "rank": 15,
-            "ticker": "004170",
-            "name": "신세계",
-            "net_value_eok": 628.7
+            "ticker": "079550",
+            "name": "LIG디펜스앤에어로스페이스",
+            "net_value_eok": 530.0
           },
           {
             "rank": 16,
-            "ticker": "035420",
-            "name": "NAVER",
-            "net_value_eok": 558.3
+            "ticker": "028260",
+            "name": "삼성물산",
+            "net_value_eok": 505.9
           },
           {
             "rank": 17,
-            "ticker": "012450",
-            "name": "한화에어로스페이스",
-            "net_value_eok": 461.7
+            "ticker": "004170",
+            "name": "신세계",
+            "net_value_eok": 452.0
           },
           {
             "rank": 18,
             "ticker": "028050",
             "name": "삼성E&A",
-            "net_value_eok": 416.3
+            "net_value_eok": 410.7
           },
           {
             "rank": 19,
-            "ticker": "051910",
-            "name": "LG화학",
-            "net_value_eok": 391.8
+            "ticker": "068270",
+            "name": "셀트리온",
+            "net_value_eok": 380.6
           },
           {
             "rank": 20,
-            "ticker": "267260",
-            "name": "HD현대일렉트릭",
-            "net_value_eok": 353.9
+            "ticker": "323410",
+            "name": "카카오뱅크",
+            "net_value_eok": 363.3
           }
         ],
         "net_sell": [
@@ -632,121 +632,121 @@
             "rank": 1,
             "ticker": "000660",
             "name": "SK하이닉스",
-            "net_value_eok": 21261.0
+            "net_value_eok": 15786.0
           },
           {
             "rank": 2,
-            "ticker": "005930",
-            "name": "삼성전자",
-            "net_value_eok": 9238.6
+            "ticker": "353200",
+            "name": "대덕전자",
+            "net_value_eok": 2350.5
           },
           {
             "rank": 3,
-            "ticker": "105560",
-            "name": "KB금융",
-            "net_value_eok": 1942.4
+            "ticker": "007660",
+            "name": "이수페타시스",
+            "net_value_eok": 1255.2
           },
           {
             "rank": 4,
-            "ticker": "353200",
-            "name": "대덕전자",
-            "net_value_eok": 1552.4
+            "ticker": "105560",
+            "name": "KB금융",
+            "net_value_eok": 1220.7
           },
           {
             "rank": 5,
-            "ticker": "007660",
-            "name": "이수페타시스",
-            "net_value_eok": 991.3
+            "ticker": "034020",
+            "name": "두산에너빌리티",
+            "net_value_eok": 744.3
           },
           {
             "rank": 6,
-            "ticker": "042660",
-            "name": "한화오션",
-            "net_value_eok": 854.6
+            "ticker": "000270",
+            "name": "기아",
+            "net_value_eok": 518.2
           },
           {
             "rank": 7,
             "ticker": "005830",
             "name": "DB손해보험",
-            "net_value_eok": 541.6
+            "net_value_eok": 516.0
           },
           {
             "rank": 8,
-            "ticker": "000270",
-            "name": "기아",
-            "net_value_eok": 520.9
+            "ticker": "000810",
+            "name": "삼성화재",
+            "net_value_eok": 510.9
           },
           {
             "rank": 9,
-            "ticker": "267270",
-            "name": "HD건설기계",
-            "net_value_eok": 515.9
+            "ticker": "047810",
+            "name": "한국항공우주",
+            "net_value_eok": 481.8
           },
           {
             "rank": 10,
-            "ticker": "000810",
-            "name": "삼성화재",
-            "net_value_eok": 506.0
+            "ticker": "082740",
+            "name": "한화엔진",
+            "net_value_eok": 435.3
           },
           {
             "rank": 11,
-            "ticker": "047810",
-            "name": "한국항공우주",
-            "net_value_eok": 492.4
+            "ticker": "006400",
+            "name": "삼성SDI",
+            "net_value_eok": 421.5
           },
           {
             "rank": 12,
-            "ticker": "009830",
-            "name": "한화솔루션",
-            "net_value_eok": 457.4
+            "ticker": "267270",
+            "name": "HD건설기계",
+            "net_value_eok": 416.9
           },
           {
             "rank": 13,
-            "ticker": "034020",
-            "name": "두산에너빌리티",
-            "net_value_eok": 428.3
+            "ticker": "009830",
+            "name": "한화솔루션",
+            "net_value_eok": 389.8
           },
           {
             "rank": 14,
-            "ticker": "180640",
-            "name": "한진칼",
-            "net_value_eok": 338.3
+            "ticker": "042660",
+            "name": "한화오션",
+            "net_value_eok": 352.0
           },
           {
             "rank": 15,
-            "ticker": "055550",
-            "name": "신한지주",
-            "net_value_eok": 291.1
+            "ticker": "281820",
+            "name": "케이씨텍",
+            "net_value_eok": 313.1
           },
           {
             "rank": 16,
-            "ticker": "082740",
-            "name": "한화엔진",
-            "net_value_eok": 253.0
+            "ticker": "180640",
+            "name": "한진칼",
+            "net_value_eok": 312.0
           },
           {
             "rank": 17,
-            "ticker": "086790",
-            "name": "하나금융지주",
-            "net_value_eok": 237.5
+            "ticker": "005387",
+            "name": "현대차2우B",
+            "net_value_eok": 238.5
           },
           {
             "rank": 18,
-            "ticker": "373220",
-            "name": "LG에너지솔루션",
-            "net_value_eok": 224.7
+            "ticker": "005385",
+            "name": "현대차우",
+            "net_value_eok": 218.1
           },
           {
             "rank": 19,
-            "ticker": "034220",
-            "name": "LG디스플레이",
-            "net_value_eok": 213.1
+            "ticker": "093370",
+            "name": "후성",
+            "net_value_eok": 214.6
           },
           {
             "rank": 20,
-            "ticker": "005385",
-            "name": "현대차우",
-            "net_value_eok": 196.1
+            "ticker": "034220",
+            "name": "LG디스플레이",
+            "net_value_eok": 175.8
           }
         ]
       }
@@ -759,121 +759,121 @@
             "rank": 1,
             "ticker": "000660",
             "name": "SK하이닉스",
-            "net_value_eok": 5639.6
+            "net_value_eok": 5700.6
           },
           {
             "rank": 2,
             "ticker": "005930",
             "name": "삼성전자",
-            "net_value_eok": 3884.0
+            "net_value_eok": 5657.3
           },
           {
             "rank": 3,
-            "ticker": "105560",
-            "name": "KB금융",
-            "net_value_eok": 348.6
+            "ticker": "006400",
+            "name": "삼성SDI",
+            "net_value_eok": 309.6
           },
           {
             "rank": 4,
-            "ticker": "402340",
-            "name": "SK스퀘어",
-            "net_value_eok": 219.5
+            "ticker": "005935",
+            "name": "삼성전자우",
+            "net_value_eok": 204.4
           },
           {
             "rank": 5,
-            "ticker": "042660",
-            "name": "한화오션",
-            "net_value_eok": 193.3
+            "ticker": "096770",
+            "name": "SK이노베이션",
+            "net_value_eok": 149.2
           },
           {
             "rank": 6,
-            "ticker": "066570",
-            "name": "LG전자",
-            "net_value_eok": 176.8
+            "ticker": "267270",
+            "name": "HD건설기계",
+            "net_value_eok": 143.8
           },
           {
             "rank": 7,
-            "ticker": "006400",
-            "name": "삼성SDI",
-            "net_value_eok": 101.2
+            "ticker": "009150",
+            "name": "삼성전기",
+            "net_value_eok": 138.8
           },
           {
             "rank": 8,
-            "ticker": "267270",
-            "name": "HD건설기계",
-            "net_value_eok": 99.9
+            "ticker": "475150",
+            "name": "SK이터닉스",
+            "net_value_eok": 130.4
           },
           {
             "rank": 9,
-            "ticker": "078930",
-            "name": "GS",
-            "net_value_eok": 95.7
+            "ticker": "082740",
+            "name": "한화엔진",
+            "net_value_eok": 107.3
           },
           {
             "rank": 10,
-            "ticker": "096770",
-            "name": "SK이노베이션",
-            "net_value_eok": 85.9
+            "ticker": "034730",
+            "name": "SK",
+            "net_value_eok": 105.7
           },
           {
             "rank": 11,
-            "ticker": "008930",
-            "name": "한미사이언스",
-            "net_value_eok": 85.8
+            "ticker": "105560",
+            "name": "KB금융",
+            "net_value_eok": 88.7
           },
           {
             "rank": 12,
-            "ticker": "086790",
-            "name": "하나금융지주",
-            "net_value_eok": 77.6
+            "ticker": "008930",
+            "name": "한미사이언스",
+            "net_value_eok": 88.1
           },
           {
             "rank": 13,
-            "ticker": "003550",
-            "name": "LG",
-            "net_value_eok": 70.4
+            "ticker": "078930",
+            "name": "GS",
+            "net_value_eok": 77.3
           },
           {
             "rank": 14,
-            "ticker": "001820",
-            "name": "삼화콘덴서",
-            "net_value_eok": 69.0
+            "ticker": "016360",
+            "name": "삼성증권",
+            "net_value_eok": 74.0
           },
           {
             "rank": 15,
-            "ticker": "475150",
-            "name": "SK이터닉스",
-            "net_value_eok": 65.1
+            "ticker": "010120",
+            "name": "LS ELECTRIC",
+            "net_value_eok": 66.4
           },
           {
             "rank": 16,
-            "ticker": "012330",
-            "name": "현대모비스",
-            "net_value_eok": 52.8
+            "ticker": "001820",
+            "name": "삼화콘덴서",
+            "net_value_eok": 57.0
           },
           {
             "rank": 17,
-            "ticker": "007810",
-            "name": "코리아써키트",
-            "net_value_eok": 52.6
+            "ticker": "086790",
+            "name": "하나금융지주",
+            "net_value_eok": 56.6
           },
           {
             "rank": 18,
-            "ticker": "055550",
-            "name": "신한지주",
-            "net_value_eok": 52.1
+            "ticker": "316140",
+            "name": "우리금융지주",
+            "net_value_eok": 46.7
           },
           {
             "rank": 19,
-            "ticker": "316140",
-            "name": "우리금융지주",
-            "net_value_eok": 50.2
+            "ticker": "499790",
+            "name": "GS피앤엘",
+            "net_value_eok": 44.3
           },
           {
             "rank": 20,
-            "ticker": "499790",
-            "name": "GS피앤엘",
-            "net_value_eok": 49.8
+            "ticker": "001450",
+            "name": "현대해상",
+            "net_value_eok": 42.9
           }
         ],
         "net_sell": [
@@ -881,121 +881,121 @@
             "rank": 1,
             "ticker": "329180",
             "name": "HD현대중공업",
-            "net_value_eok": 307.2
+            "net_value_eok": 404.9
           },
           {
             "rank": 2,
-            "ticker": "278470",
-            "name": "에이피알",
-            "net_value_eok": 305.0
+            "ticker": "003230",
+            "name": "삼양식품",
+            "net_value_eok": 269.0
           },
           {
             "rank": 3,
-            "ticker": "003230",
-            "name": "삼양식품",
-            "net_value_eok": 289.2
+            "ticker": "278470",
+            "name": "에이피알",
+            "net_value_eok": 257.9
           },
           {
             "rank": 4,
-            "ticker": "009150",
-            "name": "삼성전기",
-            "net_value_eok": 278.5
+            "ticker": "012450",
+            "name": "한화에어로스페이스",
+            "net_value_eok": 207.8
           },
           {
             "rank": 5,
-            "ticker": "353200",
-            "name": "대덕전자",
-            "net_value_eok": 273.0
+            "ticker": "005380",
+            "name": "현대차",
+            "net_value_eok": 204.4
           },
           {
             "rank": 6,
-            "ticker": "004170",
-            "name": "신세계",
-            "net_value_eok": 242.5
+            "ticker": "006800",
+            "name": "미래에셋증권",
+            "net_value_eok": 153.5
           },
           {
             "rank": 7,
-            "ticker": "012450",
-            "name": "한화에어로스페이스",
-            "net_value_eok": 224.9
+            "ticker": "298040",
+            "name": "효성중공업",
+            "net_value_eok": 152.1
           },
           {
             "rank": 8,
-            "ticker": "005380",
-            "name": "현대차",
-            "net_value_eok": 190.5
+            "ticker": "035420",
+            "name": "NAVER",
+            "net_value_eok": 143.0
           },
           {
             "rank": 9,
-            "ticker": "035420",
-            "name": "NAVER",
-            "net_value_eok": 182.7
+            "ticker": "028260",
+            "name": "삼성물산",
+            "net_value_eok": 139.3
           },
           {
             "rank": 10,
-            "ticker": "047810",
-            "name": "한국항공우주",
-            "net_value_eok": 175.7
+            "ticker": "079550",
+            "name": "LIG디펜스앤에어로스페이스",
+            "net_value_eok": 136.0
           },
           {
             "rank": 11,
-            "ticker": "079550",
-            "name": "LIG디펜스앤에어로스페이스",
-            "net_value_eok": 156.8
+            "ticker": "047810",
+            "name": "한국항공우주",
+            "net_value_eok": 131.4
           },
           {
             "rank": 12,
-            "ticker": "006800",
-            "name": "미래에셋증권",
-            "net_value_eok": 142.9
+            "ticker": "015760",
+            "name": "한국전력",
+            "net_value_eok": 130.9
           },
           {
             "rank": 13,
-            "ticker": "064350",
-            "name": "현대로템",
-            "net_value_eok": 131.7
+            "ticker": "402340",
+            "name": "SK스퀘어",
+            "net_value_eok": 113.0
           },
           {
             "rank": 14,
-            "ticker": "267260",
-            "name": "HD현대일렉트릭",
-            "net_value_eok": 129.6
+            "ticker": "010060",
+            "name": "OCI홀딩스",
+            "net_value_eok": 98.8
           },
           {
             "rank": 15,
-            "ticker": "015760",
-            "name": "한국전력",
-            "net_value_eok": 114.8
+            "ticker": "267260",
+            "name": "HD현대일렉트릭",
+            "net_value_eok": 78.4
           },
           {
             "rank": 16,
-            "ticker": "010060",
-            "name": "OCI홀딩스",
-            "net_value_eok": 104.7
+            "ticker": "353200",
+            "name": "대덕전자",
+            "net_value_eok": 77.1
           },
           {
             "rank": 17,
-            "ticker": "010120",
-            "name": "LS ELECTRIC",
-            "net_value_eok": 97.6
+            "ticker": "069960",
+            "name": "현대백화점",
+            "net_value_eok": 75.4
           },
           {
             "rank": 18,
-            "ticker": "042700",
-            "name": "한미반도체",
-            "net_value_eok": 95.5
+            "ticker": "064350",
+            "name": "현대로템",
+            "net_value_eok": 73.5
           },
           {
             "rank": 19,
-            "ticker": "071050",
-            "name": "한국금융지주",
-            "net_value_eok": 87.2
+            "ticker": "000270",
+            "name": "기아",
+            "net_value_eok": 72.8
           },
           {
             "rank": 20,
-            "ticker": "443060",
-            "name": "HD현대마린솔루션",
-            "net_value_eok": 85.5
+            "ticker": "071050",
+            "name": "한국금융지주",
+            "net_value_eok": 67.8
           }
         ]
       }

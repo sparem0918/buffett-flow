@@ -1,8 +1,8 @@
 {
   "market": "KOSDAQ",
   "period_days": 1,
-  "base_date": "2026-08-24",
-  "start_date": "2026-08-24",
+  "base_date": "2026-08-25",
+  "start_date": "2026-08-25",
   "investors": {
     "기관합계": {
       "label": "기관 (전체)",

@@ -1,8 +1,8 @@
 {
   "market": "KOSPI",
   "period_days": 5,
-  "base_date": "2026-09-02",
-  "start_date": "2026-08-27",
+  "base_date": "2026-09-03",
+  "start_date": "2026-08-28",
   "investors": {
     "기관합계": {
       "label": "기관 (전체)",
